@@ -1,1 +1,128 @@
-/* Add your CSS here */
+header{
+    width: 1000px;
+    height: 72px;
+    background-color: #fffabe;
+    text-align:right;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    margin-top: -16.5px;
+}
+.nav{
+    list-style: none;
+    width: 80%;
+    position: absolute;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 7%;
+}
+
+.nav li a{
+    text-decoration:none;
+    color: #515151;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a:hover{
+    color:#d42551;
+}
+
+.jumbotron{
+    width: 1000px;
+    height: 400px;
+    background-image: url("assets/images/welcome-image.png");
+}
+
+main{
+    color: #6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:#6a6969;
+    margin-top: 7%;
+    line-height: 1.2em;
+}
+main h1, h2{
+    font-size: 20px;
+
+}
+
+main p{
+    font-size: 14px;
+}
+
+.main-content{
+    width: 66vw;
+    display: inline-block;
+    line-height: 1.2em;
+
+}
+
+.img-section{
+    width: 23vw;
+    display: inline-block;
+    margin-top:-3.5em;
+}
+
+.container{
+    margin: 0% 3%;
+}
+
+
+.list-group ul{
+    height:140px;
+    list-style: none;
+    font-size:12px;
+    display: inline-block;
+    margin-left: -3.37%;
+}
+
+.list-group ul li{
+    background-color: #fffabe;
+    width: 126px;
+    height: 33px;
+    position: relative;
+}
+
+.last-item{
+    color:white !important;
+}
+
+
+.list-heading{
+    font-size: 14px;
+}
+
+.list-group ul li>img{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+}
+
+#wildcard1{
+    background-color: #824603;
+}
+#wildcard2{
+    background-color: #df5277;
+}
+
+#wildcard3{
+    background-color: #a2304e;
+}
+
+#wildcard4{
+    background-color: #c39005;
+}
+
+footer{
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+}
