@@ -1,1 +1,203 @@
-/* Add your CSS here */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header, .main, footer {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header {
+    height: 72px;
+    background-color: #fffabe;
+    background-image: url(assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 50px 30%;
+    display: table;
+}
+ul {
+    list-style: none;
+}
+.nav {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 30%;
+    text-transform: uppercase;
+
+}
+.nav li {
+    display: inline-block;
+    font-size: 16px;
+    color: #515151;
+    margin-right: 5%;
+}
+.nav li:hover {
+    color: #d42551;
+}
+footer {
+    height: 80px;
+    background-color: #df5277;
+    text-align: center;
+    color: white;
+}
+footer .contact li {
+    width: 25%;
+    display: inline-block;
+    margin: 1% auto;
+}
+footer .order {
+    background-image: url(assets/images/mail.png);
+    background-repeat: no-repeat;
+    background-position-x: 8%;
+}
+footer .call {
+    background-image: url(assets/images/phone.png);
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+}
+footer .social_media img{
+    margin-left: 5%;
+}
+footer p {
+    margin-top: 1%;
+}
+/*********** Home *************/
+.welcome {
+    width: 100vw;
+}
+.welcome_image {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 50px;
+}
+.welcome .main {
+    color: #6a6969;
+}
+.columns li {
+    display: inline-block;
+}
+.macarons_image {
+    position: relative;
+    bottom: 40px;
+    width: 25%;
+}
+.welcome_text {
+    width: 74%;
+    margin: 0 0 100px;
+    text-align: justify;
+}
+.welcome .heading {
+    font-size: 20px;
+    margin: 25px 0;
+}
+.welcome .paragraph {
+    font-size: 14px;
+    margin: 10px;
+}
+.schedule {
+    width: 100%;
+    color: #6a6969;
+}
+.day {
+    display: inline-block;
+    height: 140px;
+    width: 126px;
+    background-color: #fffabe;
+    font-size: 12px;
+    margin: 0 7px 5% 7px;
+}
+.day .weekday, .day span {
+    margin-left: 9%;
+}
+.weekday {
+    font-size: 14px;
+    margin: 10% 0 0 10%;
+}
+.hidden {
+    visibility: hidden;
+    margin-bottom: 15%
+}
+.flavors {
+    width: 100%;
+    height: 33px;
+}
+.bottom_flavor {
+    color: white;
+}
+.chocolate {
+    background-image: url(assets/images/chocolate.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.coconut {
+    background-image: url(assets/images/coconut.png);
+    background-color: #824603;
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.violet {
+    background-image: url(assets/images/violet-cassis.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.green_tea {
+    background-image: url(assets/images/green-tea.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.passion_fruit {
+    background: url(assets/images/passion-fruit.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.vanilla {
+    background-color: #df5277;
+    background-image: url(assets/images/vanilla.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.coffee {
+    background-image: url(assets/images/coffee.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.pistachio {
+    background-image: url(assets/images/pistachio.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.raspberry {
+    background-image: url(assets/images/raspbery.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.lemon {
+    background-image: url(assets/images/lemon.png);
+    background-color: #a2304e;
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.rose {
+    background-image: url(assets/images/rose.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.tiffany_blue {
+    background-image: url(assets/images/tiffany-blue.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.caramel {
+    background-image: url(assets/images/caramel.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+.almond {
+    background-image: url(assets/images/almond.png);
+    background-color: #c39005;
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
