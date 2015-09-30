@@ -1,1 +1,167 @@
-/* Add your CSS here */
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+header {
+    background: #fffabe url('assets/images/logo.png') no-repeat top 20px left 50px;
+    width: 1000px;
+    height: 72px;
+    margin: auto;
+}
+
+nav>ul {
+
+    color: #515151;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 150px;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 25px 20px 0 20px;
+    padding-left: 20px;
+}
+
+nav>ul>li:hover {
+    color: #d42551;
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+    font-size: 14px;
+    color: #6a6969;
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-align: left;
+}
+
+.text {
+    width: 660px;
+    float: right;
+    padding: 50px;
+    text-align: justify;
+    line-height: 140%;
+}
+
+.text>h1 {
+    font-size: 20px;
+    padding: 30px 0 20px;
+    margin: 15px 0;
+
+}
+
+section>img{
+    padding-left: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 160px;
+}
+
+footer {
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-top: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+.table {
+    height: 140px;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    clear: both;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+    position:relative;
+}
+
+.table tr {
+    width: 126px;
+    height: 100%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.table td {
+    width: 126px;
+    height: 33px;
+    text-align: left;
+    text-indent: 5px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: #fffabe;
+    line-height: 2;
+}
+
+tr>td:first-child {
+    font-size: 14px;
+    height: 36px;
+    padding-top: 10px;
+}
+
+td>img {
+    float: right;
+    display: inline-block;
+    padding: 5px;
+}
+
+#coco, #vani, #lemo, #almo {
+    color: #fffabe;
+}
+
+#coco {
+    background-color: #824603;
+}
+
+#vani {
+    background-color: #df5277;
+}
+
+#lemo {
+    background-color: #a2304e;
+}
+
+#almo {
+    background-color: #c39005;
+}
+
+.contact {
+    font-family: "Arial", "Helvetica", sans-serif;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+
+.contact li {
+    display: inline-block;
+    padding: 15px 100px 0;
+}
+
+.mail {
+    background: url('assets/images/mail.png') no-repeat top 15px left 65px;
+}
+
+.phone {
+    background: url('assets/images/phone.png') no-repeat top 15px left 65px;
+}
+
+
+.follow img {
+    padding-left: 20px;
+}
