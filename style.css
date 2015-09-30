@@ -1,5 +1,6 @@
 body{
     width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     height: 72px;
@@ -29,7 +30,6 @@ header{
     text-decoration:none;
     color: #515151;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav li a:hover{
@@ -41,37 +41,66 @@ header{
     background-image: url("assets/images/welcome-image.png");
 }
 
-
-
-.list-group ul{
-    height:140px;
-    list-style: none;
-    font-size:12px;
-    display: inline-block;
-    margin-left: -3.37%;
-}
-
-.list-group ul li{
-    background-color: #fffabe;
-    width: 126px;
-    height: 33px;
+main{
+    height: 64vh;
     position: relative;
 }
 
-.last-item{
-    color:white !important;
+.container{
+    margin: 0% 3%;
+    position: relative;
 }
 
-
-.list-heading{
-    font-size: 14px;
-}
-
-.list-group ul li>img{
+.img-section{
     position: absolute;
-    right: 0;
-    top: 50%;
-    margin-top: -10px;
+    top: 10em;
+}
+.img-section > img{
+    height: 19em;
+    width: 11em;
+}
+
+.main{
+    height: 75vh;
+}
+.main-content{
+    width: 70.4%;
+    line-height: 1.8em;
+    position: absolute;
+    right: 1em;
+    top: 5em;
+    text-align: justify;
+}
+
+.list-section > ul{
+    list-style: none;
+    line-height: 1.6em;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.list-section>ul>li{
+    height: 33px;
+    width: 115px;
+    background-color: #fffabe;
+    margin-left: -2.65em;
+    padding: 0.6em .6em;
+}
+
+.list-section>ul>li>img{
+    float: right;
+}
+
+span {
+    font-size:14px;
+}
+
+.first{
+    height: 74px;
+}
+
+.last-item{
+    color:white;
 }
 
 #wildcard1{
@@ -92,9 +121,22 @@ header{
 footer{
     height: 80px;
     background-color: #df5277;
+    text-align: center;
 }
 
 .footer-div{
-    border: 1px solid black;
-
+    height: 80px;
+    background-color: #df5277;
+    color: white;
+    font-size: 12px;
+    width: 33.13%;
+    float: left;
 }
+
+.footer-div >img{
+    margin: .5em;
+    vertical-align: middle;
+}
+
+
+
