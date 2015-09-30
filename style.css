@@ -1,6 +1,8 @@
+
 body{
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
 }
 header{
     height: 72px;
@@ -18,12 +20,12 @@ header{
 .nav{
     list-style: none;
     width: 80%;
-    position: absolute;
+    float: right;
 }
 
 .nav li{
     display: inline-block;
-    margin-right: 7%;
+    margin-right: 12%;
 }
 
 .nav li a{
@@ -41,50 +43,48 @@ header{
     background-image: url("assets/images/welcome-image.png");
 }
 
-main{
-    height: 64vh;
-    position: relative;
-}
-
-.container{
-    margin: 0% 3%;
-    position: relative;
-}
-
 .img-section{
     position: absolute;
     top: 10em;
+    left: 2.5em;
 }
 .img-section > img{
-    height: 19em;
+    height: 15em;
     width: 11em;
 }
 
 .main{
-    height: 75vh;
-}
-.main-content{
-    width: 70.4%;
-    line-height: 1.8em;
-    position: absolute;
-    right: 1em;
-    top: 5em;
-    text-align: justify;
+    height: 48vh;
+    position: relative;
 }
 
+h1, h2{
+    font-size: 20px;
+}
+
+.main-content{
+    width: 70.4%;
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    text-align: left;
+}
+
+.list-section{
+    height: 15vh;
+}
 .list-section > ul{
     list-style: none;
-    line-height: 1.6em;
     font-size: 12px;
-    display: inline-block;
+    float: left;
 }
 
 .list-section>ul>li{
-    height: 33px;
-    width: 115px;
+    height: 32px;
+    width: 110px;
     background-color: #fffabe;
-    margin-left: -2.65em;
-    padding: 0.6em .6em;
+    margin: 0em .4em 0em -2.3em;
+    padding: .9em .6em 0em .6em;
 }
 
 .list-section>ul>li>img{
@@ -138,5 +138,8 @@ footer{
     vertical-align: middle;
 }
 
+.page-header{
+    margin: 6% 0%;
+}
 
 
