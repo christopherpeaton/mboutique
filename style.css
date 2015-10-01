@@ -83,8 +83,8 @@ h1, h2{
     height: 32px;
     width: 110px;
     background-color: #fffabe;
-    margin: 0em .4em 0em -2.3em;
-    padding: .9em .6em 0em .6em;
+    margin: 0em .4em 0 -2.3em;
+    padding: .9em .6em 0 .6em;
 }
 
 .list-section>ul>li>img{
@@ -136,7 +136,7 @@ footer{
 }
 
 .page-header{
-    margin: 6% 0%;
+    margin: 6% 0;
 }
 
 
