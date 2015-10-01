@@ -99,7 +99,7 @@ span {
     height: 74px;
 }
 
-.last-item{
+.list-section ul li:nth-child(3){
     color:white;
 }
 
