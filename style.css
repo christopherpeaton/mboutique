@@ -95,11 +95,8 @@ span {
     font-size:14px;
 }
 
-.first{
-    height: 74px;
-}
 
-.list-section ul li:nth-child(3){
+.last-item{
     color:white;
 }
 
