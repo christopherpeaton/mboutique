@@ -49,13 +49,14 @@ header{
     left: 2.5em;
 }
 .img-section > img{
-    height: 15em;
-    width: 11em;
+    height: 22em;
+    width: 13em;
 }
 
 .main{
-    height: 48vh;
+    height: 586px;
     position: relative;
+    font-size: 14px;
 }
 
 h1, h2{
@@ -63,7 +64,7 @@ h1, h2{
 }
 
 .main-content{
-    width: 70.4%;
+    width: 64.4%;
     position: absolute;
     right: 1em;
     top: 2em;
