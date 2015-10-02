@@ -45,16 +45,17 @@ header{
 
 .img-section{
     position: absolute;
-    top: 10em;
-    left: 2.5em;
+    top: 50%;
+    left: 5%;
+    margin-top: -146px;
 }
 .img-section > img{
-    height: 15em;
-    width: 11em;
+    height: 18em;
+    width: 10em;
 }
 
 .main{
-    height: 48vh;
+    height: 609px;
     position: relative;
 }
 
