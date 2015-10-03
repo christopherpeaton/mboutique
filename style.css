@@ -58,7 +58,9 @@ header{
     position: relative;
     font-size: 14px;
 }
-
+p{
+    font-size: 14px;
+}
 h1, h2{
     font-size: 20px;
 }
@@ -72,20 +74,21 @@ h1, h2{
 }
 
 .list-section{
-    height: 15vh;
+    height: 18vh;
 }
+
 .list-section > ul{
-    list-style: none;
     font-size: 12px;
     float: left;
+    list-style: none;
 }
 
 .list-section>ul>li{
     height: 32px;
     width: 110px;
     background-color: #fffabe;
-    margin: 0em .4em 0em -2.3em;
-    padding: .9em .6em 0em .6em;
+    margin: 0 .4em 0 -2.3em;
+    padding: .9em .6em 0 .6em;
 }
 
 .list-section>ul>li>img{
@@ -140,7 +143,29 @@ footer{
 }
 
 .page-header{
-    margin: 6% 0%;
+    margin: 6% 0;
 }
+
+.macarons-main{
+    background-image: url("assets/images/our-macarons-background.png");
+}
+
+.macarons-main>ul{
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.macarons-main>ul>li{
+
+}
+
+.macarons-main h2, p {
+    margin: 4% 2% 1% 2%;
+}
+
+.macarons-main p:nth-child(5) {
+    margin: 9% 2% 7% 2%;
+}
+
 
 
