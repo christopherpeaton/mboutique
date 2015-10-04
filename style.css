@@ -1,11 +1,7 @@
-*{
-    border:1px solid black;
-}
 body{
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
-    font-size: 14px;
 }
 header{
     height: 72px;
@@ -49,24 +45,27 @@ header{
 .img-section{
     position: absolute;
     top: 10em;
-    left: 2.5em;
+    left: 6em;
 }
 .img-section > img{
-    height: 15em;
-    width: 11em;
+    height: 22em;
+    width: 13em;
 }
 
 .main{
-    height: 48vh;
+    height: 586px;
     position: relative;
+    font-size: 14px;
 }
-
+p{
+    font-size: 14px;
+}
 h1, h2{
     font-size: 20px;
 }
 
 .main-content{
-    width: 70.4%;
+    width: 64.4%;
     position: absolute;
     right: 1em;
     top: 2em;
@@ -74,12 +73,13 @@ h1, h2{
 }
 
 .list-section{
-    height: 15vh;
+    height: 22vh;
 }
+
 .list-section > ul{
-    list-style: none;
     font-size: 12px;
     float: left;
+    list-style: none;
 }
 
 .list-section>ul>li{
@@ -92,6 +92,10 @@ h1, h2{
 
 .list-section>ul>li>img{
     float: right;
+}
+
+.list-section>ul>li:nth-child(2) {
+    margin-top: -18%;
 }
 
 span {
@@ -127,6 +131,8 @@ footer{
     text-align: center;
 }
 
+
+
 .footer-div{
     height: 80px;
     background-color: #df5277;
@@ -134,6 +140,10 @@ footer{
     font-size: 12px;
     width: 33.13%;
     float: left;
+}
+
+.footer-div:nth-child(2)>p {
+    margin-top: 1.95%%;
 }
 
 .footer-div >img{
@@ -145,18 +155,58 @@ footer{
     margin: 6% 0;
 }
 
-.jumbotron-gifts{
-    background-image: url("assets/images/gifts-parties-image.png");
+.macarons-jumbotron{
+    background-image: url("assets/images/our-macarons-image.png");
     height: 400px;
 }
 
-
-main{
-    display: inline-block;
-    background-image: url("assets/images/gifts-parties-image.png");
-    height: 50px;
+.macarons-main{
+    background-image: url("assets/images/our-macarons-background.png");
 }
 
-main>h2, main>p {
-    margin: 4% 3%;
+.macarons-main>ul{
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.macarons-main>ul>li{
+
+}
+
+.macarons-main>h2, .macarons-main p {
+    margin: 4% 2% 1% 0%;
+}
+
+.macarons-main p:nth-child(5) {
+    margin: 9% 2% 7% 2%;
+}
+
+.main-gifts{
+    background-image: url("assets/images/gifts-parties-background.png");
+    height: 65vh;
+}
+
+.main-gifts>h2 {
+    margin: 5% 3% 0 3%
+}
+
+.main-gifts>p{
+    margin: 4% 3% 0% 3%;
+    width: 50%;
+}
+
+.main-gifts>p:nth-child(2) {
+    width: 100%;
+}
+
+.main-gifts>p>a {
+    color: #df52
+}
+
+.main-gifts>ul:last-child {
+    margin-left: 2%;
+}
+
+.main-gifts>p>a{
+    color: #df5277;
 }
