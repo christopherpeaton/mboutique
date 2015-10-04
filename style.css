@@ -1,8 +1,11 @@
-
+*{
+    border:1px solid black;
+}
 body{
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
+    font-size: 14px;
 }
 header{
     height: 72px;
@@ -83,8 +86,8 @@ h1, h2{
     height: 32px;
     width: 110px;
     background-color: #fffabe;
-    margin: 0em .4em 0em -2.3em;
-    padding: .9em .6em 0em .6em;
+    margin: 0 .4em 0 -2.3em;
+    padding: .9em .6em 0 .6em;
 }
 
 .list-section>ul>li>img{
@@ -139,7 +142,21 @@ footer{
 }
 
 .page-header{
-    margin: 6% 0%;
+    margin: 6% 0;
+}
+
+.jumbotron-gifts{
+    background-image: url("assets/images/gifts-parties-image.png");
+    height: 400px;
 }
 
 
+main{
+    display: inline-block;
+    background-image: url("assets/images/gifts-parties-image.png");
+    height: 50px;
+}
+
+main>h2, main>p {
+    margin: 4% 3%;
+}
