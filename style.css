@@ -184,6 +184,7 @@ footer{
 .main-gifts{
     background-image: url("assets/images/gifts-parties-background.png");
     height: 65vh;
+    margin: 0 3% 0 2%;
 }
 
 .main-gifts>h2 {
@@ -203,7 +204,7 @@ footer{
     color: #df52
 }
 
-.main-gifts>ul:last-child {
+.main-gifts>ul{
     margin-left: 2%;
 }
 
