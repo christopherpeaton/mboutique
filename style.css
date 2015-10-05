@@ -2,32 +2,30 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    height: 100%;
 }
+
 header {
     background: #fffabe url('assets/images/logo.png') no-repeat top 20px left 50px;
-    width: 1000px;
     height: 72px;
     margin: auto;
 }
-
-nav>ul {
-
+.nav-tabs {
+    border: none;
     color: #515151;
-    text-align: center;
-    list-style-type: none;
-    margin: auto;
-    padding-left: 150px;
-
 }
 
-nav>ul>li {
+nav>ul>li{
     display: inline-block;
     font-family: "Arial", "Helvetica", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     margin: 25px 20px 0 20px;
     padding-left: 20px;
+    color: #515151;
+}
+
+.nav-tabs a {
+    color: #515151;
 }
 
 nav>ul>li:hover {
@@ -66,14 +64,17 @@ section>img{
 }
 
 footer {
-    width: 1000px;
     height: 80px;
     background-color: #df5277;
     display: inline-block;
-    margin-bottom: -4px;
+    #margin-bottom: -4px;
     margin-top: 50px;
     color: white;
     font-size: 12px;
+}
+
+#follow-us {
+    background-color: #df5277;
 }
 
 .table {
@@ -145,23 +146,128 @@ td>img {
     width: 100%;
     padding: 0;
     margin: auto;
+    background-color: #df5277;
 }
 
-
-.contact li {
-    display: inline-block;
-    padding: 15px 100px 0;
-}
 
 .mail {
-    background: url('assets/images/mail.png') no-repeat top 15px left 65px;
+    background: url('assets/images/mail.png') no-repeat top 10px left 60px;
 }
 
 .phone {
-    background: url('assets/images/phone.png') no-repeat top 15px left 65px;
+    background: url('assets/images/phone.png') no-repeat top 10px left 70px;
 }
 
 
 .follow img {
     padding-left: 20px;
 }
+
+#first {
+    padding: 75px 0 0 50px;
+}
+
+.m-h1 {
+    margin-bottom: 50px;
+}
+
+.m-p {
+    width: 92%;
+}
+
+#flavor-list {
+    line-height: 1.5;
+}
+
+#second {
+    background-image: url('assets/images/our-macarons-background.png');
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    padding: 30px 0 50px 50px;
+}
+
+.m-bottom {
+    margin: auto;
+}
+
+.eat_section {
+    background: url('assets/images/gifts-parties-background.png') no-repeat;
+    padding: 50px;
+}
+
+span {
+    color: #df5277;
+}
+
+.eat_section h1 {
+    padding: 20px 0;
+}
+
+.party {
+    width: 50%;
+}
+
+.contact-image {
+    margin: auto;
+}
+
+.form-control {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 10px;
+    box-shadow: none;
+}
+
+.btn {
+    width: 155px;
+    height: 35px;
+    background-color: #f5f5f5;
+}
+
+.contact-li {
+    border: none;
+    padding: 0;
+}
+
+.row-container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 30px 0 20px;
+    margin: 15px 0;
+}
+
+
+.contact-ul li {
+    border: 0;
+}
+
+.disappear {
+    padding-left: 75px;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0 !important;
+    }
+
+    header {
+        background-position-x: 50%;
+        background-position-y: 0;
+
+    }
+    .disappear {
+        display: none;
+    }
+
+    .row-container {
+        padding: 0 30px;
+    }
+}
+
+
