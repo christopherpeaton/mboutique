@@ -1,4 +1,4 @@
-body {
+.main-container {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -251,16 +251,28 @@ h1 {
     margin-top: 120px;
 }
 
+.copy {
+    font-size: 0.9em;
+}
+
 @media screen and (max-width: 375px) {
-    body {
-        padding: 0 !important;
-    }
 
     header {
         background-position-x: 50%;
-        background-position-y: 0;
+        background-position-y: 20%;
 
     }
+
+    .nav-tabs li {
+        font-size: 0.7em;
+        margin: 50px 0 0 0;
+        padding-left: 4vw;
+    }
+
+    .nav-tabs li:last-child a {
+        color: #df5277;
+    }
+
     .disappear {
         display: none;
     }
@@ -268,6 +280,29 @@ h1 {
     .row-container {
         padding: 0 30px;
     }
+
+    .list-group {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+     .row {
+         margin-left: 15px;
+     }
+
+    .mail {
+        background-position: 0;
+    }
+
+    .phone {
+        background-position: 0;
+    }
+
+    .list-group-item {
+        padding: 0.2em;
+        text-align: center;
+    }
+
 }
 
 
