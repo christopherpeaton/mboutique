@@ -95,6 +95,7 @@ nav > .container {
     width: 126px;
     display: inline-block;
     background-color: #fffabe;
+    margin: 4px;
 }
 
 .day_name {
