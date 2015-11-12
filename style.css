@@ -157,3 +157,47 @@ nav > .container {
     background-color: #c39005;
 }
 
+/*footer styling*/
+
+.footer_container {
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+    color: white;
+    font-family: Arial;
+    margin-top: 30px;
+}
+
+.contact_info {
+    margin: 10px 0 10px 20%;
+    font-size: 12px;
+}
+
+
+.email {
+    background-image: url(assets/images/mail.png);
+    background-repeat: no-repeat;
+}
+
+.email_address {
+    padding-left: 10px;
+}
+
+.phone {
+    background-image: url(assets/images/phone.png);
+    background-repeat: no-repeat;
+}
+
+.phone_number {
+    padding-left: 10px;
+}
+
+.social_media_icon {
+    padding-left: 10px;
+}
+
+
+.copyright {
+    font-size: 11px;
+    margin-left: 8%;
+}
