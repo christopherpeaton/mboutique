@@ -1,8 +1,8 @@
 /* Add your CSS here */
 body {
     width: 1000px;
+    margin: 0 10px;
 }
-
 
 /*navbar styling*/
 .navbar, .navbar-default {
@@ -84,3 +84,75 @@ nav > .container {
     font-size: 14px;
     color: #6a6969;
 }
+
+/*schedule styling*/
+.schedule-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.day {
+    width: 126px;
+    display: inline-block;
+    background-color: #fffabe;
+}
+
+.day_name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 33px;
+}
+
+.day_hours {
+    padding-left: 5px;
+    height: 31px;
+    margin-bottom:2px;
+}
+
+
+.day_hours, .day_flavor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
+
+.day_flavor, .day_flavor_special {
+    display: inline-block;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 7px;
+    height: 33px;
+
+
+}
+
+.day_flavor_special {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.macaron_container {
+    float: right;
+    margin-right: 3px;
+}
+
+.coconut {
+    background-color: #824603;
+}
+
+.vanilla {
+    background-color: #df5277;
+}
+
+.lemon {
+    background-color: #a2304e;
+}
+
+.almond {
+    background-color: #c39005;
+}
+
