@@ -3,6 +3,7 @@ body{
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
+    font-size:12px;
 }
 header{
     height: 72px;
@@ -45,16 +46,17 @@ header{
 
 .img-section{
     position: absolute;
-    top: 10em;
-    left: 2.5em;
+    top: 55%;
+    left: 10%;
+    margin-top: -146px;
 }
 .img-section > img{
-    height: 15em;
-    width: 11em;
+    height: 20em;
+    width: 12em;
 }
 
 .main{
-    height: 48vh;
+    height: 487px;
     position: relative;
 }
 
@@ -63,7 +65,7 @@ h1, h2{
 }
 
 .main-content{
-    width: 70.4%;
+    width: 63.4%;
     position: absolute;
     right: 1em;
     top: 2em;
@@ -71,7 +73,7 @@ h1, h2{
 }
 
 .list-section{
-    height: 15vh;
+    height: 192px;
 }
 .list-section > ul{
     list-style: none;
@@ -83,8 +85,8 @@ h1, h2{
     height: 32px;
     width: 110px;
     background-color: #fffabe;
-    margin: 0em .4em 0em -2.3em;
-    padding: .9em .6em 0em .6em;
+    margin: 0 .4em 0 -2.3em;
+    padding: .9em .6em 0 .6em;
 }
 
 .list-section>ul>li>img{
@@ -95,9 +97,6 @@ span {
     font-size:14px;
 }
 
-.first{
-    height: 74px;
-}
 
 .last-item{
     color:white;
@@ -122,6 +121,7 @@ footer{
     height: 80px;
     background-color: #df5277;
     text-align: center;
+    padding-top: 1%;
 }
 
 .footer-div{
@@ -139,7 +139,7 @@ footer{
 }
 
 .page-header{
-    margin: 6% 0%;
+    margin: 6% 0;
 }
 
 
