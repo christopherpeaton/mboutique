@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 header{
     width: width: 100%;
+=======
+body{
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    font-size:12px;
+}
+header{
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
     height: 72px;
     background-color: #fffabe;
     text-align:right;
@@ -15,19 +25,30 @@ header{
 .nav{
     list-style: none;
     width: 80%;
+<<<<<<< HEAD
     position: absolute;
+=======
+    float: right;
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
 }
 
 .nav li{
     display: inline-block;
+<<<<<<< HEAD
     margin-right: 7%;
+=======
+    margin-right: 12%;
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
 }
 
 .nav li a{
     text-decoration:none;
     color: #515151;
     font-size: 16px;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
+=======
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
 }
 
 .nav li a:hover{
@@ -35,11 +56,15 @@ header{
 }
 
 .jumbotron{
+<<<<<<< HEAD
     width: 1000px;
+=======
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
     height: 400px;
     background-image: url("assets/images/welcome-image.png");
 }
 
+<<<<<<< HEAD
 main{
     color: #6a6969;
     font-family: Arial, Helvetica, sans-serif;
@@ -104,6 +129,70 @@ main p{
     right: 0;
     top: 50%;
     margin-top: -10px;
+=======
+.img-section{
+    position: absolute;
+
+
+
+    position: relative;
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+}
+h1, h2{
+    font-size: 20px;
+}
+
+.main-content{
+
+
+    width: 63.4%;
+
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    text-align: left;
+}
+
+.list-section{
+
+    height: 192px;
+
+
+}
+
+.list-section > ul{
+    font-size: 12px;
+    float: left;
+    list-style: none;
+}
+
+.list-section>ul>li{
+    height: 32px;
+    width: 110px;
+    background-color: #fffabe;
+    margin: 0 .4em 0 -2.3em;
+    padding: .9em .6em 0 .6em;
+}
+
+.list-section>ul>li>img{
+    float: right;
+}
+
+.list-section>ul>li:nth-child(2) {
+    margin-top: -18%;
+}
+
+span {
+    font-size:14px;
+}
+
+
+.last-item{
+    color:white;
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
 }
 
 #wildcard1{
@@ -123,12 +212,16 @@ main p{
 
 footer{
     height: 80px;
+<<<<<<< HEAD
     width: 100vw;
+=======
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
     background-color: #df5277;
     text-align: center;
     padding-top: 1%;
 }
 
+<<<<<<< HEAD
 .footer-div{
     height: 40%;
     color: white;
@@ -142,6 +235,21 @@ footer{
     color: white;
     font-size: 12px;
     text-align: center;
+=======
+
+
+.footer-div{
+    height: 80px;
+    background-color: #df5277;
+    color: white;
+    font-size: 12px;
+    width: 33.13%;
+    float: left;
+}
+
+.footer-div:nth-child(2)>p {
+    margin-top: 1.95%%;
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
 }
 
 .footer-div >img{
@@ -149,6 +257,7 @@ footer{
     vertical-align: middle;
 }
 
+<<<<<<< HEAD
 .jumbotron-contact{
     background-image: url("assets/images/contact-image.png");
     height: 400px;
@@ -305,3 +414,39 @@ form button{
 
 
 
+=======
+.page-header{
+    margin: 6% 0;
+}
+
+.macarons-jumbotron{
+    background-image: url("assets/images/our-macarons-image.png");
+    height: 400px;
+}
+
+.macarons-main{
+    background-image: url("assets/images/our-macarons-background.png");
+}
+
+.macarons-main>ul{
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.macarons-main>ul>li{
+
+}
+
+.macarons-main>h2, .macarons-main p {
+    margin: 4% 2% 1% 0%;
+}
+
+.macarons-main p:nth-child(5) {
+    margin: 9% 2% 7% 2%;
+}
+
+
+.main-gifts>p>a{
+    color: #df5277;
+}
+>>>>>>> 07241681dc9a75c4ba2813da89697d8516604337
