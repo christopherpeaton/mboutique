@@ -3,6 +3,7 @@ body{
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
+    font-size:12px;
 }
 header{
     height: 72px;
@@ -45,16 +46,7 @@ header{
 
 .img-section{
     position: absolute;
-    top: 10em;
-    left: 6em;
-}
-.img-section > img{
-    height: 22em;
-    width: 13em;
-}
 
-.main{
-    height: 586px;
     position: relative;
     font-size: 14px;
 }
@@ -66,7 +58,8 @@ h1, h2{
 }
 
 .main-content{
-    width: 64.4%;
+
+    width: 63.4%;
     position: absolute;
     right: 1em;
     top: 2em;
@@ -74,7 +67,8 @@ h1, h2{
 }
 
 .list-section{
-    height: 22vh;
+    height: 192px;
+
 }
 
 .list-section > ul{
@@ -103,9 +97,6 @@ span {
     font-size:14px;
 }
 
-.first{
-    height: 74px;
-}
 
 .last-item{
     color:white;
@@ -130,6 +121,7 @@ footer{
     height: 80px;
     background-color: #df5277;
     text-align: center;
+    padding-top: 1%;
 }
 
 
@@ -154,11 +146,13 @@ footer{
 
 .page-header{
     margin: 6% 0;
+
 }
 
 .macarons-jumbotron{
     background-image: url("assets/images/our-macarons-image.png");
     height: 400px;
+
 }
 
 .macarons-main{
