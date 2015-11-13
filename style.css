@@ -1,4 +1,4 @@
-/* Add your CSS here */
+/* MBoutique Project Styling*/
 body {
     width: 1000px;
     margin: 0 10px;
@@ -52,7 +52,7 @@ nav > .container {
     color: #d42551;
 }
 
-/*main content styling*/
+/*INDEX.HTML: main content styling. Lots of overlap with OUR_MACARONS*/
 .welcome-image {
     width: 1000px;
     height: 400px;
@@ -64,12 +64,10 @@ nav > .container {
 }
 
 .macarons_image {
-    /*border: 1px solid black;*/
     margin: 8% 0;
 }
 
 .index_body {
-    /*border: 1px solid black;*/
 }
 
 .index_heading {
@@ -85,7 +83,7 @@ nav > .container {
     color: #6a6969;
 }
 
-/*schedule styling*/
+/*INDEX.HTML: schedule styling*/
 .schedule-container {
     width: 100%;
     display: inline-block;
@@ -156,6 +154,34 @@ nav > .container {
 .almond {
     background-color: #c39005;
 }
+
+/* OUR_MACARONS.HTML: BODY STYLING*/
+
+.our-macarons-image {
+    width: 1000px;
+    height: 400px;
+}
+
+.our_macarons_body_pt1 {
+    width: 1000px;
+}
+.our_macarons_body_pt2 {
+    width: 1000px;
+    display: inline-block;
+    background-image: url(assets/images/our-macarons-background.png);
+    background-repeat: no-repeat;
+    background-position: -5% 80%;
+}
+
+.our_macarons_ul_flavors {
+    margin-bottom: 60px;
+}
+
+.our_macarons_body_pt3 {
+    width: 1000px;
+}
+
+
 
 /*footer styling*/
 
