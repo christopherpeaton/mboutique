@@ -33,7 +33,7 @@ nav>ul>li:hover {
 }
 
 section {
-    width: 1000px;
+    width: 100%;
     margin: auto;
     font-size: 14px;
     color: #6a6969;
@@ -56,12 +56,12 @@ section {
 
 }
 
-.welcome-page-img{
-    padding-left: 50px;
-    display: inline-block;
-    float: left;
-    margin-top: 160px;
-}
+/*.welcome-page-img {*/
+    /*padding-left: 50px;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*margin-top: 160px;*/
+/*}*/
 
 footer {
     height: 80px;
@@ -208,7 +208,7 @@ span {
     width: 50%;
 }
 
-.contact-image {
+.contact-image, .welcome-image {
     margin: auto;
 }
 
