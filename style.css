@@ -52,7 +52,7 @@ nav > .container {
     color: #d42551;
 }
 
-/*INDEX.HTML: main content styling. Lots of overlap with OUR_MACARONS*/
+/*INDEX.HTML: main content styling. Lots of overlap with other pages*/
 .welcome-image {
     width: 1000px;
     height: 400px;
@@ -170,7 +170,7 @@ nav > .container {
     display: inline-block;
     background-image: url(assets/images/our-macarons-background.png);
     background-repeat: no-repeat;
-    background-position: -5% 80%;
+    background-position: -5% 85%;
 }
 
 .our_macarons_ul_flavors {
@@ -181,7 +181,26 @@ nav > .container {
     width: 1000px;
 }
 
+/*GIFTS_PARTIES.HTML: BODY STYLING */
 
+.gifts_body_pt1, .gifts_body_pt2 {
+    width: 1000px;
+}
+
+.gifts_body_pt2 {
+    background-image: url(assets/images/gifts-parties-background.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: -5% 90%;
+}
+
+.gifts_body_ul {
+    margin-bottom: 50px;
+}
+
+.orders_email {
+    color: #df5277;
+}
 
 /*footer styling*/
 
