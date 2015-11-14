@@ -43,12 +43,31 @@ h1, h2{
     height: 192px;
 }
 
-.list-section > ul{
+ul.list-group{
     font-size: 12px;
+    list-style-type: none;
+}
+
+.list-group>li img{
+    float: right;
+}
+
+.list-section li {
+    padding: 7% 5%;
+}
+@media screen and (min-width: 992px) {
+    .col-md-2 {
+        width: 13.99%;
+
+    }
 }
 
 .list-section>ul>li{
 
+    background-color: #fffabe;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #fffabe;
 }
 
