@@ -37,8 +37,12 @@ nav a:hover{
     display: flex;
     align-items: center;
 }
+.full_menu div{
+    float:left;
+    position:relative;
+}
 .daily_menu {
-    width: 16%;
+    width: 90%;
     height: 140px;
     background-color: #fffabe;
     display: inline-block;
@@ -52,6 +56,7 @@ nav a:hover{
     font-size: initial;
     padding-left: 8px;
     padding-right: 8px;
+    float:left;
 }
 .daily_menu img{
     float: right;
