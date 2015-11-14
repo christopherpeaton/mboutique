@@ -54,3 +54,24 @@ footer{
 footer div{
     padding:5px;
 }
+@media screen and (max-width: 700px) {
+    #logo_pic{
+        width:30%;
+        margin-left: 34%;
+        margin-right: 30%;
+    }
+    nav{
+        height:15vh;
+        background-color:#fffabe;
+        width:100%;
+    }
+    nav a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        color:#515151;
+        margin-top: 8%;
+    }
+    footer{
+        padding-bottom: 38%;
+    }
+}

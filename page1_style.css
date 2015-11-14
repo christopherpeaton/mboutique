@@ -31,7 +31,7 @@ nav a:hover{
     padding: 28%;
 }
 .full_menu{
-    display: inline-block;
+    margin-left: 9%;
 }
 .vertical-align {
     display: flex;
@@ -55,8 +55,6 @@ nav a:hover{
     height: 25%;
     font-size: initial;
     padding-left: 8px;
-    padding-right: 8px;
-    float:left;
 }
 .daily_menu img{
     float: right;
