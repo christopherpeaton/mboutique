@@ -6,73 +6,121 @@
     <meta name="keywords" content="Macarons, Gifts">
     <meta name="author" content="David Goodman">
     <meta name="viewport" content="width=device-width, initial-scail=1, maximum-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <!--header-->
-<header><!--header begin-->
-    <img id="logo" src="assets/images/logo.png">
-    <ul class="nav">
-        <li><a href="index.html">Welcome</a></li>
-        <li><a href="macarons.html">Our Macarons</a></li>
-        <li><a href="gifts.html">Gifts & Parties</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</header><!--header end-->
+<header>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img class="navbar-brand" src="assets/images/logo.png">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-right navbar-nav">
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="macarons.html">Our Macarons</a></li>
+                    <li><a href="gifts.html">Gifts & Parties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
 <!--jumbo-->
-<div class="jumbotron-contact">
+<div class="jumbotron jumbotron-contact">
 </div><!--jumbo end-->
 
 <!--main-->
+<div class="container">
 <main class="main-contact"><!--main begin-->
-    <section>
-        <h2>Visit us!</h2>
-        <ul>
-            <li>Monday - Friday | 10am-9pm</li>
-            <li>Saturday | 10am-8px</li>
-            <li>Sunday | 11am-7pm</li>
-            <li>Close Thanksgiving Day, Christmas Day and Easter Day</li>
-        </ul>
+    <div class="row">
+        <section class='col-md-4'>
+            <h2>Visit us!</h2>
+            <ul>
+                <li>Monday - Friday | 10am-9pm</li>
+                <li>Saturday | 10am-8px</li>
+                <li>Sunday | 11am-7pm</li>
+                <li>Close Thanksgiving Day, Christmas Day and Easter Day</li>
+            </ul>
 
-        <address>1625 Post St<br>
-            San Francisco CA 94115<br>
+            <address>1625 Post St<br>
+                San Francisco CA 94115<br>
 
-            <p>949.800-3111</p>
-        </address>
+                <p>949.800-3111</p>
+            </address>
 
-        <p><a href="#">orders@mboutique.com</a></p>
+            <p><a href="#">orders@mboutique.com</a></p>
 
-        <p>Send your questions comments and flavor suggestion or place an order!</p>
-    </section>
-    <form action="" method="post">
-        <h2>Contact Form</h2>
-        <input type="text" name="name" placeholder="Name"><br>
-        <input type="email" name="email" placeholder="Email"><br>
-        <input type="tel" name="phone" placeholder="Phone"><br>
-        <input type="text" name="subject" placeholder="Subject"><br>
-        <textarea placeholder="Message" rows="5"></textarea><br>
-        <button type="submit" name="submit" value="submit">submit</button>
-    </form>
+            <p>Send your questions comments and flavor suggestion or place an order!</p>
+        </section>
+        <div class="col-md-4">
+            <form action="" method="post">
+                <h2>Contact Form</h2>
 
-    <img src="assets/images/macarons-image.png">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                        <input class='form-control' type="text" name="name" placeholder="Name">
+                    </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+                    <input class='form-control' type="email" name="email" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-file"></span></span>
+                    <input class='form-control' type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><span class="	glyphicon glyphicon-pencil"></span></span>
+                    <textarea class='form-control' placeholder="Message" rows="5"></textarea>
+                </div>
+                    <button class='btn btn-default' type="submit" name="submit" value="submit">submit</button>
+                </div>
+            </form>
+        <div class="col-md-2 hidden-xs hidden-sm text-center">
+            <img src="assets/images/macarons-image.png">
+        </div>
+        </div>
+
+    </div>
 </main>
-
+</div>
 <!--footer-->
-<footer>
-    <div class="footer-div">
-        <img src="assets/images/mail.png"> Order@mboutique.com
+<footer class="navbar">
+    <div class="row text-center">
+        <div class="col-sm-4 footer-div">
+            <img src="assets/images/mail.png"> Order@mboutique.com
+        </div>
+
+        <div class="col-sm-4 footer-div">
+
+            <img src="assets/images/phone.png"> 949.800-3111 <br>
+
+            <p>Copyright &copy 2014 MBoutique. All rights reserved</p>
+        </div>
+
+        <div class=" col-sm-4 footer-div">
+            Follow us <img src="assets/images/facebook.png"><img src="assets/images/twitter.png">
+        </div>
     </div>
 
-    <div class="footer-div">
-        <img src="assets/images/phone.png"> 949.800-3111 <br>
-    </div>
-
-    <div class="footer-div" id="block">
-        Follow us <img src="assets/images/facebook.png"><img src="assets/images/twitter.png">
-    </div>
-    <div class="footer-div1">
-        <p>Copyright &copy 2014 MBoutique. All rights reserved</p>
-    </div>
 </footer>
 </body>
 </html>
