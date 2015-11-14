@@ -112,9 +112,17 @@ footer {
 }
 
 /*contact page specific styling */
+.contact_body {
+    margin-bottom: 5%;
+}
+
 .form-control, .btn-default {
     background-color: #f5f5f5;
     border-radius: 0%;
+}
+
+.contact_page_body_pic {
+    margin-top: 15%;
 }
 
 /*Tablet Styling*/
