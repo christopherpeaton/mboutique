@@ -56,12 +56,12 @@ section {
 
 }
 
-/*.welcome-page-img {*/
-    /*padding-left: 50px;*/
-    /*display: inline-block;*/
-    /*float: left;*/
-    /*margin-top: 160px;*/
-/*}*/
+.welcome-page-img {
+    padding-left: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 160px;
+}
 
 footer {
     height: 80px;
@@ -213,7 +213,7 @@ span {
 }
 
 .form-section {
-    margin: 10px 10px 10px 60px;
+    margin: 10px 10px 10px 30px;
 }
 
 .form-control {
@@ -252,11 +252,10 @@ h1 {
 
 
 .contact-ul li {
-    border: 0;
+    border: none;
 }
 
 .disappear {
-    /*padding-left: 75px;*/
     margin-top: 120px;
 }
 
