@@ -17,9 +17,7 @@ nav>.container, .navbar-default .navbar-collapse, .navbar-default, .navbar-heade
     color:#d42551;
 }
 
-.welcome-jumbotron{
-    background-image: url("assets/images/welcome-image.png");
-}
+
 .jumbotron{
     height: 400px;
     background-repeat: no-repeat;
