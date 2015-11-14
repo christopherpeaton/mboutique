@@ -18,11 +18,14 @@ nav>.container, .navbar-default .navbar-collapse, .navbar-default, .navbar-heade
     color:#d42551;
 }
 
+.welcome-jumbotron{
+    background-image: url("assets/images/welcome-image.png");
+}
 .jumbotron{
     height: 400px;
-    background-image: url("assets/images/welcome-image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -2%;
 }
 
 .img-section{
@@ -90,18 +93,21 @@ ul.list-group{
     background-color: #c39005;
 }
 
-footer{
+footer.navbar{
     background-color: #df5277;
     height: 60px;
     color:white;
+    margin-bottom: 0;
 }
 
+footer.navbar {
+    margin-bottom: 0;
+}
 
 
 @media screen and (max-width:992px){
     footer{
-
-
+        margin-bottom: 0;
     }
     #wrap{
      margin-bottom: 15%;
@@ -111,22 +117,47 @@ footer{
 @media screen and (max-width:768px){
     footer{
         height: 90px;
+        margin-bottom: 0;
     }
     #wrap{
         margin-bottom: 115%;
     }
 }
+/**{*/
+    /*border: 1px solid black;*/
+/*}*/
 
-
-.macarons-jumbotron{
-    background-image: url("assets/images/our-macarons-image.png");
+div.tower{
+    background-image: url('assets/images/gifts-parties-background.png');
+    background-position: 57% 116%;
+    background-repeat: no-repeat;
 }
 
-.macarons-main{
+.jumbotron-gifts{
+    background-image: url("assets/images/gifts-parties-image.png");
+}
+.macaron-jumbotron{
+    background-image: url("assets/images/our-macarons-image.png");
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.macarons-main-img{
     background-image: url("assets/images/our-macarons-background.png");
+    background-position: 105% 77%;
+    background-repeat: no-repeat;
+    height: 288px;
+
+}
+
+.macarons-main ul{
 }
 
 .main-gifts>p>a{
     color: #df5277;
+}
+.main-gifts{
+
 }
 
