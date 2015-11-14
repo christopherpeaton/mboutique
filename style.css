@@ -9,7 +9,6 @@ nav>.container, .navbar-default .navbar-collapse, .navbar-default, .navbar-heade
     background-color: #fffabe !important;
 }
 
-
 .nav li a{
     color: #515151;
 }
@@ -33,6 +32,7 @@ nav>.container, .navbar-default .navbar-collapse, .navbar-default, .navbar-heade
 }
 p{
     font-size: 14px;
+    color: #6a6969;
 }
 h1, h2{
     font-size: 20px;
@@ -96,9 +96,14 @@ ul.list-group{
 footer.navbar{
     background-color: #df5277;
     height: 60px;
-    color:white;
     margin-bottom: 0;
+    color: white;
 }
+
+footer.navbar p{
+    color: white;
+}
+
 
 footer.navbar {
     margin-bottom: 0;
@@ -151,6 +156,10 @@ div.tower{
 
 }
 
+main.main-contact {
+    margin: 5% 0;
+}
+
 .macarons-main ul{
 }
 
@@ -159,5 +168,9 @@ div.tower{
 }
 .main-gifts{
 
+}
+
+.jumbotron-contact{
+    background-image: url('assets/images/contact-image.png');
 }
 
