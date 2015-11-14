@@ -111,6 +111,12 @@ footer {
     color: #df5277;
 }
 
+/*contact page specific styling */
+.form-control, .btn-default {
+    background-color: #f5f5f5;
+    border-radius: 0%;
+}
+
 /*Tablet Styling*/
 @media (min-width: 768px) and (max-width: 991px) {
     .nav_tag_class {
@@ -295,6 +301,24 @@ footer {
         color: #df5277;
     }
 
+    /*contact page specific styling*/
+
+    #form_name, #form_email, #form_phonenumber, #form_subject {
+        width: 310px;
+        height: 35px;
+    }
+
+    #form_message {
+        width: 310px;
+        height: 70px;
+    }
+
+    #form_button {
+        width: 155px;
+        height: 35px;
+    }
+
+
 }
 
 /*Styling for any device that can see the original assignment's styling */
@@ -421,6 +445,23 @@ footer {
 
     .body_link {
         color: #df5277;
+    }
+
+    /*contact page specific styling*/
+
+    #form_name, #form_email, #form_phonenumber, #form_subject {
+        width: 310px;
+        height: 35px;
+    }
+
+    #form_message {
+        width: 310px;
+        height: 70px;
+    }
+
+    #form_button {
+        width: 155px;
+        height: 35px;
     }
 
 }
