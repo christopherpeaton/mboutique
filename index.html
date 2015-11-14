@@ -5,7 +5,7 @@
     <meta name="description" content="Macarons and Gifts">
     <meta name="keywords" content="Macarons, Gifts">
     <meta name="author" content="David Goodman">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
@@ -20,8 +20,9 @@
 </head>
 <body>
 <!--header-->
-
 <div class="container">
+<div id="wrap">
+
 <header>
         <nav class="navbar navbar-default">
                 <div class="navbar-header">
@@ -94,111 +95,108 @@
 <!--main end-->
 <!--list section-->
 <section class="list-section">
-    <div class="row">
+    <div class="container">
+        <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <ul class="list-group">
+                        <li><span>Monday</span><br>
+                            15:00-16:00</li>
+                        <li>chocolate <img src="assets/images/chocolate.png"></li>
+                        <li class="last-item" id="wildcard1">Coconut<img src="assets/images/coconut.png"></li>
+                    </ul>
+                </div>
 
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <ul class="list-group">
-                    <li><span>Monday</span><br>
-                        15:00-16:00</li>
-                    <li>chocolate <img src="assets/images/chocolate.png"></li>
-                    <li class="last-item" id="wildcard1">Coconut<img src="assets/images/coconut.png"></li>
-                </ul>
-            </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <ul class="list-group ">
+                        <li><span>Tuesday</span><br>
+                            14:00-15:00</li>
+                        <li>violet cassis<img src="assets/images/violet-cassis.png"></li>
+                        <li>green tea<img src="assets/images/passion-fruit.png"></li>
+                    </ul>
+                </div>
+
+
+
+
+
 
             <div class="col-xs-6 col-sm-3 col-md-2">
                 <ul class="list-group ">
-                    <li><span>Tuesday</span><br>
-                        14:00-15:00</li>
-                    <li>violet cassis<img src="assets/images/violet-cassis.png"></li>
-                    <li>green tea<img src="assets/images/passion-fruit.png"></li>
+                    <li ><span>Wednesday</span><br>
+                        09:00-10:00</li>
+                    <li>passion fruit<img src="assets/images/passion-fruit.png"></li>
+                    <li class="last-item" id="wildcard2">vanilla<img src="assets/images/vanilla.png"></li>
                 </ul>
             </div>
 
 
 
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <ul class="list-group">
+                        <li><span>Thursday</span><br>
+                            18:00-19:00</li>
+                        <li>coffee<img src="assets/images/coffee.png"></li>
+                        <li>pistachio<img src="assets/images/pistachio.png"></li>
+                    </ul>
+                </div>
 
 
 
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <ul class="list-group ">
-                <li ><span>Wednesday</span><br>
-                    09:00-10:00</li>
-                <li>passion fruit<img src="assets/images/passion-fruit.png"></li>
-                <li class="last-item" id="wildcard2">vanilla<img src="assets/images/vanilla.png"></li>
-            </ul>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <ul class="list-group ">
+                    <li><span>Friday</span><br>
+                        11:00-12:00</li>
+                    <li>raspbery<img src="assets/images/raspbery.png"></li>
+                    <li class="last-item" id="wildcard3">lemon<img src="assets/images/lemon.png"></li>
+                </ul>
+            </div>
+
+
+                 <div class="col-xs-6 col-sm-3 col-md-2">
+                    <ul class="list-group ">
+                        <li><span>Saturday</span><br>
+                            13:00-14:00</li>
+                        <li>rose<img src="assets/images/rose.png"></li>
+                        <li>tiffany blue<img src="assets/images/tiffany-blue.png"></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <ul class="list-group ">
+                        <li><span>Sunday</span><br>
+                            10:00-11:00</li>
+                        <li>caramel<img src="assets/images/caramel.png"></li>
+                        <li class="last-item" id="wildcard4">almond<img src="assets/images/almond.png"></li>
+                    </ul>
+                </div>
         </div>
-
-
-
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <ul class="list-group">
-                    <li><span>Thursday</span><br>
-                        18:00-19:00</li>
-                    <li>coffee<img src="assets/images/coffee.png"></li>
-                    <li>pistachio<img src="assets/images/pistachio.png"></li>
-                </ul>
-            </div>
-
-
-
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <ul class="list-group ">
-                <li><span>Friday</span><br>
-                    11:00-12:00</li>
-                <li>raspbery<img src="assets/images/raspbery.png"></li>
-                <li class="last-item" id="wildcard3">lemon<img src="assets/images/lemon.png"></li>
-            </ul>
-        </div>
-
-
-             <div class="col-xs-6 col-sm-3 col-md-2">
-                <ul class="list-group ">
-                    <li><span>Saturday</span><br>
-                        13:00-14:00</li>
-                    <li>rose<img src="assets/images/rose.png"></li>
-                    <li>tiffany blue<img src="assets/images/tiffany-blue.png"></li>
-                </ul>
-            </div>
-
-
-
-            <div class="col-xs-12 col-sm-3 col-md-2">
-                <ul class="list-group ">
-                    <li><span>Sunday</span><br>
-                        10:00-11:00</li>
-                    <li>caramel<img src="assets/images/caramel.png"></li>
-                    <li class="last-item" id="wildcard4">almond<img src="assets/images/almond.png"></li>
-                </ul>
-            </div>
-
-
     </div>
 </section>
-
+</div> <!--wrap end-->
 <!--footer-->
-    <!--<footer>-->
-        <!--<div class="row text-center">-->
-            <!--<div class="col-sm-4 footer-div">-->
-                <!--<img src="assets/images/mail.png"> Order@mboutique.com-->
-            <!--</div>-->
+    <footer>
+            <div class="row text-center">
+                <div class="col-sm-4 footer-div">
+                    <img src="assets/images/mail.png"> Order@mboutique.com
+                </div>
 
-            <!--<div class="col-sm-4 footer-div">-->
+                <div class="col-sm-4 footer-div">
 
-                <!--<img src="assets/images/phone.png"> 949.800-3111 <br>-->
+                    <img src="assets/images/phone.png"> 949.800-3111 <br>
 
-                <!--<p>Copyright &copy 2014 MBoutique. All rights reserved</p>-->
-            <!--</div>-->
+                    <p>Copyright &copy 2014 MBoutique. All rights reserved</p>
+                </div>
 
-            <!--<div class=" col-sm-4 footer-div">-->
-                <!--Follow us <img src="assets/images/facebook.png"><img src="assets/images/twitter.png">-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</footer>-->
+                <div class=" col-sm-4 footer-div">
+                    Follow us <img src="assets/images/facebook.png"><img src="assets/images/twitter.png">
+                </div>
+            </div>
 
+    </footer>
 
-
-
-</div>
+</div><!--body container end-->
 </body>
 </html>
 
