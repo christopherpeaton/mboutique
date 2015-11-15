@@ -1,0 +1,304 @@
+/*MOBILE FIRST STYLING*/
+
+/*HEADER SECTION*/
+.navbar_header_styling {
+    display: inline-block;
+}
+
+.language_selection {
+    display: inline;
+}
+
+.nav_tag_class {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.nav_container_styling {
+    width: 100%;
+    background-color: #fffabe;
+    overflow: hidden;
+}
+
+.nav_ul_hebrew {
+    font-family: 'Alef', sans-serif;
+    color: black;
+
+}
+
+/*FOOTER STYLING*/
+footer {
+    width: 100%;
+}
+
+.footer_container {
+    background-color: #df5277;
+    color: white;
+    font-family: Arial;
+    font-size: 9px;
+}
+
+.contact_info {
+    margin-top: 3%;
+}
+
+.email {
+    background-image: url(assets/images/mail.png);
+    background-repeat: no-repeat;
+}
+
+.email_address {
+    padding-left: 10%;
+}
+
+.phone {
+    background-image: url(assets/images/phone.png);
+    background-repeat: no-repeat;
+}
+
+.phone_number {
+    padding-left: 10%;
+}
+
+.social_media {
+    margin-top: 2%;
+    font-family: 'Alef', sans-serif;
+}
+
+.social_media_icon {
+    padding-left: 10%;
+}
+
+.copyright {
+    font-size: 8px;
+    margin: 2% 0;
+}
+
+/*TABLET SPECIFIC STYLING*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*FOOTER STYLING*/
+    footer {
+        width: 100%;
+    }
+
+    .social_media {
+        margin-top: 0;
+        font-family: 'Alef', sans-serif;
+    }
+
+}
+/*SMALL DESKTOP STYLING*/
+@media (min-width:992px) and (max-width: 999px) {
+    footer {
+        width: 100%;
+    }
+
+    .footer_container {
+        width: 100%;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+        font-family: 'Alef', sans-serif;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+}
+
+/*For some reason, the medium and large flags show up in this width, so this is to address that issue */
+@media (min-width:1000px) and (max-width: 1200px) {
+    body {
+        margin: 0 5%;
+        overflow: hidden;
+    }
+
+    .nav_tag_class {
+        width: 1000px;
+        height: 72px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1000px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+
+    /*FOOTER FORMATTING */
+    footer {
+        max-width: 1000px;
+    }
+
+    .footer_container {
+        width: 1000px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+        font-family: 'Alef', sans-serif;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+
+}
+/*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
+@media (min-width: 1200px) and (max-width: 1919px) {
+body {
+    margin: 0 5%;
+    overflow: hidden;
+}
+    .nav_tag_class {
+        width: 1000px;
+        height: 72px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1000px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+
+    /*footer*/
+    footer {
+        width: 1000px;
+    }
+
+    .footer_container {
+        width: 1000px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+        font-family: 'Alef', sans-serif;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+}
+/*LARGE SCREEN DESKTOPS*/
+@media (min-width: 1920px) {
+
+    .nav_tag_class {
+        width: 1500px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1500px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+}
