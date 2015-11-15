@@ -1,37 +1,40 @@
+/*********** Mobile All Pages - same header/footer  ************/
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.welcome, .gifts_parties, .our_macarons, .contact_page {
+    width: 100vw;
+}
 header, .main, footer {
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
 }
 header {
-    height: 72px;
+    height: 16vh;
     background-color: #fffabe;
     background-image: url(assets/images/logo.png);
     background-repeat: no-repeat;
-    background-position: 50px 30%;
+    background-position: 50% 30%;
     display: table;
 }
 ul {
     list-style: none;
 }
-.nav {
-    display: table-cell;
-    vertical-align: middle;
+.nav  {
+    width: 80%;
     position: relative;
-    left: 30%;
+    top: 70px;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
 
 }
 .nav li {
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     color: #515151;
-    margin-right: 5%;
+    margin-right: 1%;
 }
 .nav a:link, .nav a:visited {
     text-decoration: none;
@@ -41,40 +44,44 @@ ul {
     color: #d42551;
 }
 footer {
+    position: relative;
+    top: 40px;
     height: 80px;
     background-color: #df5277;
     text-align: center;
     color: white;
+    font-size: 11px;
+}
+footer .contact {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 footer .contact li {
-    width: 25%;
+    width: 46%;
     display: inline-block;
     margin: 1% auto;
 }
 footer .order {
     background-image: url(assets/images/mail.png);
     background-repeat: no-repeat;
-    background-position-x: 8%;
+    background-position-x: .5%;
 }
 footer .call {
     background-image: url(assets/images/phone.png);
     background-repeat: no-repeat;
-    background-position-x: 20%;
+    background-position-x: 10%;
 }
 footer .social_media img{
     margin-left: 5%;
 }
 footer p {
-    margin-top: 1%;
+    margin-top: 5%;
 }
-/*********** Home *************/
-.welcome {
-    width: 100vw;
-}
+/*********** Home - Mobile *************/
 .welcome_image {
-    width: 1000px;
-    height: 400px;
-    margin: 0 auto 50px;
+    width: 100%;
+    height: auto;
 }
 .welcome .main {
     color: #6a6969;
@@ -82,15 +89,16 @@ footer p {
 .columns li {
     display: inline-block;
 }
-.macarons_image {
-    position: relative;
-    bottom: 40px;
-    width: 25%;
+.macarons_image img{
+    display: none;
+    #text-align: center;
+    #width: 100%;
 }
 .welcome_text {
-    width: 74%;
-    margin: 0 0 100px;
+    width: 90%;
+    margin-left: 5%;
     text-align: justify;
+
 }
 .welcome .heading {
     font-size: 20px;
@@ -101,8 +109,9 @@ footer p {
     margin: 10px;
 }
 .schedule {
-    width: 100%;
+    width: 80%;
     color: #6a6969;
+    margin-left: 10%;
 }
 .day {
     display: inline-block;
@@ -204,82 +213,38 @@ footer p {
     background-repeat: no-repeat;
     background-position: 90% 0;
 }
-/******************** Our Macarons *************************/
+/******************** Our Macarons - Mobile *************************/
 .main .titles {
+    text-align: center;
     font-size: 20px;
-    margin: 0 0 5% 5%;
 }
-.main .paragraphs {
+.main .paragraphs, .main .list {
     font-size: 14px;
     margin: 5%;
 }
 .main .list {
+    width: 50%;
+    margin-left: 25%;
     list-style-type: disc;
-    margin-left: 10%;
 }
-.our_macarons .main {
-    background-image: url(assets/images/our-macarons-background.png);
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-}
-/************************* Gifts & Parties ************************/
+/************************* Gifts & Parties - Mobile ************************/
 .gifts_parties .list {
     list-style-type: disc;
-    margin: 0 0 10% 10%;
 }
 #party_paragraph {
     width: 50%;
+    margin-left: 25%;
 }
 .gifts_parties .main {
     background-image: url(assets/images/gifts-parties-background.png);
     background-repeat: no-repeat;
-    background-position: 0 100%;
+    background-position: 90% 82%;
+    background-size: 50% 20%;
 }
 .main .email {
     color: #df5277;
 }
 /*********************** Contact Mobile*************************/
-.contact_page {
-    width: 100vw;
-}
-.contact_page header, .contact_main, .contact_footer {
-    width: 100%;
-}
-.contact_page header {
-    height: 16vh;
-    background-position: 50% 30%;
-}
-.contact_page ul {
-    list-style: none;
-}
-.contact_nav {
-    width: 80%;
-    position: relative;
-    top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-}
-.contact_nav li {
-    display: inline-block;
-    font-size: 10px;
-    color: #515151;
-    margin-right: 1%;
-}
-.contact_nav a:link, .contact_nav a:visited {
-    text-decoration: none;
-    color: #515151;
-}
-.contact_nav li:hover, .contact_nav a:hover {
-    color: #d42551;
-}
-.contact_main {
-    position: relative;
-}
-.contact_image {
-    width: 375px;
-    height: auto;
-}
 .main_content {
     position: relative;
     top: 25px;
@@ -288,9 +253,6 @@ footer p {
     position: relative;
     width: 90%;
     left: 5%;
-}
-.contact_main ul {
-    width: 100%;
 }
 .contact_page .list {
     list-style-type: none;
@@ -335,82 +297,124 @@ footer p {
     width: 155px;
     float: right;
 }
-.contact_footer {
-    position: relative;
-    top: 40px;
-    height: 80px;
-    background-color: #df5277;
-    text-align: center;
-    color: white;
-    font-size: 11px;
-}
-.contact_footer .contact {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-.contact_footer .contact li {
-    width: 46%;
-}
-.contact_footer .order {
-    background-image: url(assets/images/mail.png);
-    background-repeat: no-repeat;
-    background-position-x: .5%;
-}
-.contact_footer .call {
-    background-image: url(assets/images/phone.png);
-    background-repeat: no-repeat;
-    background-position-x: 10%;
-}
-.contact_footer .social_media img{
-    margin-left: 5%;
-}
-.contact_footer p {
-    margin-top: 5%;
-}
-/************ Contact Larger Screen **************/
+/************ Larger Screen **************/
 
 @media screen and (min-width: 376px) {
-    .contact_page {
-        position: relative;
-    }
-    .contact_page header, .contact_main, .contact_footer {
+/**************** All Pages ***************/
+    header, .main, footer {
         width: 1000px;
         margin-right: auto;
         margin-left: auto;
     }
-    .contact_page header {
+    header {
         height: 72px;
+        background-color: #fffabe;
+        background-image: url(assets/images/logo.png);
+        background-repeat: no-repeat;
         background-position: 50px 30%;
         display: table;
     }
-    .contact_page ul {
+    ul {
         list-style: none;
     }
-    .contact_nav {
+    .nav {
+        top: 0;
         display: table-cell;
         vertical-align: middle;
         position: relative;
-        top:0;
         left: 30%;
+        text-transform: uppercase;
     }
-    .contact_nav li {
+    .nav li {
         display: inline-block;
         font-size: 16px;
+        color: #515151;
         margin-right: 5%;
     }
-    .contact_nav li:hover, .contact_nav a:hover {
+    .nav a:link, .nav a:visited {
+        text-decoration: none;
+        color: #515151;
+    }
+    .nav li:hover, .nav a:hover {
         color: #d42551;
     }
-    .contact_image {
+    .main .titles {
+        text-align: left;
+        font-size: 20px;
+        margin: 5% 0 5% 5%;
+    }
+    footer {
+        height: 80px;
+        background-color: #df5277;
+        text-align: center;
+        color: white;
+    }
+    footer .contact li {
+        width: 25%;
+        display: inline-block;
+        margin: 1% auto;
+    }
+    footer .order {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+        background-position-x: 8%;
+    }
+    footer .call {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+    }
+    footer .social_media img{
+        margin-left: 5%;
+    }
+    footer p {
+        margin-top: 1%;
+    }
+/************* Home - Large Screen*****************/
+    .welcome_image {
         width: 1000px;
         height: auto;
     }
-    .contact_main {
-        width: 1000px;
-        position: relative;
+    .macarons_image img {
+        display: initial;
     }
+    .macarons_image {
+        position: relative;
+        bottom: 40px;
+        width: 25%;
+    }
+    .welcome_text {
+        width: 74%;
+        margin: 0 0 100px;
+        text-align: justify;
+    }
+    .schedule {
+        width: 100%;
+        color: #6a6969;
+        margin-left: 0;
+    }
+/********** Our Macarons - Large Screen ***********/
+    .main .list {
+        margin-left: 10%;
+    }
+    .our_macarons .main {
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+        background-position: 0 100%;
+    }
+/************ Gifts & Parties - Large Screen ************/
+    .gifts_parties .list {
+        margin: 0 0 10% 10%;
+    }
+    #party_paragraph {
+        width: 68%;
+        margin-left: 0;
+    }
+    .gifts_parties .main {
+        background-position: 0 100%;
+        background-size: 100%;
+    }
+/************ Contact - Large Screen ********************/
     .contact_page .main_content {
         position: relative;
         display: inline-block;
@@ -431,42 +435,12 @@ footer p {
         left: 40%;
     }
     .contact_page .list {
-        list-style-type: none;
         margin: 5% 0 10% 5%;
-        line-height: 1;
     }
     .contact_page form {
         width: 310px;
     }
-    .contact_page fieldset {
-        width: 100%;
-    }
-    .contact_page input, #send {
-        width: 100%;
-        height: 35px;
-        margin-bottom: 2%;
-    }
     .contact_page input, textarea {
         width: 310px;
-    }
-    .contact_page #send {
-        width: 155px;
-    }
-    .contact_footer {
-        height: 80px;
-    }
-    .contact_footer .contact li {
-        width: 25%;
-        display: inline-block;
-        margin: 1% auto;
-    }
-    .contact_footer .order {
-        background-position-x: 8%;
-    }
-    .contact_footer .call {
-        background-position-x: 20%;
-    }
-    .contact_footer p {
-        margin-top: 1%;
     }
 }
