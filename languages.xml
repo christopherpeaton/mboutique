@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+<!--=========== Home ================-->
+    <translation id="lang-nav-welcome">
+        <english>welcome</english>
+        <spanish>bienvenida</spanish>
+    </translation>
+
+    <translation id="lang-nav-our-macarons">
+        <english>our macarons</english>
+        <spanish>nuestras macarons</spanish>
+    </translation>
+
+    <translation id="lang-nav-gifts">
+        <english>gifts</english>
+        <spanish>regalos y</spanish>
+    </translation>
+
+    <translation id="lang-nav-parties">
+        <english>parties</english>
+        <spanish>fiestas</spanish>
+    </translation>
+
+    <translation id="lang-nav-contact">
+        <english>contact</english>
+        <spanish>contacto</spanish>
+    </translation>
+
+    <translation id="lang-welcome-first-heading">
+        <english>Welcome to MBoutique!</english>
+        <spanish>¡Bienvenido a MBoutique!</spanish>
+    </translation>
+
+    <translation id="lang-welcome-first-paragraph">
+        <english>Welcome to MBoutique!</english>
+        <spanish>¡Bienvenido a MBoutique!</spanish>
+    </translation>
+
+    <translation id="lang-welcome-first-paragraph">
+        <english>We're a home-based baking business that specializes in the making of French macarons, a gluten-free pastry item made from ground almonds. Our business began at the West Reading Farmers Market in 2011. Last year (2013) marked our third and final season of participation at the market. MBoutique was established to pay homage to the delicate French confectionery, the macaron. Our shop has been recognized as the connoisseurs of this delicious French pastry because of the wonderful variety of flavors from our great master chefs.</english>
+        <spanish>Somos un negocio para hornear en casa que se especializa en la elaboración de macarons franceses, un artículo de repostería libre de gluten hecho de almendras molidas. Nuestro negocio comenzó en el mercado oeste lectura en 2011. (2013) el año pasado marcó nuestra tercera y última temporada de la participación en el mercado. MBoutique se estableció para rendir homenaje a la delicada pastelería francesa, el macaron. Nuestra tienda ha sido reconocida como los conocedores de esta deliciosa repostería francesa debido a la maravillosa variedad de sabores de nuestros grandes cocineros.</spanish>
+    </translation>
+
+    <translation id="lang-welcome-2nd-heading">
+        <english>We love Macarons!</english>
+        <spanish>¡Nos encantan los Macarons!</spanish>
+    </translation>
+
+    <translation id="lang-welcome-2nd-paragraph">
+        <english>Renowned macarons, French delights of the moment can be met in a variety of flavors and colors and are brilliant precisely because of their simplicity - a crispy coating, but delicate in a loose blanket jam, chocolate butter cream is spread inviting.</english>
+        <spanish>Macarons de renombre, delicias francesas del momento pueden ser satisfecho en una variedad de sabores y colores y son brillantes precisamente por su sencillez - una capa de crujiente, pero delicado en una crema de mantequilla de mermelada, chocolate de manta sueltos se extiende invitación.</spanish>
+    </translation>
+
+    <translation id="lang-welcome-3rd-heading">
+        <english>Find the flavor that you like. Try a sample every day!</english>
+        <spanish>¡Encontrar el sabor que más te guste. Pruebe una muestra cada día!</spanish>
+    </translation>
+
+    <translation id="lang-monday">
+        <english>Monday</english>
+        <spanish>el lunes</spanish>
+    </translation>
+
+    <translation id="lang-chocolate">
+        <english>chocolate</english>
+        <spanish>el chocolate</spanish>
+    </translation>
+
+    <translation id="lang-coconut">
+        <english>coconut</english>
+        <spanish>el coco</spanish>
+    </translation>
+
+    <translation id="lang-tuesday">
+        <english>Tuesday</english>
+        <spanish>el martes</spanish>
+    </translation>
+
+    <translation id="lang-violet-cassis">
+        <english>violet cassis</english>
+        <spanish>violeta cassis</spanish>
+    </translation>
+
+    <translation id="lang-green-tea">
+        <english>green tea</english>
+        <spanish>té verde</spanish>
+    </translation>
+
+    <translation id="lang-wednesday">
+        <english>Wednesday</english>
+        <spanish>el miércoles</spanish>
+    </translation>
+
+    <translation id="lang-passion-fruit">
+        <english>passion fruit</english>
+        <spanish>granadilla</spanish>
+    </translation>
+
+    <translation id="lang-vanilla">
+        <english>vanilla</english>
+        <spanish>la vainilla</spanish>
+    </translation>
+
+    <translation id="lang-thursday">
+        <english>Thursday</english>
+        <spanish>el jueves</spanish>
+    </translation>
+
+    <translation id="lang-coffee">
+        <english>coffee</english>
+        <spanish>el café</spanish>
+    </translation>
+
+    <translation id="lang-pistachio">
+        <english>pistachio</english>
+        <spanish>el pistachio</spanish>
+    </translation>
+
+    <translation id="lang-friday">
+        <english>Friday</english>
+        <spanish>el viernes</spanish>
+    </translation>
+
+    <translation id="lang-raspberry">
+        <english>raspberry</english>
+        <spanish>la frambuesa</spanish>
+    </translation>
+
+    <translation id="lang-lemon">
+        <english>lemon</english>
+        <spanish>el limón</spanish>
+    </translation>
+
+    <translation id="lang-saturday">
+        <english>Saturday</english>
+        <spanish> el sábado</spanish>
+    </translation>
+
+    <translation id="lang-rose">
+        <english>rose</english>
+        <spanish>la rosa</spanish>
+    </translation>
+
+    <translation id="lang-tiffany-blue">
+        <english>tiffany-blue</english>
+        <spanish>tiffany-azul</spanish>
+    </translation>
+
+    <translation id="lang-sunday">
+        <english>Sunday</english>
+        <spanish>el domingo</spanish>
+    </translation>
+
+    <translation id="lang-caramel">
+        <english>caramel</english>
+        <spanish>el caramelo</spanish>
+    </translation>
+
+    <translation id="lang-almond">
+        <english>almond</english>
+        <spanish>la almendra</spanish>
+    </translation>
+
+    <translation id="lang-footer-follow">
+        <english>Follow us</english>
+        <spanish>Siga con nosotros</spanish>
+    </translation>
+
+    <translation id="lang-copyright">
+        <english>All rights reserved.</english>
+        <spanish>Todos los derechos reservados.</spanish>
+    </translation>
+
+<!--================= Gifts & Parties ====================-->
+
+    <translation id="lang-gifts-1st-heading">
+        <english>Let's eat macarons!</english>
+        <spanish>vamos a comer macarons</spanish>
+    </translation>
+
+    <translation id="lang-gifts-1st-paragraph">
+        <english>We make it easy to share la passion du macaron with your friends, family and collegues. Choose from our array of premium gift options, or we can create a custom solution. Contact us when you need help planning your celebration!</english>
+        <spanish>¡Hacemos que sea fácil compartir la pasión du macaron con amigos, familiares y colegas. Elija de nuestra amplia gama de opciones de regalo premium, o podemos crear una solución personalizada. En contacto con nosotros si necesita ayuda para planear tu celebración!</spanish>
+    </translation>
+
+    <translation id="lang-gifts-2nd-heading">
+        <english>Gift boxes</english>
+        <spanish>cajas de regalo</spanish>
+    </translation>
+
+    <translation id="paragraphs lang-gifts-2nd-paragraph">
+        <english>Our signature gift boxes make macarons the perfect gift for any occasion.</english>
+        <spanish>Nuestras cajas de regalo de la firma hacen macarons el regalo perfecto para cualquier ocasión.</spanish>
+    </translation>
+
+    <translation id="lang-gifts-price1">
+        <english>gift box of 6 macarons in raspberrywhite - $10</english>
+        <spanish>caja de regalo de 6 macarons en raspberrywhite - $10</spanish>
+    </translation>
+
+    <translation id="lang-gifts-price2">
+        <english>gift box of 12 macarons in white, pistachio, or violet - $20</english>
+        <spanish>caja de regalo de 12 macarons blanco, pistacho y violeta - $20</spanish>
+    </translation>
+
+    <translation id="lang-gifts-price3">
+        <english>gift box of 24 macarons in violet - $40</english>
+        <spanish>caja de regalo de 24 macarons de violeta - $40</spanish>
+    </translation>
+
+    <translation id="lang-gifts-price4">
+        <english>gift box a la ronde of 60 macarons in violet or silver - $120</english>
+        <spanish>caja de regalo a la ronde de 60 macarons de violeta o plata - $120</spanish>
+    </translation>
+
+    <translation id="lang-gicts-3rd-heading">
+        <english>Party tower</english>
+        <spanish>Torre fiesta</spanish>
+    </translation>
+
+    <translation id="lang-gifts-3rd-paragraph">
+        <english>Our 5-tiered party tower becomes the centerpiece of any special event or private celebration, elegantly presenting your unique selection of sixty macarons.</english>
+        <spanish>Nuestra torre de 5 niveles del partido se convierte en la pieza central de cualquier evento especial o una celebración privada, elegante que presenta su exclusiva selección de sesenta macarons.</spanish>
+    </translation>
+
+    <translation id="lang-gifts-price5">
+        <english>tower of 60 macarons - $120</english>
+        <spanish>Torre de 60 macarons - $120</spanish>
+    </translation>
+<!--================= Our Macarons ======================-->
+
+    <translation id="lang-macarons-1st-heading">
+        <english>Our macarons are freshly made by hand</english>
+        <spanish>Los macarons son recién hechas a mano</spanish>
+    </translation>
+
+    <translation id="lang-macarons-1st-paragraph">
+        <english>The vivid hues of our unique macarons reflect the natural flavors and essences that infuse the ganache filling of these delicious almond cookies - each has its own personality, and all of them are made to savour for their delicacy and unique character.</english>
+        <spanish>Los tonos vivos de nuestros macarons únicos reflejan los sabores naturales y esencias que infunden el relleno de ganache de estas deliciosas galletas de almendra - cada uno tiene su propia personalidad, y todos ellos se hacen saborear por su delicadeza y su carácter único.</spanish>
+    </translation>
+
+    <translation id="lang-macarons-classics">
+        <english>Classics</english>
+        <spanish>Clásica</spanish>
+    </translation>
+
+    <translation id="lang-carribean-chocolate">
+        <english>caribbean chocolate</english>
+        <spanish>chocolate Caribe</spanish>
+    </translation>
+
+    <translation id="lang-macarons-colombian-coffee">
+        <english>colombian coffee</english>
+        <spanish>café de Colombia</spanish>
+    </translation>
+
+    <translation id="lang-madagascar-vanilla">
+        <english>madagascar vanilla</english>
+        <spanish>vainilla de Madagascar</spanish>
+    </translation>
+
+    <translation id="lang-sicilian-pistachio">
+        <english>sicilian pistachio</english>
+        <spanish>pistacho de Sicilia</spanish>
+    </translation>
+
+    <translation id="lang-sweet-wedding-almond">
+        <english>sweet wedding almond</english>
+        <spanish>¡almendra dulce boda</spanish>
+    </translation>
+
+    <translation id="lang-salted-caramel">
+        <english>salted caramel</english>
+        <spanish>caramelo salado</spanish>
+    </translation>
+
+    <translation id="lang-macarons-2nd-paragraph">
+        <english>After purchase we recommend keeping macarons in the refrigerator; let them come to room temperature before serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.</english>
+        <spanish>Después de la compra le recomendamos mantener macarons en el refrigerador; que llegue a temperatura ambiente antes de servir - a unos 10 minutos. Para la mejor degustación, nuestros macarons debe consumirse dentro de 3 días.</spanish>
+    </translation>
+<!--================= Contact =====================-->
+    <translation id="lang-contact-visit">
+        <english>Visit us!</english>
+        <spanish>¡Visítenos!</spanish>
+    </translation>
+
+    <translation id="lang-mon-fri">
+        <english>Monday-Friday | 10am-9pm</english>
+        <spanish>el lunes - el viernes | 10am-9pm</spanish>
+    </translation>
+
+    <translation id="lang-sat">
+        <english>Saturday | 10am-8pm</english>
+        <spanish>el sábado | 10am-8pm</spanish>
+    </translation>
+
+    <translation id="lang-sun">
+        <english>Sunday | 11am-7pm</english>
+        <spanish>el domingo | 11am-7pm</spanish>
+    </translation>
+
+    <translation id="lang-closed">
+        <english>Closed Thanksgiving Day, Christmas Day and</english>
+        <spanish>Cerrado día de acción de gracias, día de Navidad y</spanish>
+    </translation>
+
+    <translation id="lang-easter">
+        <english>Easter Day</english>
+        <spanish>Domingo de Resurrección</spanish>
+    </translation>
+
+    <translation id="lang-send-question">
+        <english>Send your questions, comments and flavor</english>
+        <spanish>Envíe sus preguntas, comentarios y sabor</spanish>
+    </translation>
+
+    <translation id="lang-suggestions">
+        <english>suggestions or place an order!</english>
+        <spanish>¡sugerencias o lugar una orden!</spanish>
+    </translation>
+
+    <translation id="lang-contact-form">
+        <english>Contact Form</english>
+        <spanish>Formulario de contacto</spanish>
+    </translation>
+
+    <translation id="">
+        <english>pistachio</english>
+        <spanish>¡Bienvenido a MBoutique!</spanish>
+    </translation>
+
+    <translation id="">
+        <english>pistachio</english>
+        <spanish>¡Bienvenido a MBoutique!</spanish>
+    </translation>
+</translations>
