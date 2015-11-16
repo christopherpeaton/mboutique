@@ -1,4 +1,14 @@
 $(function(){
+    $('.language').click(function(){
+        var lang = $(this).attr('data-lang');
+        console.log(lang);
+
+        $('.goog-te-menu-frame').contents().find('.goog-te-menu2-item span.text:contains('+lang+')').click();
+        return false;
+    });
+
+    $("#google_translate_element").text('');
+
     var srcArray = ['welcome-image.png', 'our-macarons-image.png', 'gifts-parties-image.png'];
     var i = 1;
     $('.jumbotron').css('background-image','url(assets/images/welcome-image.png)');
@@ -20,7 +30,6 @@ $(function(){
 });
 
 
-//google translate
 
 
 
