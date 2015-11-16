@@ -120,10 +120,6 @@ footer {
     display: inline-block;
 }
 
-.flavor_schedule_hebrew {
-    width: 100%;
-}
-
 .day_name_hebrew, .day_hours_hebrew,.day_flavor_hebrew {
     background-color: #fffabe;
     margin-top: 2%;
@@ -147,6 +143,16 @@ footer {
 #day_flavor_coconut {
     color: white;
     background-color: #824603;
+}
+
+#day_flavor_almond {
+    color: white;
+    background-color: #c39005;
+}
+
+#day_flavor_lemon {
+    color: white;
+    background-color: #a2304e;
 }
 
 /*contact page specifc styling */
