@@ -2,6 +2,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/**{*/
+    /*border: 1px solid black;*/
+/*}*/
 header{
     background-color: #fffabe;
 }
@@ -40,9 +43,6 @@ h1, h2{
     text-align: left;
 }
 
-.list-section{
-    height: 192px;
-}
 
 ul.list-group{
     font-size: 12px;
@@ -91,41 +91,41 @@ ul.list-group{
     background-color: #c39005;
 }
 
-footer.navbar{
+footer{
     background-color: #df5277;
-    height: 60px;
-    margin-bottom: 0;
+    height: 60px !important;
+    margin-bottom: 0 !important;
     color: white;
 }
 
-footer.navbar p{
+footer p{
     color: white;
 }
 
 
-footer.navbar {
-    margin-bottom: 0;
+footer {
+    /*margin-bottom: 0;*/
 }
 
 
-@media screen and (max-width:992px){
-    footer{
-        margin-bottom: 0;
-    }
-    #wrap{
-     margin-bottom: 15%;
-    }
-}
+/*@media screen and (max-width:992px){*/
+    /*footer{*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    /*#wrap{*/
+     /*margin-bottom: 15%;*/
+    /*}*/
+/*}*/
 
-@media screen and (max-width:768px){
-    footer{
-        height: 90px;
-        margin-bottom: 0;
-    }
-    #wrap{
-        margin-bottom: 115%;
-    }
-}
+/*@media screen and (max-width:768px){*/
+    /*{*/
+        /*height: 90px;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    /*#wrap{*/
+        /*margin-bottom: 115%;*/
+    /*}*/
+/*}*/
 /**{*/
     /*border: 1px solid black;*/
 /*}*/
