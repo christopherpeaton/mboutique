@@ -155,6 +155,12 @@ footer {
     background-color: #a2304e;
 }
 
+/*Our Macarons page styling*/
+.body_ul_hebrew {
+    list-style-position: inside;
+    direction: rtl;
+}
+
 /*contact page specifc styling */
 
 
