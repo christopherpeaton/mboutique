@@ -80,6 +80,10 @@ footer {
     width: 100%;
 }
 
+.body_content_hebrew {
+    margin: 5% 0;
+}
+
 .body_heading_hebrew {
     font-family: 'Alef', sans-serif;
     color: #6a6969;
@@ -108,6 +112,8 @@ footer {
 }
 
 /*contact page specifc styling */
+
+
 .form-control, .btn-default {
     background-color: #f5f5f5;
     border-radius: 0%;
@@ -115,6 +121,10 @@ footer {
 
 .form_hebrew {
     text-align: right;
+}
+
+.contact_page_body_pic {
+    margin-top: 15%;
 }
 
 /*TABLET SPECIFIC STYLING*/
