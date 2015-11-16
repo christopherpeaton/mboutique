@@ -1,6 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 !important;
+
+    overflow-x: hidden;
+
 }
 
 header{
@@ -17,7 +19,6 @@ nav>.container, .navbar-default .navbar-collapse, .navbar-default, .navbar-heade
 .nav li a:hover{
     color:#d42551;
 }
-
 
 .jumbotron{
     height: 400px;
@@ -104,7 +105,6 @@ footer p{
     color: white;
 }
 
-
 div.tower{
     background-image: url('assets/images/gifts-parties-background.png');
     background-position: 57% 116%;
@@ -140,14 +140,8 @@ main.main-contact {
     margin: 5% 0;
 }
 
-.macarons-main ul{
-}
-
 .main-gifts>p>a{
     color: #df5277;
-}
-.main-gifts{
-
 }
 
 .jumbotron-contact{
