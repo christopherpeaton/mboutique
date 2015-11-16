@@ -115,6 +115,40 @@ footer {
     margin-top: 15%;
 }
 
+/*home page styling*/
+.day_container {
+    display: inline-block;
+}
+
+.flavor_schedule_hebrew {
+    width: 100%;
+}
+
+.day_name_hebrew, .day_hours_hebrew,.day_flavor_hebrew {
+    background-color: #fffabe;
+    margin-top: 2%;
+}
+
+.day_flavor_hebrew_special {
+    margin-top: 2%;
+    color: white;
+}
+
+.day_macaron_container_hebrew {
+    float: left;
+    display: inline-block;
+}
+
+#day_flavor_vanilla {
+    color: white;
+    background-color: #df5277;
+}
+
+#day_flavor_coconut {
+    color: white;
+    background-color: #824603;
+}
+
 /*contact page specifc styling */
 
 
@@ -291,6 +325,14 @@ footer {
         font-size: 14px;
     }
 
+    /*main page styling*/
+    .day_container {
+        width: 126px;
+    }
+
+    .flavor_schedule_hebrew {
+        width: 1000px;
+    }
 
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
