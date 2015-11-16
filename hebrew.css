@@ -111,6 +111,10 @@ footer {
     color: #df5277;
 }
 
+.body_pic {
+    margin-top: 15%;
+}
+
 /*contact page specifc styling */
 
 
@@ -197,7 +201,6 @@ footer {
 @media (min-width:1000px) and (max-width: 1200px) {
     body {
         margin: 0 5%;
-        overflow: hidden;
     }
 
     .nav_tag_class {
@@ -294,7 +297,6 @@ footer {
 @media (min-width: 1200px) and (max-width: 1919px) {
 body {
     margin: 0 5%;
-    overflow: hidden;
 }
     .nav_tag_class {
         width: 1000px;
