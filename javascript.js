@@ -16,7 +16,7 @@ $(function(){
             $('.jumbotron').fadeIn('slow');
         });
         i+=1;
-    }, 3750);
+    }, 5000);
 });
 
 
