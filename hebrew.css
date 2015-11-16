@@ -116,8 +116,17 @@ footer {
 }
 
 /*home page styling*/
+.flavor_schedule_hebrew {
+    width: 100%;
+    display: inline-block;
+}
+
 .day_container {
     display: inline-block;
+    float: right;
+    width: 126px;
+    background-color: #fffabe;
+    margin: 1% 1%;
 }
 
 .day_name_hebrew, .day_hours_hebrew,.day_flavor_hebrew {
@@ -130,7 +139,17 @@ footer {
     color: white;
 }
 
+.day_name_hebrew,.day_flavor_hebrew, .day_flavor_hebrew_special {
+    float: right;
+    display: inline-block;
+}
+
+.monday_hebrew {
+    display: block;
+}
+
 .day_macaron_container_hebrew {
+    clear: right;
     float: left;
     display: inline-block;
 }
