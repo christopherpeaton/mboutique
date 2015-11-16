@@ -31,21 +31,16 @@ nav a:hover{
     padding: 28%;
 }
 .full_menu{
-    margin-left: 9%;
-}
-.vertical-align {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    padding: 7%;
 }
 .full_menu div{
     float:left;
-    position:relative;
 }
 .daily_menu {
-    width: 90%;
+    width: 120px;
     height: 140px;
     background-color: #fffabe;
-    display: inline-block;
     font-size: 14px;
     margin: 30px 10px;
     padding:0;
@@ -101,6 +96,9 @@ footer div{
         font-size: .75em;
         color:#515151;
         margin-top: 8%;
+    }
+    .full_menu div{
+        margin: 5px;
     }
     .daily_menu {
         width: 100%;
