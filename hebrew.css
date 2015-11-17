@@ -186,9 +186,11 @@ footer {
 }
 
 /*Our Macarons page styling*/
+
 .body_ul_hebrew {
     list-style-position: inside;
     direction: rtl;
+
 }
 
 /*contact page specifc styling */
@@ -271,7 +273,14 @@ footer {
         font-size: 11px;
         margin-left: 8%;
     }
+
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background: url(assets/images/our-macarons-background.png) no-repeat 350% 85%;
+        overflow: hidden;
+    }
 }
+
 
 /*For some reason, the medium and large flags show up in this width, so this is to address that issue */
 @media (min-width:1000px) and (max-width: 1200px) {
@@ -376,6 +385,12 @@ footer {
         width: 1000px;
     }
 
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background: url(assets/images/our-macarons-background.png) no-repeat 230% 85%;
+        overflow: hidden;
+    }
+
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -462,6 +477,12 @@ body {
         font-family: 'Alef', sans-serif;
         color: #6a6969;
         font-size: 20px;
+    }
+
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background: url(assets/images/our-macarons-background.png) no-repeat 350% 85%;
+        overflow: hidden;
     }
 }
 /*LARGE SCREEN DESKTOPS*/
