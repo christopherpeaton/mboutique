@@ -5,6 +5,10 @@ body{
 
 }
 
+.welcome-jumbotron{
+    background-image: url('assets/images/welcome-image.png');
+}
+
 div#google_translate_element {
    display: none;
 }

@@ -1,4 +1,5 @@
 $(function(){
+    //language handler
     $('.language').click(function(){
         var lang = $(this).attr('data-lang');
         console.log(lang);
@@ -7,11 +8,9 @@ $(function(){
         return false;
     });
 
-    $("#google_translate_element").text('');
-
+    //jumbo slider
     var srcArray = ['welcome-image.png', 'our-macarons-image.png', 'gifts-parties-image.png'];
     var i = 1;
-    $('.jumbotron').css('background-image','url(assets/images/welcome-image.png)');
     var x;
     var src;
     setInterval(function(){
