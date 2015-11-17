@@ -36,8 +36,17 @@ div#google_translate_element {
     background-repeat: repeat-x;
 }
 
-.navbar img {
+.navbar .dropdown img {
     width: 50%;
+}
+@media screen and (max-width: 768px) {
+    .navbar .dropdown img {
+        width: 12%;
+    }
+}
+
+.dropdown-menu li:hover{
+    background: -webkit-gradient(linear,left top,left bottom,from(#FEDFDF),to(#FEDFDF ));
 }
 
 header{
@@ -105,10 +114,6 @@ ul.list-group{
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #fffabe;
 }
-.dropdown-menu li:hover{
-    background-color: #fffabe;
-}
-
 
 
 .last-item{
