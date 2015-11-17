@@ -13,7 +13,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="english.css" type="text/css">
+    <link rel="stylesheet" href="english.css" type="text/css" title="english">
+    <link rel="alternate stylesheet" href="hebrew.css" type="text/css" title="hebrew">
+    <script src="switchlanguage.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default nav_tag_class">
@@ -28,31 +30,26 @@
             <a class="navbar-brand" href="#">
                 <img alt="MBoutique" src="assets/images/logo.png" class="mobile_nav_logo"/>
             </a>
-            <!--<div class="language_selection">-->
-                <!--<a class="selected_english" href="#">-->
-                    <!--<img alt="English" src="assets/images/flags/United-States_mobile.png" class="visible-xs" />-->
-                    <!--<img alt="English" src="assets/images/flags/United-States_tablet.png" class="visible-sm" />-->
-                    <!--<img alt="English" src="assets/images/flags/United-States_small_desktop.png" class="visible-md" />-->
-                    <!--<img alt="English" src="assets/images/flags/United-States_large_desktop.png" class="visible-lg" />-->
-                <!--</a>-->
-                <!--<a class="selected_hebrew" href="#">-->
-                    <!--<img alt="Hebrew" src="assets/images/flags/Israel_mobile.png" class="visible-xs" />-->
-                    <!--<img alt="Hebrew" src="assets/images/flags/Israel_tablet.png" class="visible-sm" />-->
-                    <!--<img alt="Hebrew" src="assets/images/flags/Israel_small_desktop.png" class="visible-md" />-->
-                    <!--<img alt="Hebrew" src="assets/images/flags/Israel_large_desktop.png" class="visible-lg" />-->
-                <!--</a>-->
-            <!--</div>-->
+            <div role="presentation" class="dropdown navbar-right language_selection">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/images/flags/United-States_tablet.png" /> <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu language_selection_ul">
+                    <li class="language_selection_li" id="hebrew" onclick="changeLanguage(this.id)"><img src="assets/images/flags/Israel_tablet.png" /></li>
+                </ul>
+            </div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav nav_ul">
-                <li class="nav_item"><a href="#">WELCOME</a></li>
-                <li class="nav_item"><a href="#">OUR MACARONS</a></li>
-                <li class="nav_item"><a href="#">GIFTS & PARTIES</a></li>
-                <li class="nav_item"><a href="#">CONTACT</a></li>
+                <li class="nav_item"><a href="#" onclick="loadHome()">WELCOME</a></li>
+                <li class="nav_item"><a href="#" onclick="loadOurMacarons()">OUR MACARONS</a></li>
+                <li class="nav_item"><a href="#" onclick="loadGiftsParties()">GIFTS & PARTIES</a></li>
+                <li class="nav_item"><a href="#" onclick="loadContact()">CONTACT</a></li>
             </ul>
         </div>
-        </div>
+    </div>
 </nav>
+<div id="body_content_picture"></div>
 <div id="body_content_english"></div>
 
 <footer>

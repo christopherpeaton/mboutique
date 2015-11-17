@@ -26,6 +26,24 @@
     color: black;
 
 }
+.language_selection {
+    clear: left;
+    float: right;
+    position: relative;
+    left: 35%;
+    top: -35px;
+}
+
+.language_selection_ul {
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 50px;
+}
+
+.navbar-header ul li {
+    position: relative;
+    left: 25%;
+}
 
 /*FOOTER STYLING*/
 footer {
@@ -64,6 +82,7 @@ footer {
 .social_media {
     margin-top: 2%;
     font-family: 'Alef', sans-serif;
+    font-size: 1.2em;
 }
 
 .social_media_icon {
@@ -211,6 +230,17 @@ footer {
 
 /*TABLET SPECIFIC STYLING*/
 @media (min-width: 768px) and (max-width: 991px) {
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    .language_selection_li {
+        clear: right;
+
+    }
+
 
     /*FOOTER STYLING*/
     footer {
@@ -225,6 +255,13 @@ footer {
 }
 /*SMALL DESKTOP STYLING*/
 @media (min-width:992px) and (max-width: 999px) {
+    /*header*/
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
     footer {
         width: 100%;
     }
@@ -300,6 +337,11 @@ footer {
         width: 1000px;
         background-color: #fffabe;
         overflow: hidden;
+    }
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
     }
 
     /*FOOTER FORMATTING */
@@ -410,6 +452,11 @@ body {
         background-color: #fffabe;
         overflow: hidden;
     }
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
 
     /*footer*/
     footer {
@@ -484,9 +531,62 @@ body {
         background: url(assets/images/our-macarons-background.png) no-repeat 350% 85%;
         overflow: hidden;
     }
+    /*FOOTER FORMATTING */
+    footer {
+        max-width: 1000px;
+    }
+
+    .footer_container {
+        width: 1000px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
 }
 /*LARGE SCREEN DESKTOPS*/
 @media (min-width: 1920px) {
+
+    body {
+        margin-left: 10%;
+    }
 
     .nav_tag_class {
         width: 1500px;
@@ -500,4 +600,68 @@ body {
         background-color: #fffabe;
         overflow: hidden;
     }
+
+    .navbar-nav {
+        font-size: 1.2em;
+        left: 10%;
+        position: relative;
+    }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 510%;
+    }
+/*footer*/
+    footer {
+        max-width: 1500px;
+    }
+
+    .footer_container {
+        width: 1500px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 15px 0 15px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+
+
 }

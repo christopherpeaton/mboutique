@@ -6,15 +6,13 @@
 }
 
 .nav_tag_class {
-    box-sizing: border-box;
-    overflow: hidden;
+    /*box-sizing: border-box;*/
     width: 100vw;
 }
 
 .nav_container_styling {
     width: 100%;
     background-color: #fffabe;
-    overflow: hidden;
 }
 
 .nav_ul {
@@ -24,6 +22,25 @@
 
 .nav_item a:hover {
     color: #d42551;
+}
+
+.language_selection {
+    clear: left;
+    float: right;
+    position: relative;
+    left: 35%;
+    top: -35px;
+}
+
+.language_selection_ul {
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 50px;
+}
+
+.navbar-header ul li {
+position: relative;
+    left: 25%;
 }
 
 /*FOOTER STYLING*/
@@ -75,6 +92,19 @@ footer {
 
 /*TABLET SPECIFIC STYLING*/
 @media (min-width: 768px) and (max-width: 991px) {
+/*header styling*/
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    .language_selection_li {
+        clear: right;
+
+    }
+
 
     /*Footer Styling*/
     footer {
@@ -88,6 +118,13 @@ footer {
 }
 /*SMALL DESKTOP STYLING*/
 @media (min-width:992px) and (max-width: 999px) {
+    /*header*/
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
     footer {
         width: 100%;
     }
@@ -155,6 +192,12 @@ footer {
         background-color: #fffabe;
         overflow: hidden;
     }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
 /*FOOTER FORMATTING */
     footer {
         max-width: 1000px;
@@ -208,14 +251,6 @@ footer {
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
-    .language_selection > .visible-xs,
-    .language_selection >.visible-sm,
-    .language_selection >.visible-md {
-        display: none !important;
-    }
-    .visible-lg {
-        display: inline !important;
-    }
 
     .nav_tag_class {
         width: 1000px;
@@ -229,6 +264,12 @@ footer {
         width: 1000px;
         background-color: #fffabe;
         overflow: hidden;
+    }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
     }
 
     /*FOOTER FORMATTING */
@@ -283,14 +324,9 @@ footer {
 }
 /*LARGE SCREEN DESKTOPS*/
 @media (min-width: 1920px) {
-    .language_selection > .visible-xs,
-    .language_selection >.visible-sm,
-    .language_selection >.visible-md {
-        display: none !important;
-    }
-    .visible-lg {
-        display: inline !important;
-    }
+body {
+    margin-left: 10%;
+}
 
     .nav_tag_class {
         width: 1500px;
@@ -303,6 +339,17 @@ footer {
         width: 1500px;
         background-color: #fffabe;
         overflow: hidden;
+    }
+
+    .navbar-nav {
+        font-size: 1.2em;
+        left: 10%;
+        position: relative;
+    }
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 510%;
     }
 
     /*footer*/

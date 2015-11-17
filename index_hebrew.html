@@ -14,7 +14,9 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Alef:400,700&subset=hebrew,latin' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" href="hebrew.css" type="text/css">
+    <link rel="stylesheet" href="hebrew.css" type="text/css" title="hebrew">
+    <link rel="alternate stylesheet" href="english.css" type="text/css" title="english">
+    <script src="switchlanguage.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default nav_tag_class">
@@ -30,75 +32,85 @@
             <a class="navbar-brand" href="#">
                 <img alt="MBoutique" src="assets/images/logo.png" class="mobile_nav_logo"/>
             </a>
+
+            <div role="presentation" class="dropdown navbar-right language_selection">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    <img src="assets/images/flags/Israel_tablet.png"/> <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu language_selection_ul">
+                    <li class="language_selection_li" id="american_english" onclick="changeLanguage(this.id)"><img src="assets/images/flags/United-States_tablet.png"/></li>
+                </ul>
+            </div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav nav_ul_hebrew">
-                <li class="nav_item"><a href="#">צור קשר</a></li>
-                <li class="nav_item"><a href="#">מקרונים שלנו</a></li>
-                <li class="nav_item"><a href="#">מתנות וצדדים</a></li>
-                <li class="nav_item"><a href="#">ברוכים הבאים</a></li>
+                <li class="nav_item"><a href="#" onclick="loadContact()">צור קשר</a></li>
+                <li class="nav_item"><a href="#" onclick="loadOurMacarons()">מקרונים שלנו</a></li>
+                <li class="nav_item"><a href="#" onclick="loadGiftsParties()">מתנות וצדדים</a></li>
+                <li class="nav_item"><a href="#" onclick="loadHome()">ברוכים הבאים</a></li>
             </ul>
         </div>
     </div>
 </nav>
-<img src="assets/images/contact-image.png" class="body_main_image"/>
+<!--<img src="assets/images/contact-image.png" class="body_main_image"/>-->
 
 <div class="body_content_hebrew container">
-    <div class="hidden-xs col-sm-4">
-        <img src="assets/images/macarons-image.png" class="contact_page_body_pic" />
-    </div>
-    <div class="col xs-10 col-sm-4">
-        <h4 class="body_heading_hebrew">טופס יצירת קשר</h4>
+    <!--<div class="hidden-xs col-sm-4">-->
+    <!--<img src="assets/images/macarons-image.png" class="contact_page_body_pic" />-->
+    <!--</div>-->
+    <!--<div class="col xs-10 col-sm-4">-->
+    <!--<h4 class="body_heading_hebrew">טופס יצירת קשר</h4>-->
 
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control form_hebrew" id="form_name" placeholder="שם">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control form_hebrew" id="form_email" placeholder='דוא"ל'>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control form_hebrew" id="form_phonenumber" placeholder="מספר טלפון">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control form_hebrew" id="form_subject" placeholder="הנדון">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control form_hebrew" id="form_message" rows="3" placeholder="הודעה"></textarea>
-            </div>
-            <button class="btn btn-default col-xs-offset-10 col-sm-offset-5 form_hebrew" id="form_button" type="button">לשלוח
-            </button>
+    <!--<form>-->
+    <!--<div class="form-group">-->
+    <!--<input type="text" class="form-control form_hebrew" id="form_name" placeholder="שם">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+    <!--<input type="email" class="form-control form_hebrew" id="form_email" placeholder='דוא"ל'>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+    <!--<input type="text" class="form-control form_hebrew" id="form_phonenumber" placeholder="מספר טלפון">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+    <!--<input type="text" class="form-control form_hebrew" id="form_subject" placeholder="הנדון">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+    <!--<textarea class="form-control form_hebrew" id="form_message" rows="3" placeholder="הודעה"></textarea>-->
+    <!--</div>-->
+    <!--<button class="btn btn-default col-xs-offset-10 col-sm-offset-5 form_hebrew" id="form_button" type="button">לשלוח-->
+    <!--</button>-->
 
-        </form>
-    </div>
-    <div class="col xs-8 col-sm-4">
-        <h4 class="body_heading_hebrew">בקר אותנו ! </h4>
+    <!--</form>-->
+    <!--</div>-->
+    <!--<div class="col xs-8 col-sm-4">-->
+    <!--<h4 class="body_heading_hebrew">בקר אותנו ! </h4>-->
 
-        <p class="body_paragraph_hebrew body_text_hebrew">
-            יום ראשון | 11:00 - 19:00<br>
-            ימים שני עד שישי | 10:00 - 21:00<br>
-            יום שבת | 10:00 - 20:00
+    <!--<p class="body_paragraph_hebrew body_text_hebrew">-->
+    <!--יום ראשון | 11:00 - 19:00<br>-->
+    <!--ימים שני עד שישי | 10:00 - 21:00<br>-->
+    <!--יום שבת | 10:00 - 20:00-->
 
-        </p>
+    <!--</p>-->
 
-        <p class="body_paragraph_hebrew body_text_hebrew">
-            רחוב פוסט 1625<br>
-            סן פרנסיסקו, קליפורניה 94115
+    <!--<p class="body_paragraph_hebrew body_text_hebrew">-->
+    <!--רחוב פוסט 1625<br>-->
+    <!--סן פרנסיסקו, קליפורניה 94115-->
 
-        </p>
+    <!--</p>-->
 
-        <p class="body_paragraph_hebrew body_text_english">
-            949.800-3111
-        </p>
+    <!--<p class="body_paragraph_hebrew body_text_english">-->
+    <!--949.800-3111-->
+    <!--</p>-->
 
-        <p class="body_paragraph_hebrew body_text_english body_link">
-            order@mboutique.com
-        </p>
+    <!--<p class="body_paragraph_hebrew body_text_english body_link">-->
+    <!--order@mboutique.com-->
+    <!--</p>-->
 
-        <p class="body_paragraph_hebrew body_text_hebrew">
-            שלחו לנו השאלות, ההערות, הצעות הטעם שלך, או לבצע הזמנה!
-        </p>
-    </div>
+    <!--<p class="body_paragraph_hebrew body_text_hebrew">-->
+    <!--שלחו לנו השאלות, ההערות, הצעות הטעם שלך, או לבצע הזמנה!-->
+    <!--</p>-->
+    <!--</div>-->
 
 </div>
 <footer>
@@ -112,7 +124,7 @@
                 <div class="phone_number">949.800-3111</div>
             </div>
             <div class="social_media col-sm-3">
-                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                תעקבו אחרינו <img src="assets/images/facebook.png" class="social_media_icon"/>
                 <img src="assets/images/twitter.png" class="social_media_icon"/>
             </div>
         </div>
@@ -132,7 +144,7 @@
                 <div class="phone_number">949.800-3111</div>
             </div>
             <div class="social_media col-xs-5 col-xs-offset-4">
-                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                תעקבו אחרינו <img src="assets/images/facebook.png" class="social_media_icon"/>
                 <img src="assets/images/twitter.png" class="social_media_icon"/>
             </div>
         </div>
