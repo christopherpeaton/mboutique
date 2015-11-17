@@ -125,18 +125,29 @@ footer {
     display: inline-block;
     float: right;
     width: 126px;
-    background-color: #fffabe;
     margin: 1% 1%;
+    background-color: #fffabe;
+    position: relative;
 }
 
-.day_name_hebrew, .day_hours_hebrew,.day_flavor_hebrew {
-    background-color: #fffabe;
+/*.day_container div:not(.day_macaron_container_hebrew) {*/
+    /*background-color: #fffabe;*/
+/*}*/
+
+.day_name_hebrew, .day_hours_hebrew,.day_flavor_container_hebrew {
+    /*background-color: #fffabe;*/
     margin-top: 2%;
+    width: 100%;
+    padding: 0 2%;
 }
 
 .day_flavor_hebrew_special {
-    margin-top: 2%;
     color: white;
+    padding-top: 2%;
+    /*background-color: initial;*/
+}
+.day_flavor_container_hebrew {
+    height: 33px;
 }
 
 .day_name_hebrew,.day_flavor_hebrew, .day_flavor_hebrew_special {
@@ -144,14 +155,12 @@ footer {
     display: inline-block;
 }
 
-.monday_hebrew {
-    display: block;
-}
 
 .day_macaron_container_hebrew {
     clear: right;
     float: left;
     display: inline-block;
+    padding-top: 2%;
 }
 
 #day_flavor_vanilla {
@@ -159,9 +168,11 @@ footer {
     background-color: #df5277;
 }
 
+
 #day_flavor_coconut {
     color: white;
-    background-color: #824603;
+    background-color: #824603 !important;
+    position: relative;
 }
 
 #day_flavor_almond {
