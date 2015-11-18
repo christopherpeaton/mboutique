@@ -121,7 +121,7 @@ function loadHome() {
         $('#body_content').load('index_english_content.html');
     }
     if((hebrew)&&(indexPage)) {
-        $('#body_content_hebrew').load('contact_hebrew.html');
+        $('#body_content_hebrew').load('index_hebrew_content.html');
     }
 }
 
