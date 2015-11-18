@@ -120,9 +120,16 @@ footer {
     width: 100%;
 }
 
+/*contact page styling*/
 
+.contact_body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
-
+.contact_page_body_pic {
+    margin-top: 25%;
+}
 
 
 /*TABLET SPECIFIC STYLING*/

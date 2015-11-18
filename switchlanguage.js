@@ -98,7 +98,17 @@ function loadGiftsParties() {
 }
 
 function loadContact() {
-    console.log('function to load contact page')
+    console.log('function to load contact page');
+    ourMacaronsPage = false;
+    indexPage = false;
+    contactPage = true;
+    giftsPartiesPage = false;
+    if((english)&&(contactPage)) {
+        $('#body_content').load('contact_english.html');
+    }
+    if((hebrew)&&(contactPage)) {
+        $('#body_content_hebrew').load('gifts_parties_hebrew.html');
+    }
 }
 
 function loadHome() {
