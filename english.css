@@ -104,9 +104,19 @@ footer {
     color: #6a6969;
 }
 
+.body_link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #df5277;
+}
+
 /*our macarons page specific styling*/
 
 .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+    width: 100%;
+}
+
+/*gifts and parties page specific styling*/
+.gifts_body_pt1 {
     width: 100%;
 }
 
@@ -296,6 +306,22 @@ footer {
         background-position: -5% 85%;
     }
 
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1000px;
+    }
+
+    .gifts_body_pt2 {
+        background-image: url(assets/images/gifts-parties-background.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
+    }
+
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -392,6 +418,23 @@ footer {
         background-repeat: no-repeat;
         background-position: -5% 85%;
     }
+
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1000px;
+    }
+
+    .gifts_body_pt2 {
+        background-image: url(assets/images/gifts-parties-background.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
+    }
+
 
 }
 /*LARGE SCREEN DESKTOPS*/
@@ -495,6 +538,21 @@ body {
         background-image: url(assets/images/our-macarons-background.png);
         background-repeat: no-repeat;
         background-position: -5% 85%;
+    }
+
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1500px;
+    }
+    .gifts_body_pt2 {
+        background-image: url(assets/images/gifts-parties-background.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
     }
 
 }

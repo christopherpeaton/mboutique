@@ -85,6 +85,16 @@ function loadOurMacarons() {
 
 function loadGiftsParties() {
     console.log('function to load gifts & parties page');
+    ourMacaronsPage = false;
+    indexPage = false;
+    contactPage = false;
+    giftsPartiesPage = true;
+    if((english)&&(giftsPartiesPage)) {
+        $('#body_content').load('gifts_parties_english.html');
+    }
+    if((hebrew)&&(giftsPartiesPage)) {
+        $('#body_content_hebrew').load('our_macarons_hebrew.html');
+    }
 }
 
 function loadContact() {
