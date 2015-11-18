@@ -1,176 +1,27 @@
 <!--Add Your home page HTML here-->
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>mboutique</title>
+    <title>MBoutique</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-          integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
-          integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
-            integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--hebrew font -->
+    <link href='https://fonts.googleapis.com/css?family=Alef:400,700&subset=hebrew,latin' rel='stylesheet'
+          type='text/css'>
+    <!--english styling -->
+    <!--<link rel="stylesheet" href="languages/english/english.css" type="text/css" title="english">-->
+    <!--hebrew styling -->
+    <link rel="stylesheet" href="languages/hebrew/hebrew.css" type="text/css" title="hebrew">
+    <script src="switchlanguage.js"></script>
 </head>
-<body>
-<nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header row">
-            <a class="navbar-brand col-sm-2" href="#"></a>
-            <ul class="nav navbar-nav col-sm-10">
-                <li class="col-sm-offset-1"><a href="index.html">welcome</a></li>
-                <li class="col-sm-offset-1"><a href="our_macarons.html">our macarons</a></li>
-                <li class="col-sm-offset-1"><a href="gifts_parties.html">gifts & parties</a></li>
-                <li class="col-sm-offset-1"><a href="#">contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<img src="assets/images/welcome-image.png" class="welcome-image"/>
-
-<div class="body-content container">
-    <aside class="col-sm-3 macarons_image">
-        <img src="assets/images/macarons-image.png"/>
-    </aside>
-    <div class="col-sm-8 col-sm-offset-1 index_body">
-        <h4 class="body_heading">Welcome to MBoutique!</h4>
-
-        <p class="body_paragraph">
-            We're a home-based baking business that specializes in the making of French macarons, a gluten-free
-            pastry item made from ground almonds. Our business began at the West Reading Farmers Market in
-            2011. Last year (2013) marked our third and final season of participation at the market. MBoutique was
-            established to pay homage to the delicate French confectionery, the macaron. Our shop has been
-            recognized as the connoisseurs of this delicious French pastry because of the wonderful variety of flavors
-            from our great master chefs.
-        </p>
-        <h4 class="body_heading">We love Macarons!</h4>
-
-        <p class="body_paragraph">
-            Renowned macarons, French delights of the moment can be met in a variety of flavors and colors and are
-            brilliant precisely because of their simplicity - a crispy coating, but delicate in a loose blanket jam,
-            chocolate butter cream is spread inviting. <br><br>
-            Macarons combines perfectly with champagne or white wine, tea or hot chocolate, fresh juices and natural
-            fruit flavored coffee and guarantee that these little delights soon become friend that you can not break.
-        </p>
-        <h4 class="body_heading">Find the flavor that you like. Try a sample every day!</h4>
-    </div>
-
-</div>
-<div class="container-fluid schedule-container">
-    <div class="row">
-        <div class="day">
-            <div class="day_name">Monday</div>
-            <div class="day_hours">15:00 - 16:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">chocolate
-                    <div class="macaron_container"></div>
-                </div>
-                <div class="day_flavor_special coconut">coconut
-                    <div class="macaron_container"></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Tuesday</div>
-            <div class="day_hours">14:00 - 15:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">violet cassis
-                    <div class="macaron_container"><img src="assets/images/violet-cassis.png"/></div>
-                </div>
-                <div class="day_flavor">green tea
-                    <div class="macaron_container"><img src="assets/images/green-tea.png"/></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Wednesday</div>
-            <div class="day_hours">09:00 - 10:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">passion fruit
-                    <div class="macaron_container"><img src="assets/images/passion-fruit.png"/></div>
-                </div>
-                <div class="day_flavor_special vanilla">vanilla
-                    <div class="macaron_container"><img src="assets/images/vanilla.png"/></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Thursday</div>
-            <div class="day_hours">18:00 - 19:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">coffee
-                    <div class="macaron_container"><img src="assets/images/coffee.png"/></div>
-                </div>
-                <div class="day_flavor">pistachio
-                    <div class="macaron_container"><img src="assets/images/pistachio.png"/></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Friday</div>
-            <div class="day_hours">11:00 - 12:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">raspbery
-                    <div class="macaron_container"><img src="assets/images/raspbery.png"/></div>
-                </div>
-                <div class="day_flavor_special lemon">lemon
-                    <div class="macaron_container"><img src="assets/images/lemon.png"/></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Saturday</div>
-            <div class="day_hours">13:00 - 14:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">rose
-                    <div class="macaron_container"><img src="assets/images/rose.png"/></div>
-                </div>
-                <div class="day_flavor">tiffany blue
-                    <div class="macaron_container"><img src="assets/images/tiffany-blue.png"/></div>
-                </div>
-            </div>
-        </div>
-        <div class="day">
-            <div class="day_name">Sunday</div>
-            <div class="day_hours">10:00 - 11:00</div>
-            <div class="flavors_container">
-                <div class="day_flavor">caramel
-                    <div class="macaron_container"><img src="assets/images/caramel.png"/></div>
-                </div>
-                <br>
-
-                <div class="day_flavor_special almond">almond
-                    <div class="macaron_container"><img src="assets/images/almond.png"/></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="container footer_container">
-        <div class="row contact_info">
-            <div class="email col-sm-3">
-                <div class="email_address">order@mboutique.com</div>
-            </div>
-            <div class="phone col-sm-3 col-sm-offset-1">
-                <div class="phone_number">949.800-3111</div>
-            </div>
-            <div class="social_media col-sm-3">
-                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
-                <img src="assets/images/twitter.png" class="social_media_icon"/>
-            </div>
-        </div>
-        <div class="row copyright">
-            <div class="col-sm-5 col-sm-offset-4">Copyright &copy; 2014 MBoutique. All rights reserved.</div>
-        </div>
-    </div>
-</footer>
-</body>
+<body></body>
 </html>

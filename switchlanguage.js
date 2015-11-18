@@ -9,17 +9,17 @@ var giftsPartiesPage;
 var contactPage;
 
 function checkLanguage() {
-    console.log("document.URL : ",document.URL);
-    var start = document.URL.lastIndexOf("/")+1;
-    var end = document.URL.length-1;
-    var filename = String((document.URL.substr(start,end)));
-    if(filename == 'index_english.html#') {
-        english=true;
-        hebrew=false;
+    console.log("document.URL : ", document.URL);
+    var start = document.URL.lastIndexOf("/") + 1;
+    var end = document.URL.length - 1;
+    var filename = String((document.URL.substr(start, end)));
+    if (filename == 'index_english.html#') {
+        english = true;
+        hebrew = false;
     }
-    if (filename =='index_hebrew.html#') {
-        english=false;
-        hebrew=true;
+    if (filename == 'index_hebrew.html#') {
+        english = false;
+        hebrew = true;
     }
 }
 
@@ -35,30 +35,27 @@ function changeLanguage(language) {
         hebrew = true;
         english = false;
     }
-    console.log(document.head);
-    console.log(document.body);
     var i, link_tag;
     for (i = 0, link_tag = document.getElementsByTagName('link'); i < link_tag.length; i++) {
         console.log(link_tag[i], ((link_tag[i].rel.indexOf('stylesheet') != -1)) && (link_tag[i].title).length > 1);
         if (((link_tag[i].rel.indexOf('stylesheet') != -1)) && (link_tag[i].title).length > 1) {
             //deactivates the current style sheet
-            if ((hebrew)&& link_tag[i].title =='english') {
+            if ((hebrew) && link_tag[i].title == 'english') {
                 console.log('deactivate english and make hebrew appear');
                 link_tag[i].disabled = true;
             }
-            if ((english) && link_tag[i].title =='hebrew' ) {
+            if ((english) && link_tag[i].title == 'hebrew') {
                 console.log('deactivate hebrew and go with english');
                 link_tag[i].disabled = true;
             }
         }
-        if((link_tag[i].disabled)&&(hebrew)) {
+        if ((link_tag[i].disabled) && (hebrew)) {
             console.log('this was disabled');
-            $('body').load('index_hebrew.html');
+            loadIndex();
         }
 
-        if((link_tag[i].disabled)&&(english)) {
+        if ((link_tag[i].disabled) && (english)) {
             console.log('this was disabled');
-            $('body').load('index_english.html');
         }
 
 
@@ -66,7 +63,7 @@ function changeLanguage(language) {
     translatePage();
 }
 
-function translatePage () {
+function translatePage() {
     if (indexPage) {
         loadHome()
     }
@@ -88,14 +85,12 @@ function loadOurMacarons() {
     indexPage = false;
     contactPage = false;
     giftsPartiesPage = false;
-    if((english)&&(ourMacaronsPage)) {
+    if ((english) && (ourMacaronsPage)) {
         $('#body_content').load('our_macarons_english.html');
     }
-    if((hebrew)&&(ourMacaronsPage)) {
+    if ((hebrew) && (ourMacaronsPage)) {
         $('#body_content_hebrew').load('our_macarons_hebrew.html');
     }
-
-
 
 
 }
@@ -106,10 +101,10 @@ function loadGiftsParties() {
     indexPage = false;
     contactPage = false;
     giftsPartiesPage = true;
-    if((english)&&(giftsPartiesPage)) {
+    if ((english) && (giftsPartiesPage)) {
         $('#body_content').load('gifts_parties_english.html');
     }
-    if((hebrew)&&(giftsPartiesPage)) {
+    if ((hebrew) && (giftsPartiesPage)) {
         $('#body_content_hebrew').load('gifts_parties_hebrew.html');
     }
 }
@@ -120,10 +115,10 @@ function loadContact() {
     indexPage = false;
     contactPage = true;
     giftsPartiesPage = false;
-    if((english)&&(contactPage)) {
+    if ((english) && (contactPage)) {
         $('#body_content').load('contact_english.html');
     }
-    if((hebrew)&&(contactPage)) {
+    if ((hebrew) && (contactPage)) {
         $('#body_content_hebrew').load('contact_hebrew.html');
     }
 }
@@ -131,31 +126,58 @@ function loadContact() {
 function loadHome() {
     console.log('function to load home page');
     ourMacaronsPage = false;
-    indexPage=true;
+    indexPage = true;
     contactPage = false;
     giftsPartiesPage = false;
-    if((english)&&(indexPage)) {
+    if ((english) && (indexPage)) {
         $('#body_content').load('index_english_content.html');
     }
-    if((hebrew)&&(indexPage)) {
+    if ((hebrew) && (indexPage)) {
         $('#body_content_hebrew').load('index_hebrew_content.html');
+    }
+}
+
+function loadIndex() {
+    if (english) {
+    $('body').load('languages/english/index_english.html');
+    }
+    if (hebrew) {
+        $('body').load('languages/hebrew/index_hebrew.html');
+    }
+}
+
+function loadBody() {
+    var url = document.URL;
+    var isThereEnglish = url.indexOf('english');
+    var isThereHebrew = url.indexOf('hebrew');
+    console.log(isThereEnglish, isThereHebrew);
+    if ((isThereEnglish == -1) && (isThereHebrew == -1)) {
+        console.log('load english');
+        english = true;
+        hebrew = false;
+    }
+    if ($('body').length < 2) {
+        console.log('here we can load the index');
+        loadIndex();
     }
 }
 
 
 
-$(document).ready(function() {
-    checkLanguage();
-    if(english) {
-        if ($('#body_content').is(':empty')) {
-            loadHome();
-        }
-    }
-    else {
-        if($('#body_content_hebrew').is(':empty')) {
-            loadHome();
-        }
-    }
+
+$(document).ready(function () {
+    loadBody();
+    //checkLanguage();
+    //if (english) {
+    //    if ($('#body_content').is(':empty')) {
+    //        loadHome();
+    //    }
+    //}
+    //else {
+    //    if ($('#body_content_hebrew').is(':empty')) {
+    //        loadHome();
+    //    }
+    //}
 
 
 });

@@ -1,223 +1,59 @@
-/* MBoutique Project Styling*/
-body {
-    width: 1000px;
-    margin: 0 10px;
+/*MOBILE FIRST STYLING*/
+
+/*HEADER SECTION*/
+.navbar_header_styling {
+    display: inline-block;
 }
 
-/*navbar styling*/
-.navbar, .navbar-default {
-    width: 1000px;
-    height: 72px;
-    background-color: #fffabe;
-    box-sizing: border-box;
-    overflow: hidden;
+.nav_tag_class {
+    width: 100vw;
 }
 
-nav > .container {
+.nav_container_styling {
     width: 100%;
     background-color: #fffabe;
-    overflow: hidden;
-    box-sizing: border-box;
 }
 
-.navbar-header {
-    display: inline-block;
-    width: 970px;
-    height: 52px;
-    box-sizing: border-box;
-    margin: 10px 0;
-    padding-left: 10px;
-}
-
-.navbar-brand {
-    background-image: url(assets/images/logo.png);
-    background-repeat: no-repeat;
-
-}
-
-.navbar-nav {
-    overflow: hidden;
-    display: inline-block;
-
-}
-
-.navbar-nav li {
-    display: inline;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+.nav_ul, .nav_ul_hebrew {
     color: #515151;
 }
 
-.navbar-nav li:hover {
-    color: #d42551;
-}
-
-/*INDEX.HTML: main content styling. Lots of overlap with other pages*/
-.welcome-image {
-    width: 1000px;
-    height: 400px;
-}
-
-.body-content {
-    margin: 30px 0;
-    width: 1000px;
-}
-
-.macarons_image {
-    margin: 8% 0;
-}
-
-.index_body {
-}
-
-.index_heading {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #6a6969;
-    margin: 20px 0;
-}
-
-.index_paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #6a6969;
-}
-
-/*INDEX.HTML: schedule styling*/
-.schedule-container {
-    width: 100%;
-    display: inline-block;
-}
-
-.day {
-    width: 126px;
-    display: inline-block;
-    background-color: #fffabe;
-    margin: 4px;
-}
-
-.day_name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #6a6969;
-    margin-top: 8px;
-    margin-left: 5px;
-    height: 33px;
-}
-
-.day_hours {
-    padding-left: 5px;
-    height: 31px;
-    margin-bottom:2px;
-}
-
-
-.day_hours, .day_flavor {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #6a6969;
-}
-
-.day_flavor, .day_flavor_special {
-    display: inline-block;
-    width: 100%;
-    padding-left: 5px;
-    padding-top: 7px;
-    height: 33px;
-
-
-}
-
-.day_flavor_special {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: white;
-}
-
-.macaron_container {
+/*code for language selection section */
+.language_selection {
+    clear: left;
     float: right;
-    margin-right: 3px;
+    position: relative;
+    left: 35%;
+    top: -35px;
 }
 
-.coconut {
-    background-color: #824603;
+.language_selection_ul {
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 50px;
 }
 
-.vanilla {
-    background-color: #df5277;
+/*positioning of the nav items*/
+.navbar-header ul li {
+    position: relative;
+    left: 25%;
 }
 
-.lemon {
-    background-color: #a2304e;
+/*FOOTER STYLING*/
+footer {
+    width: 100%;
 }
-
-.almond {
-    background-color: #c39005;
-}
-
-/* OUR_MACARONS.HTML: BODY STYLING*/
-
-.our-macarons-image {
-    width: 1000px;
-    height: 400px;
-}
-
-.our_macarons_body_pt1 {
-    width: 1000px;
-}
-.our_macarons_body_pt2 {
-    width: 1000px;
-    display: inline-block;
-    background-image: url(assets/images/our-macarons-background.png);
-    background-repeat: no-repeat;
-    background-position: -5% 85%;
-}
-
-.our_macarons_ul_flavors {
-    margin-bottom: 60px;
-}
-
-.our_macarons_body_pt3 {
-    width: 1000px;
-}
-
-/*GIFTS_PARTIES.HTML: BODY STYLING */
-
-.gifts_body_pt1, .gifts_body_pt2 {
-    width: 1000px;
-}
-
-.gifts_body_pt2 {
-    background-image: url(assets/images/gifts-parties-background.png);
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: -5% 90%;
-}
-
-.gifts_body_ul {
-    margin-bottom: 50px;
-}
-
-.orders_email {
-    color: #df5277;
-}
-
-/*footer styling*/
 
 .footer_container {
-    width: 1000px;
-    height: 80px;
     background-color: #df5277;
     color: white;
     font-family: Arial;
-    margin-top: 30px;
+    font-size: 9px;
 }
 
 .contact_info {
-    margin: 10px 0 10px 20%;
-    font-size: 12px;
+    margin-top: 3%;
 }
-
 
 .email {
     background-image: url(assets/images/mail.png);
@@ -225,7 +61,7 @@ nav > .container {
 }
 
 .email_address {
-    padding-left: 10px;
+    padding-left: 10%;
 }
 
 .phone {
@@ -234,19 +70,528 @@ nav > .container {
 }
 
 .phone_number {
-    padding-left: 10px;
+    padding-left: 10%;
+}
+
+.social_media {
+    margin-top: 2%;
 }
 
 .social_media_icon {
-    padding-left: 10px;
+    padding-left: 10%;
 }
-
 
 .copyright {
-    font-size: 11px;
-    margin-left: 8%;
+    font-size: 8px;
+    margin: 2% 0;
 }
 
-/*contact page and responsive styling*/
+/*General Body Styling */
+
+.body_picture, .body_main_image {
+    width: 100%;
+}
+
+#body_content, #body_content_hebrew {
+    width: 100%;
+}
+
+.body_heading, .body_heading_hebrew {
+    color: #6a6969;
+    margin: 4% 0;
+}
+
+.body_paragraph, .body_paragraph_hebrew {
+    color: #6a6969;
+    margin: 4% 0;
+}
+
+.body_text, .body_text_hebrew {
+    color: #6a6969;
+}
+
+.body_link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #df5277;
+}
+
+.body_pic {
+    margin-top: 15%;
+}
+
+/*index content specific page styling */
+
+.flavor_schedule_english, .flavor_schedule_hebrew {
+    width: 100%;
+    display: inline-block;
+}
+
+.day_container {
+    display: inline-block;
+    padding-top: 6px;
+    background-color: #fffabe;
+    position: relative;
+}
+
+.day_name_english, .day_name_hebrew,
+.day_hours_english, .day_hours_hebrew,
+.day_flavor_container_english, .day_flavor_container_hebrew {
+    margin-top: 2%;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.day_flavor_english_special, .day_flavor_hebrew_special {
+    color: white;
+}
+
+.day_flavor_container_english, .day_flavor_container_hebrew {
+    height: 33px;
+}
+
+.day_name_hebrew, .day_flavor_hebrew, .day_flavor_hebrew_special,
+.day_name_english, .day_flavor_english, .day_flavor_english_special {
+    display: inline-block;
+}
+
+#day_flavor_vanilla {
+    color: white;
+    background-color: #df5277;
+}
+
+#day_flavor_coconut {
+    color: white;
+    background-color: #824603;
+    position: relative;
+}
+
+#day_flavor_almond {
+    color: white;
+    background-color: #c39005;
+}
+
+#day_flavor_lemon {
+    color: white;
+    background-color: #a2304e;
+}
+
+/*contact page styling */
+
+.form-control, .btn-default {
+    background-color: #f5f5f5;
+    border-radius: 0%;
+}
+
+.contact_page_body_pic {
+    margin-top: 20%;
+}
+
+/*TABLET SPECIFIC STYLING*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*HEADER STYLING*/
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    .language_selection_li {
+        clear: right;
+    }
+
+    /*FOOTER STYLING*/
+    .social_media {
+        margin-top: 0;
+    }
+}
+
+/*SMALL DESKTOPS THAT CAN NOT SEE THE PAGE AT PIXEL PERFECT DIMENSIONS*/
+
+@media (min-width: 992px) and (max-width: 999px) {
+    /*HEADER STYLING*/
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    /*FOOTER STYLING*/
+    footer {
+        width: 100%;
+    }
+
+    .footer_container {
+        width: 100%;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+}
+
+/*MEDIA QUERIES AFTER THIS CAN SEE THE ASSIGNMENT AT ITS ORIGINAL DIMENSIONS */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    body {
+        margin: 0 5%;
+        width: 1000px;
+    }
+
+    /*HEADER STYLING*/
+    .nav_tag_class {
+        width: 1000px;
+        height: 72px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1000px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    /*FOOTER FORMATTING */
+    footer {
+        max-width: 1000px;
+    }
+
+    .footer_container {
+        width: 1000px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+    /*GENERAL BODY STYLING*/
+    .body_picture, .body_main_image {
+        width: 1000px;
+    }
+
+    .body_heading, .body_heading_hebrew {
+        font-size: 20px;
+    }
+
+    .body_paragraph, .body_paragraph_hebrew,
+    .body_text, .body_text_hebrew {
+        font-size: 14px;
+    }
+
+    /*index content styling*/
+    .flavor_schedule_hebrew, .flavor_schedule_english {
+        width: 1000px;
+    }
+
+    /*our macarons content styling*/
+    .our_macarons_body_pt2, #our_macarons_body_hebrew_pt2 {
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+    }
+
+    /*gifts and parties content styling */
+
+}
+
+/*Anything below this falls into the "large column" category of bootstrap*/
+@media (min-width: 1200px) and (max-width: 1919px) {
+    /*HEADER*/
+    .nav_tag_class {
+        width: 1000px;
+        height: 72px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1000px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 310%;
+    }
+
+    /*FOOTER*/
+    footer {
+        max-width: 1000px;
+    }
+
+    .footer_container {
+        width: 1000px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 10px 0 10px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+    /*general body styling*/
+    .body_picture, .body_main_image {
+        width: 1000px;
+    }
+
+    #body_content, .body_content_hebrew {
+        width: 1000px;
+    }
+
+    .body_heading, .body_heading_hebrew {
+        font-size: 20px;
+    }
+
+    .body_paragraph, .body_paragraph_hebrew,
+    .body_text, .body_text_hebrew {
+        font-size: 14px;
+    }
+
+    /*our macarons styling*/
+    .our_macarons_body_pt2, #our_macarons_body_hebrew_pt2 {
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+    }
+
+    /*gifts and parties content styling */
+    .gifts_parties_body_hebrew, .gifts_body_pt2 {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+
+    }
+}
+
+/*LARGE DESKTOPS*/
+@media (min-width: 1920px) {
+    body {
+        margin-left: 10%;
+        width: 1500px;
+    }
+
+    /*HEADER*/
+    .nav_tag_class {
+        width: 1500px;
+        background-color: #fffabe;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .nav_container_styling {
+        width: 1500px;
+        background-color: #fffabe;
+        overflow: hidden;
+    }
+
+    .navbar-nav {
+        font-size: 1.2em;
+        left: 10%;
+        position: relative;
+    }
+
+    .language_selection {
+        display: inline;
+        position: relative;
+        left: 510%;
+    }
+    /*FOOTER*/
+    footer {
+        width: 1500px;
+    }
+
+    .footer_container {
+        width: 1500px;
+        height: 80px;
+        background-color: #df5277;
+        color: white;
+        font-family: Arial;
+        margin-top: 30px;
+    }
+
+    .contact_info {
+        margin: 15px 0 15px 10%;
+        font-size: 12px;
+    }
+
+    .email {
+        background-image: url(../../assets/images/mail.png);
+        background-repeat: no-repeat;
+    }
+
+    .email_address {
+        padding-left: 10px;
+    }
+
+    .phone {
+        background-image: url(../../assets/images/phone.png);
+        background-repeat: no-repeat;
+    }
+
+    .phone_number {
+        padding-left: 10px;
+    }
+
+    .social_media {
+        margin-top: 0;
+    }
+
+    .social_media_icon {
+        padding-left: 10px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+    /*general body styling*/
+    .body_main_image, .body_picture {
+        width: 1500px;
+    }
+    /*index page styling*/
+    /*our macarons page styling*/
+    /*gifts and parties page styling*/
+    .gifts_body_pt2, .gifts_parties_body_hebrew {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+
+    }
+
+    /*contact page styling*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

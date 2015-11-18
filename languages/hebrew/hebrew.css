@@ -1,9 +1,6 @@
 /*MOBILE FIRST STYLING*/
 
 /*HEADER SECTION*/
-.navbar_header_styling {
-    display: inline-block;
-}
 
 .language_selection {
     display: inline;
@@ -12,93 +9,24 @@
 .nav_tag_class {
     box-sizing: border-box;
     overflow: hidden;
-    width: 100vw;
 }
 
 .nav_container_styling {
-    width: 100%;
-    background-color: #fffabe;
     overflow: hidden;
 }
 
 .nav_ul_hebrew {
     font-family: 'Alef', sans-serif;
-    color: black;
-
-}
-
-.language_selection {
-    clear: left;
-    float: right;
-    position: relative;
-    left: 35%;
-    top: -35px;
-}
-
-.language_selection_ul {
-    box-sizing: border-box;
-    overflow: hidden;
-    min-width: 50px;
-}
-
-.navbar-header ul li {
-    position: relative;
-    left: 25%;
 }
 
 /*FOOTER STYLING*/
-footer {
-    width: 100%;
-}
-
-.footer_container {
-    background-color: #df5277;
-    color: white;
-    font-family: Arial;
-    font-size: 9px;
-}
-
-.contact_info {
-    margin-top: 3%;
-}
-
-.email {
-    background-image: url(../../assets/images/mail.png);
-    background-repeat: no-repeat;
-}
-
-.email_address {
-    padding-left: 10%;
-}
-
-.phone {
-    background-image: url(../../assets/images/phone.png);
-    background-repeat: no-repeat;
-}
-
-.phone_number {
-    padding-left: 10%;
-}
 
 .social_media {
-    margin-top: 2%;
     font-family: 'Alef', sans-serif;
     font-size: 1.2em;
 }
 
-.social_media_icon {
-    padding-left: 10%;
-}
-
-.copyright {
-    font-size: 8px;
-    margin: 2% 0;
-}
-
 /*General Body Styling */
-.body_main_image {
-    width: 100%;
-}
 
 .body_content_hebrew {
     margin: 5% 0;
@@ -106,19 +34,15 @@ footer {
 
 .body_heading_hebrew {
     font-family: 'Alef', sans-serif;
-    color: #6a6969;
-    margin: 4% 0;
     text-align: right;
 }
 
 .body_paragraph_hebrew {
-    margin: 4% 0;
     text-align: right;
 }
 
 .body_text_hebrew {
     font-family: 'Alef', sans-serif;
-    color: #6a6969;
     text-align: right;
 }
 
@@ -127,52 +51,18 @@ footer {
     color: #6a6969;
 }
 
-.body_link {
-    color: #df5277;
-}
-
-.body_pic {
-    margin-top: 15%;
-}
-
 /*home page styling*/
-.flavor_schedule_hebrew {
-    width: 100%;
-    display: inline-block;
-}
 
 .day_container {
-    display: inline-block;
     float: right;
-    width: 126px;
-    margin: 1% 3px;
-    background-color: #fffabe;
-    position: relative;
-}
-
-/*.day_container div:not(.day_macaron_container_hebrew) {*/
-/*background-color: #fffabe;*/
-/*}*/
-
-.day_name_hebrew, .day_hours_hebrew, .day_flavor_container_hebrew {
-    margin-top: 2%;
-    width: 100%;
-    padding: 0 2%;
 }
 
 .day_flavor_hebrew_special {
-    color: white;
     padding-top: 2%;
-    /*background-color: initial;*/
-}
-
-.day_flavor_container_hebrew {
-    height: 33px;
 }
 
 .day_name_hebrew, .day_flavor_hebrew, .day_flavor_hebrew_special {
     float: right;
-    display: inline-block;
 }
 
 .day_macaron_container_hebrew {
@@ -180,27 +70,6 @@ footer {
     float: left;
     display: inline-block;
     padding-top: 2%;
-}
-
-#day_flavor_vanilla {
-    color: white;
-    background-color: #df5277;
-}
-
-#day_flavor_coconut {
-    color: white;
-    background-color: #824603 !important;
-    position: relative;
-}
-
-#day_flavor_almond {
-    color: white;
-    background-color: #c39005;
-}
-
-#day_flavor_lemon {
-    color: white;
-    background-color: #a2304e;
 }
 
 /*Our Macarons page styling*/
@@ -213,31 +82,14 @@ footer {
 
 /*contact page specifc styling */
 
-.form-control, .btn-default {
-    background-color: #f5f5f5;
-    border-radius: 0%;
-}
 
 .form_hebrew {
     text-align: right;
 }
 
-.contact_page_body_pic {
-    margin-top: 15%;
-}
 
 /*TABLET SPECIFIC STYLING*/
 @media (min-width: 768px) and (max-width: 991px) {
-    .language_selection {
-        display: inline;
-        position: relative;
-        left: 310%;
-    }
-
-    .language_selection_li {
-        clear: right;
-
-    }
 
     /*FOOTER STYLING*/
     footer {
@@ -245,7 +97,6 @@ footer {
     }
 
     .social_media {
-        margin-top: 0;
         font-family: 'Alef', sans-serif;
     }
 
@@ -253,62 +104,11 @@ footer {
 
 /*SMALL DESKTOP STYLING*/
 @media (min-width: 992px) and (max-width: 999px) {
-    /*header*/
-    .language_selection {
-        display: inline;
-        position: relative;
-        left: 310%;
-    }
-
-    footer {
-        width: 100%;
-    }
-
-    .footer_container {
-        width: 100%;
-        background-color: #df5277;
-        color: white;
-        font-family: Arial;
-        margin-top: 30px;
-    }
-
-    .contact_info {
-        margin: 10px 0 10px 10%;
-        font-size: 12px;
-    }
-
-    .email {
-        background-image: url(../../assets/images/mail.png);
-        background-repeat: no-repeat;
-    }
-
-    .email_address {
-        padding-left: 10px;
-    }
-
-    .phone {
-        background-image: url(../../assets/images/phone.png);
-        background-repeat: no-repeat;
-    }
-
-    .phone_number {
-        padding-left: 10px;
-    }
+    /*FOOTER STYLING */
 
     .social_media {
-        margin-top: 0;
         font-family: 'Alef', sans-serif;
     }
-
-    .social_media_icon {
-        padding-left: 10px;
-    }
-
-    .copyright {
-        font-size: 11px;
-        margin-left: 8%;
-    }
-
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
         background: url(../../assets/images/our-macarons-background.png) no-repeat 380% 85%;
@@ -323,118 +123,26 @@ footer {
     }
 }
 
-/*For some reason, the medium and large flags show up in this width, so this is to address that issue */
 @media (min-width: 1000px) and (max-width: 1200px) {
-    body {
-        margin: 0 5%;
-    }
 
-    .nav_tag_class {
-        width: 1000px;
-        height: 72px;
-        background-color: #fffabe;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    .nav_container_styling {
-        width: 1000px;
-        background-color: #fffabe;
-        overflow: hidden;
-    }
-
-    .language_selection {
-        display: inline;
-        position: relative;
-        left: 310%;
-    }
 
     /*FOOTER FORMATTING */
-    footer {
-        max-width: 1000px;
-    }
-
-    .footer_container {
-        width: 1000px;
-        height: 80px;
-        background-color: #df5277;
-        color: white;
-        font-family: Arial;
-        margin-top: 30px;
-    }
-
-    .contact_info {
-        margin: 10px 0 10px 10%;
-        font-size: 12px;
-    }
-
-    .email {
-        background-image: url(../../assets/images/mail.png);
-        background-repeat: no-repeat;
-    }
-
-    .email_address {
-        padding-left: 10px;
-    }
-
-    .phone {
-        background-image: url(../../assets/images/phone.png);
-        background-repeat: no-repeat;
-    }
-
-    .phone_number {
-        padding-left: 10px;
-    }
 
     .social_media {
-        margin-top: 0;
         font-family: 'Alef', sans-serif;
     }
 
-    .social_media_icon {
-        padding-left: 10px;
-    }
-
-    .copyright {
-        font-size: 11px;
-        margin-left: 8%;
-    }
-
     /*main body styling*/
-    .body_main_image {
-        width: 1000px;
-        height: 400px;
-    }
 
     .body_content_hebrew {
         margin: 10px 0;
         width: 100%;
     }
 
-    .body_heading_hebrew {
-        font-family: 'Alef', sans-serif;
-        color: #6a6969;
-        font-size: 20px;
-    }
-
-    .body_text_hebrew {
-        font-family: 'Alef', sans-serif;
-        color: #6a6969;
-        font-size: 14px;
-    }
-
-    /*main page styling*/
-    .day_container {
-        width: 126px;
-    }
-
-    .flavor_schedule_hebrew {
-        width: 1000px;
-    }
 
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
-        background: url(../../assets/images/our-macarons-background.png) no-repeat 320% 85%;
+        background-position: 320% 85%;
         overflow: hidden;
     }
 
@@ -447,255 +155,53 @@ footer {
 
 }
 
-/*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
     body {
         margin: 0 5%;
     }
 
-    .nav_tag_class {
-        width: 1000px;
-        height: 72px;
-        background-color: #fffabe;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    .nav_container_styling {
-        width: 1000px;
-        background-color: #fffabe;
-        overflow: hidden;
-    }
-
-    .language_selection {
-        display: inline;
-        position: relative;
-        left: 310%;
-    }
-
     /*footer*/
-    footer {
-        width: 1000px;
-    }
-
-    .footer_container {
-        width: 1000px;
-        height: 80px;
-        background-color: #df5277;
-        color: white;
-        font-family: Arial;
-        margin-top: 30px;
-    }
-
-    .contact_info {
-        margin: 10px 0 10px 10%;
-        font-size: 12px;
-    }
-
-    .email {
-        background-image: url(../../assets/images/mail.png);
-        background-repeat: no-repeat;
-    }
-
-    .email_address {
-        padding-left: 10px;
-    }
-
-    .phone {
-        background-image: url(../../assets/images/phone.png);
-        background-repeat: no-repeat;
-    }
-
-    .phone_number {
-        padding-left: 10px;
-    }
 
     .social_media {
-        margin-top: 0;
         font-family: 'Alef', sans-serif;
     }
 
-    .social_media_icon {
-        padding-left: 10px;
-    }
-
-    .copyright {
-        font-size: 11px;
-        margin-left: 8%;
-    }
-
     /*main body styling*/
-    .body_main_image {
-        width: 1000px;
-        height: 400px;
-    }
 
     .body_content_hebrew {
         margin: 10px 0;
-        width: 1000px;
     }
 
     .body_heading_hebrew {
         font-family: 'Alef', sans-serif;
-        color: #6a6969;
-        font-size: 20px;
     }
 
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
-        background: url(../../assets/images/our-macarons-background.png) no-repeat 420% 85%;
+        background-position: 420% 85%;
         overflow: hidden;
     }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(../../assets/images/gifts-parties-background.png);
-        background-repeat: no-repeat;
         background-position: -600px 100%;
     }
 
-    /*FOOTER FORMATTING */
-    footer {
-        max-width: 1000px;
-    }
-
-    .footer_container {
-        width: 1000px;
-        height: 80px;
-        background-color: #df5277;
-        color: white;
-        font-family: Arial;
-        margin-top: 30px;
-    }
-
-    .contact_info {
-        margin: 10px 0 10px 10%;
-        font-size: 12px;
-    }
-
-    .email {
-        background-image: url(../../assets/images/mail.png);
-        background-repeat: no-repeat;
-    }
-
-    .email_address {
-        padding-left: 10px;
-    }
-
-    .phone {
-        background-image: url(../../assets/images/phone.png);
-        background-repeat: no-repeat;
-    }
-
-    .phone_number {
-        padding-left: 10px;
-    }
-
-    .social_media {
-        margin-top: 0;
-    }
-
-    .social_media_icon {
-        padding-left: 10px;
-    }
-
-    .copyright {
-        font-size: 11px;
-        margin-left: 8%;
-    }
 }
 
 /*LARGE SCREEN DESKTOPS*/
 @media (min-width: 1920px) {
 
-    body {
-        margin-left: 10%;
-        width: 1500px;
-    }
-
-    .nav_tag_class {
-        width: 1500px;
-        background-color: #fffabe;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    .nav_container_styling {
-        width: 1500px;
-        background-color: #fffabe;
-        overflow: hidden;
-    }
-
-    .navbar-nav {
-        font-size: 1.2em;
-        left: 10%;
-        position: relative;
-    }
-
-    .language_selection {
-        display: inline;
-        position: relative;
-        left: 510%;
-    }
 
     /*footer*/
-    footer {
-        width: 1500px;
-    }
-
-    .footer_container {
-        width: 1500px;
-        height: 80px;
-        background-color: #df5277;
-        color: white;
-        font-family: Arial;
-        margin-top: 30px;
-    }
-
-    .contact_info {
-        margin: 15px 0 15px 10%;
-        font-size: 12px;
-    }
-
-    .email {
-        background-image: url(../../assets/images/mail.png);
-        background-repeat: no-repeat;
-    }
-
-    .email_address {
-        padding-left: 10px;
-    }
-
-    .phone {
-        background-image: url(../../assets/images/phone.png);
-        background-repeat: no-repeat;
-    }
-
-    .phone_number {
-        padding-left: 10px;
-    }
 
     .social_media {
-        margin-top: 0;
+        font-family: 'Alef', sans-serif;
     }
 
-    .social_media_icon {
-        padding-left: 10px;
-    }
-
-    .copyright {
-        font-size: 11px;
-        margin-left: 8%;
-    }
-
-    .body_main_image {
-        width: 1500px;
-    }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(../../assets/images/gifts-parties-background.png);
-        background-repeat: no-repeat;
         background-position: -600px 100%;
     }
 
