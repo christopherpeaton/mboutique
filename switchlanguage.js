@@ -74,6 +74,9 @@ function loadOurMacarons() {
     if((english)&&(ourMacaronsPage)) {
         $('#body_content').load('our_macarons_english.html');
     }
+    if((hebrew)&&(ourMacaronsPage)) {
+        $('#body_content_hebrew').load('our_macarons_hebrew.html');
+    }
 
 
 
