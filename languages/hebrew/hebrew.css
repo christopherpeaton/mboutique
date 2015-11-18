@@ -63,7 +63,7 @@ footer {
 }
 
 .email {
-    background-image: url(assets/images/mail.png);
+    background-image: url(../../assets/images/mail.png);
     background-repeat: no-repeat;
 }
 
@@ -72,7 +72,7 @@ footer {
 }
 
 .phone {
-    background-image: url(assets/images/phone.png);
+    background-image: url(../../assets/images/phone.png);
     background-repeat: no-repeat;
 }
 
@@ -278,7 +278,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -287,7 +287,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -311,13 +311,13 @@ footer {
 
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
-        background: url(assets/images/our-macarons-background.png) no-repeat 380% 85%;
+        background: url(../../assets/images/our-macarons-background.png) no-repeat 380% 85%;
         overflow: hidden;
     }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         background-repeat: no-repeat;
         background-position: -400px 100%;
     }
@@ -369,7 +369,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -378,7 +378,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -434,13 +434,13 @@ footer {
 
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
-        background: url(assets/images/our-macarons-background.png) no-repeat 320% 85%;
+        background: url(../../assets/images/our-macarons-background.png) no-repeat 320% 85%;
         overflow: hidden;
     }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         background-repeat: no-repeat;
         background-position: -400px 100%;
     }
@@ -493,7 +493,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -502,7 +502,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -543,13 +543,13 @@ footer {
 
     /*our macarons page styling*/
     #our_macarons_body_hebrew_pt2 {
-        background: url(assets/images/our-macarons-background.png) no-repeat 420% 85%;
+        background: url(../../assets/images/our-macarons-background.png) no-repeat 420% 85%;
         overflow: hidden;
     }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         background-repeat: no-repeat;
         background-position: -600px 100%;
     }
@@ -574,7 +574,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -583,7 +583,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -658,7 +658,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -667,7 +667,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -694,7 +694,7 @@ footer {
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         background-repeat: no-repeat;
         background-position: -600px 100%;
     }

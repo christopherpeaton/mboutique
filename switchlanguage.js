@@ -9,6 +9,7 @@ var giftsPartiesPage;
 var contactPage;
 
 function checkLanguage() {
+    console.log("document.URL : ",document.URL);
     var start = document.URL.lastIndexOf("/")+1;
     var end = document.URL.length-1;
     var filename = String((document.URL.substr(start,end)));
@@ -61,6 +62,22 @@ function changeLanguage(language) {
         }
 
 
+    }
+    translatePage();
+}
+
+function translatePage () {
+    if (indexPage) {
+        loadHome()
+    }
+    else if (ourMacaronsPage) {
+        loadOurMacarons();
+    }
+    else if (giftsPartiesPage) {
+        loadGiftsParties();
+    }
+    else if (contactPage) {
+        loadContact();
     }
 }
 
@@ -129,8 +146,16 @@ function loadHome() {
 
 $(document).ready(function() {
     checkLanguage();
-    if ($('#body_content').is(':empty')) {
-        loadHome();
+    if(english) {
+        if ($('#body_content').is(':empty')) {
+            loadHome();
+        }
     }
+    else {
+        if($('#body_content_hebrew').is(':empty')) {
+            loadHome();
+        }
+    }
+
 
 });

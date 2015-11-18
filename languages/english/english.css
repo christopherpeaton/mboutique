@@ -60,7 +60,7 @@ footer {
 }
 
 .email {
-    background-image: url(assets/images/mail.png);
+    background-image: url(../../assets/images/mail.png);
     background-repeat: no-repeat;
 }
 
@@ -69,7 +69,7 @@ footer {
 }
 
 .phone {
-    background-image: url(assets/images/phone.png);
+    background-image: url(../../assets/images/phone.png);
     background-repeat: no-repeat;
 }
 
@@ -261,7 +261,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -270,7 +270,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -336,7 +336,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -345,7 +345,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -384,7 +384,7 @@ footer {
 
     .our_macarons_body_pt2 {
         display: inline-block;
-        background-image: url(assets/images/our-macarons-background.png);
+        background-image: url(../../assets/images/our-macarons-background.png);
         background-repeat: no-repeat;
         background-position: -5% 85%;
     }
@@ -395,7 +395,7 @@ footer {
     }
 
     .gifts_body_pt2 {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         display: inline-block;
         background-repeat: no-repeat;
         background-position: -5% 90%;
@@ -449,7 +449,7 @@ footer {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -458,7 +458,7 @@ footer {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -497,7 +497,7 @@ footer {
 
     .our_macarons_body_pt2 {
         display: inline-block;
-        background-image: url(assets/images/our-macarons-background.png);
+        background-image: url(../../assets/images/our-macarons-background.png);
         background-repeat: no-repeat;
         background-position: -5% 85%;
     }
@@ -508,7 +508,7 @@ footer {
     }
 
     .gifts_body_pt2 {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         display: inline-block;
         background-repeat: no-repeat;
         background-position: -5% 90%;
@@ -570,7 +570,7 @@ body {
     }
 
     .email {
-        background-image: url(assets/images/mail.png);
+        background-image: url(../../assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -579,7 +579,7 @@ body {
     }
 
     .phone {
-        background-image: url(assets/images/phone.png);
+        background-image: url(../../assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -634,7 +634,7 @@ body {
 
     .our_macarons_body_pt2 {
         display: inline-block;
-        background-image: url(assets/images/our-macarons-background.png);
+        background-image: url(../../assets/images/our-macarons-background.png);
         background-repeat: no-repeat;
         background-position: -5% 85%;
     }
@@ -644,7 +644,7 @@ body {
         width: 1500px;
     }
     .gifts_body_pt2 {
-        background-image: url(assets/images/gifts-parties-background.png);
+        background-image: url(../../assets/images/gifts-parties-background.png);
         display: inline-block;
         background-repeat: no-repeat;
         background-position: -5% 90%;
