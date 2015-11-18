@@ -93,7 +93,7 @@ function loadGiftsParties() {
         $('#body_content').load('gifts_parties_english.html');
     }
     if((hebrew)&&(giftsPartiesPage)) {
-        $('#body_content_hebrew').load('our_macarons_hebrew.html');
+        $('#body_content_hebrew').load('gifts_parties_hebrew.html');
     }
 }
 

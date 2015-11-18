@@ -316,6 +316,12 @@ footer {
         background: url(assets/images/our-macarons-background.png) no-repeat 380% 85%;
         overflow: hidden;
     }
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -400px 100%;
+    }
 }
 
 
@@ -433,6 +439,13 @@ footer {
         overflow: hidden;
     }
 
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -400px 100%;
+    }
+
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -531,6 +544,14 @@ body {
         background: url(assets/images/our-macarons-background.png) no-repeat 420% 85%;
         overflow: hidden;
     }
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -600px 100%;
+    }
+
     /*FOOTER FORMATTING */
     footer {
         max-width: 1000px;
@@ -586,6 +607,7 @@ body {
 
     body {
         margin-left: 10%;
+        width: 1500px;
     }
 
     .nav_tag_class {
@@ -614,7 +636,7 @@ body {
     }
 /*footer*/
     footer {
-        max-width: 1500px;
+        width: 1500px;
     }
 
     .footer_container {
@@ -660,6 +682,16 @@ body {
     .copyright {
         font-size: 11px;
         margin-left: 8%;
+    }
+
+    .body_main_image {
+        width: 1500px; }
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -600px 100%;
     }
 
 
