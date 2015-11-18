@@ -90,6 +90,31 @@ footer {
     margin: 2% 0;
 }
 
+/*general body*/
+.body_picture {
+    width: 100%;
+}
+
+#body_content {
+    width: 100%;
+}
+
+.body_heading, .body_paragraph, .body_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+/*our macarons page specific styling*/
+
+.our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+    width: 100%;
+}
+
+
+
+
+
+
 /*TABLET SPECIFIC STYLING*/
 @media (min-width: 768px) and (max-width: 991px) {
 /*header styling*/
@@ -248,6 +273,29 @@ footer {
         margin-left: 8%;
     }
 
+    /*general body styling*/
+
+    .body_picture {
+        width: 1000px;
+    }
+
+    #body_content {
+        width: 1000px;
+    }
+
+    /*our macarons page specific styling*/
+
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1000px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+        background-position: -5% 85%;
+    }
+
 }
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -321,6 +369,30 @@ footer {
         font-size: 11px;
         margin-left: 8%;
     }
+
+    /*general body styling*/
+
+    .body_picture {
+        width: 1000px;
+    }
+
+    #body_content {
+        width: 1000px;
+    }
+
+    /*our macarons page specific styling*/
+
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1000px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+        background-position: -5% 85%;
+    }
+
 }
 /*LARGE SCREEN DESKTOPS*/
 @media (min-width: 1920px) {
@@ -400,6 +472,29 @@ body {
     .copyright {
         font-size: 11px;
         margin-left: 8%;
+    }
+
+    /*general body styling*/
+
+    .body_picture {
+        width: 1500px;
+    }
+
+    #body_content {
+        width: 1500px;
+    }
+
+    /*our macarons page specific styling*/
+
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1500px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-image: url(assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+        background-position: -5% 85%;
     }
 
 }

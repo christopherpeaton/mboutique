@@ -3,7 +3,24 @@
  */
 var english;
 var hebrew;
+var indexPage;
+var ourMacaronsPage;
+var giftsPartiesPage;
+var contactPage;
 
+function checkLanguage() {
+    var start = document.URL.lastIndexOf("/")+1;
+    var end = document.URL.length-1;
+    var filename = String((document.URL.substr(start,end)));
+    if(filename == 'index_english.html#') {
+        english=true;
+        hebrew=false;
+    }
+    if (filename =='index_hebrew.html#') {
+        english=false;
+        hebrew=true;
+    }
+}
 
 function changeLanguage(language) {
     console.log(language);
@@ -47,8 +64,19 @@ function changeLanguage(language) {
     }
 }
 
+
 function loadOurMacarons() {
     console.log('function to load our macarons page');
+    ourMacaronsPage = true;
+    indexPage = false;
+    contactPage = false;
+    giftsPartiesPage = false;
+    if((english)&&(ourMacaronsPage)) {
+        $('#body_content').load('our_macarons_english.html');
+    }
+
+
+
 
 }
 
@@ -68,3 +96,7 @@ function loadHome() {
 function loadBody () {
 
 }
+
+$(document).ready(function() {
+    checkLanguage();
+});
