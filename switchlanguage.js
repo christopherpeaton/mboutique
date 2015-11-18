@@ -114,7 +114,7 @@ function loadContact() {
 function loadHome() {
     console.log('function to load home page');
     ourMacaronsPage = false;
-    indexPage = true;
+    indexPage=true;
     contactPage = false;
     giftsPartiesPage = false;
     if((english)&&(indexPage)) {
@@ -126,10 +126,11 @@ function loadHome() {
 }
 
 
-function loadBody () {
-
-}
 
 $(document).ready(function() {
     checkLanguage();
+    if ($('#body_content').is(':empty')) {
+        loadHome();
+    }
+
 });
