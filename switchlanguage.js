@@ -113,6 +113,16 @@ function loadContact() {
 
 function loadHome() {
     console.log('function to load home page');
+    ourMacaronsPage = false;
+    indexPage = true;
+    contactPage = false;
+    giftsPartiesPage = false;
+    if((english)&&(indexPage)) {
+        $('#body_content').load('index_english_content.html');
+    }
+    if((hebrew)&&(indexPage)) {
+        $('#body_content_hebrew').load('contact_hebrew.html');
+    }
 }
 
 

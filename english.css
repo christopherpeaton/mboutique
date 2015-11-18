@@ -109,6 +109,82 @@ footer {
     color: #df5277;
 }
 
+/*index page specific styling*/
+.index_body {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.macarons_image {
+    margin-top: 5%;
+}
+
+/*home page styling*/
+.flavor_schedule_english {
+    width: 100%;
+    display: inline-block;
+}
+
+.day_container {
+    display: inline-block;
+    float: left;
+    width: 126px;
+    margin: 0 3px;
+    padding-top: 6px;
+    background-color: #fffabe;
+    position: relative;
+    overflow: hidden;
+}
+
+.day_name_english, .day_hours_english, .day_flavor_container_english {
+    margin-top: 2%;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.day_flavor_english_special {
+    color: white;
+}
+
+.day_flavor_container_english {
+    height: 33px;
+    overflow: hidden;
+}
+
+.day_name_english, .day_flavor_english, .day_flavor_english_special {
+    float: left;
+    display: inline-block;
+}
+
+.day_macaron_container_english {
+    clear: left;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+
+#day_flavor_vanilla {
+    color: white;
+    background-color: #df5277;
+}
+
+#day_flavor_coconut {
+    color: white;
+    background-color: #824603;
+    position: relative;
+}
+
+#day_flavor_almond {
+    color: white;
+    background-color: #c39005;
+}
+
+#day_flavor_lemon {
+    color: white;
+    background-color: #a2304e;
+}
+
 /*our macarons page specific styling*/
 
 .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
@@ -532,6 +608,22 @@ body {
 
     #body_content {
         width: 1500px;
+    }
+
+    /*index page styling*/
+
+    .flavor_schedule_english {
+        margin-left: 20%;
+    }
+    .day_container {
+        display: inline-block;
+        float: left;
+        width: 126px;
+        margin: 0 3px;
+        padding-top: 6px;
+        background-color: #fffabe;
+        position: relative;
+        overflow: hidden;
     }
 
     /*our macarons page specific styling*/
