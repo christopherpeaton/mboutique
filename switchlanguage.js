@@ -107,7 +107,7 @@ function loadContact() {
         $('#body_content').load('contact_english.html');
     }
     if((hebrew)&&(contactPage)) {
-        $('#body_content_hebrew').load('gifts_parties_hebrew.html');
+        $('#body_content_hebrew').load('contact_hebrew.html');
     }
 }
 

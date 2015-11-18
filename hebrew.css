@@ -26,6 +26,7 @@
     color: black;
 
 }
+
 .language_selection {
     clear: left;
     float: right;
@@ -150,10 +151,10 @@ footer {
 }
 
 /*.day_container div:not(.day_macaron_container_hebrew) {*/
-    /*background-color: #fffabe;*/
+/*background-color: #fffabe;*/
 /*}*/
 
-.day_name_hebrew, .day_hours_hebrew,.day_flavor_container_hebrew {
+.day_name_hebrew, .day_hours_hebrew, .day_flavor_container_hebrew {
     /*background-color: #fffabe;*/
     margin-top: 2%;
     width: 100%;
@@ -165,15 +166,15 @@ footer {
     padding-top: 2%;
     /*background-color: initial;*/
 }
+
 .day_flavor_container_hebrew {
     height: 33px;
 }
 
-.day_name_hebrew,.day_flavor_hebrew, .day_flavor_hebrew_special {
+.day_name_hebrew, .day_flavor_hebrew, .day_flavor_hebrew_special {
     float: right;
     display: inline-block;
 }
-
 
 .day_macaron_container_hebrew {
     clear: right;
@@ -186,7 +187,6 @@ footer {
     color: white;
     background-color: #df5277;
 }
-
 
 #day_flavor_coconut {
     color: white;
@@ -214,7 +214,6 @@ footer {
 
 /*contact page specifc styling */
 
-
 .form-control, .btn-default {
     background-color: #f5f5f5;
     border-radius: 0%;
@@ -241,7 +240,6 @@ footer {
 
     }
 
-
     /*FOOTER STYLING*/
     footer {
         width: 100%;
@@ -253,8 +251,9 @@ footer {
     }
 
 }
+
 /*SMALL DESKTOP STYLING*/
-@media (min-width:992px) and (max-width: 999px) {
+@media (min-width: 992px) and (max-width: 999px) {
     /*header*/
     .language_selection {
         display: inline;
@@ -316,6 +315,7 @@ footer {
         background: url(assets/images/our-macarons-background.png) no-repeat 380% 85%;
         overflow: hidden;
     }
+
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
         background-image: url(assets/images/gifts-parties-background.png);
@@ -324,9 +324,8 @@ footer {
     }
 }
 
-
 /*For some reason, the medium and large flags show up in this width, so this is to address that issue */
-@media (min-width:1000px) and (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
     body {
         margin: 0 5%;
     }
@@ -344,6 +343,7 @@ footer {
         background-color: #fffabe;
         overflow: hidden;
     }
+
     .language_selection {
         display: inline;
         position: relative;
@@ -447,11 +447,13 @@ footer {
     }
 
 }
+
 /*LAPTOPS THAT CAN SEE ORIGINAL PROJECT REQUIREMENTS*/
 @media (min-width: 1200px) and (max-width: 1919px) {
-body {
-    margin: 0 5%;
-}
+    body {
+        margin: 0 5%;
+    }
+
     .nav_tag_class {
         width: 1000px;
         height: 72px;
@@ -465,6 +467,7 @@ body {
         background-color: #fffabe;
         overflow: hidden;
     }
+
     .language_selection {
         display: inline;
         position: relative;
@@ -602,6 +605,7 @@ body {
         margin-left: 8%;
     }
 }
+
 /*LARGE SCREEN DESKTOPS*/
 @media (min-width: 1920px) {
 
@@ -634,7 +638,8 @@ body {
         position: relative;
         left: 510%;
     }
-/*footer*/
+
+    /*footer*/
     footer {
         width: 1500px;
     }
@@ -685,7 +690,8 @@ body {
     }
 
     .body_main_image {
-        width: 1500px; }
+        width: 1500px;
+    }
 
     /*gifts and parties page styling*/
     .gifts_parties_body_hebrew {
@@ -693,7 +699,5 @@ body {
         background-repeat: no-repeat;
         background-position: -600px 100%;
     }
-
-
 
 }
