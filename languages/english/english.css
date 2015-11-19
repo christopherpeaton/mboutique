@@ -10,7 +10,6 @@
     color: #d42551;
 }
 
-/*FOOTER STYLING*/
 
 /*general body*/
 
@@ -32,8 +31,6 @@
 
 .day_container {
     float: left;
-    padding-top: 6px;
-    overflow: hidden;
 }
 
 .day_flavor_container_english {
@@ -49,7 +46,7 @@
     float: right;
     display: inline-block;
     position: relative;
-    top: -20px;
+    top: -15px;
 }
 
 

@@ -54,22 +54,31 @@
 /*home page styling*/
 
 .day_container {
-    float: right;
+    float: right!important;
 }
 
-.day_flavor_hebrew_special {
-    padding-top: 2%;
-}
 
 .day_name_hebrew, .day_flavor_hebrew, .day_flavor_hebrew_special {
+    clear: left;
     float: right;
+}
+
+.day_flavor_hebrew, .day_flavor_hebrew_special {
+    position: relative;
+    top: -20px;
+}
+
+.day_flavor_container_hebrew {
+    overflow: hidden;
 }
 
 .day_macaron_container_hebrew {
     clear: right;
     float: left;
     display: inline-block;
-    padding-top: 2%;
+    position: relative;
+    top: -3px;
+
 }
 
 /*Our Macarons page styling*/
@@ -158,6 +167,7 @@
 @media (min-width: 1200px) and (max-width: 1919px) {
     body {
         margin: 0 5%;
+        width: 1000px;
     }
 
     /*footer*/

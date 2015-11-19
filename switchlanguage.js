@@ -29,12 +29,43 @@ function changeLanguage(language) {
         console.log('we need to switch to english');
         english = true;
         hebrew = false;
+        loadIndex();
+        if (indexPage) {
+            loadHome();
+        }
+        else if (ourMacaronsPage) {
+            loadOurMacarons();
+        }
+        else if (giftsPartiesPage) {
+            loadGiftsParties();
+        }
+        else if (contactPage) {
+            loadContact();
+        }
     }
     if (language == 'hebrew') {
         console.log('we need to switch to hebrew');
         hebrew = true;
         english = false;
+        loadIndex();
+        if (indexPage) {
+            loadHome();
+        }
+        else if (ourMacaronsPage) {
+            loadOurMacarons();
+        }
+        else if (giftsPartiesPage) {
+            loadGiftsParties();
+        }
+        else if (contactPage) {
+            loadContact();
+        }
     }
+    //translatePage();
+
+}
+
+function disableStylesheet() {
     var i, link_tag;
     for (i = 0, link_tag = document.getElementsByTagName('link'); i < link_tag.length; i++) {
         console.log(link_tag[i], ((link_tag[i].rel.indexOf('stylesheet') != -1)) && (link_tag[i].title).length > 1);
@@ -49,32 +80,18 @@ function changeLanguage(language) {
                 link_tag[i].disabled = true;
             }
         }
-        if ((link_tag[i].disabled) && (hebrew)) {
-            console.log('this was disabled');
-            loadIndex();
+        console.log(link_tag[i].title);
+        if ((link_tag[i].disabled) && (link_tag[i].title == 'hebrew') && (hebrew)) {
+            console.log('this was disabled and we now need hebrew');
+            link_tag[i].disabled = false;
         }
 
-        if ((link_tag[i].disabled) && (english)) {
-            console.log('this was disabled');
+        if ((link_tag[i].disabled) && (link_tag[i].title == 'english') && (english)) {
+            console.log('this was disabled and we now need english');
+            link_tag[i].disabled = false;
         }
 
 
-    }
-    translatePage();
-}
-
-function translatePage() {
-    if (indexPage) {
-        loadHome()
-    }
-    else if (ourMacaronsPage) {
-        loadOurMacarons();
-    }
-    else if (giftsPartiesPage) {
-        loadGiftsParties();
-    }
-    else if (contactPage) {
-        loadContact();
     }
 }
 
@@ -130,16 +147,17 @@ function loadHome() {
     contactPage = false;
     giftsPartiesPage = false;
     if ((english) && (indexPage)) {
-        $('#body_content').load('index_english_content.html');
+        $('#body_content').load('languages/english/index_english_content.html');
     }
     if ((hebrew) && (indexPage)) {
-        $('#body_content_hebrew').load('index_hebrew_content.html');
+        $('#body_content_hebrew').load('languages/hebrew/index_hebrew_content.html');
     }
 }
 
 function loadIndex() {
+    disableStylesheet();
     if (english) {
-    $('body').load('languages/english/index_english.html');
+        $('body').load('languages/english/index_english.html');
     }
     if (hebrew) {
         $('body').load('languages/hebrew/index_hebrew.html');
@@ -159,25 +177,12 @@ function loadBody() {
     if ($('body').length < 2) {
         console.log('here we can load the index');
         loadIndex();
+        loadHome();
     }
 }
 
 
-
-
 $(document).ready(function () {
     loadBody();
-    //checkLanguage();
-    //if (english) {
-    //    if ($('#body_content').is(':empty')) {
-    //        loadHome();
-    //    }
-    //}
-    //else {
-    //    if ($('#body_content_hebrew').is(':empty')) {
-    //        loadHome();
-    //    }
-    //}
-
 
 });

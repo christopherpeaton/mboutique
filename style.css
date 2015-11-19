@@ -128,9 +128,13 @@ footer {
 
 .day_container {
     display: inline-block;
-    padding-top: 6px;
     background-color: #fffabe;
     position: relative;
+    width: 126px;
+    padding-top: 6px;
+    overflow: hidden;
+    margin-right: 6px;
+    margin-top: 2%;
 }
 
 .day_name_english, .day_name_hebrew,
@@ -138,7 +142,16 @@ footer {
 .day_flavor_container_english, .day_flavor_container_hebrew {
     margin-top: 2%;
     width: 100%;
-    padding: 0 2%;
+    padding: 2% 2%;
+}
+
+.day_name_english, .day_name_hebrew {
+    font-size: 14px;
+}
+
+.day_hours_english, .day_hours_hebrew,
+.day_flavor_container_english, .day_flavor_container_hebrew {
+    font-size: 12px;
 }
 
 .day_flavor_english_special, .day_flavor_hebrew_special {
@@ -374,6 +387,8 @@ footer {
 
 /*Anything below this falls into the "large column" category of bootstrap*/
 @media (min-width: 1200px) and (max-width: 1919px) {
+
+
     /*HEADER*/
     .nav_tag_class {
         width: 1000px;
@@ -529,7 +544,7 @@ footer {
     }
 
     .email {
-        background-image: url(../../assets/images/mail.png);
+        background-image: url(assets/images/mail.png);
         background-repeat: no-repeat;
     }
 
@@ -538,7 +553,7 @@ footer {
     }
 
     .phone {
-        background-image: url(../../assets/images/phone.png);
+        background-image: url(assets/images/phone.png);
         background-repeat: no-repeat;
     }
 
@@ -564,6 +579,7 @@ footer {
         width: 1500px;
     }
     /*index page styling*/
+
     /*our macarons page styling*/
     /*gifts and parties page styling*/
     .gifts_body_pt2, .gifts_parties_body_hebrew {
