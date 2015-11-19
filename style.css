@@ -1,7 +1,12 @@
+body {
+    margin: auto;
+}
 .main-container {
     padding: 0;
-    /*margin: 0;*/
     text-align: center;
+}
+.container {
+    padding: 0;
 }
 
 header {
@@ -17,20 +22,25 @@ header {
 nav>ul>li{
     display: inline-block;
     font-family: "Arial", "Helvetica", sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     text-transform: uppercase;
-    margin: 25px 20px 0 20px;
-    padding-left: 20px;
+    margin: 3% 0 0 4%;
+    padding-left: 10px;
     color: #515151;
 }
 
-.nav-tabs a {
+.nav-tabs ul li a {
     color: #515151;
 }
 
-nav>ul>li:hover {
+nav ul li a:hover {
     color: #d42551;
+    text-decoration: none;
 }
+.nav-tabs ul li a:active {
+    color: #df5277;
+}
+
 
 section {
     width: 100%;
@@ -42,9 +52,9 @@ section {
 }
 
 .text {
-    width: 660px;
+    width: 65%;
     float: right;
-    padding: 50px;
+    padding: 25px;
     text-align: justify;
     line-height: 140%;
 }
@@ -56,8 +66,8 @@ section {
 
 }
 
-.welcome-page-img {
-    padding-left: 50px;
+.welcome-page-image {
+    padding-left: 25px;
     display: inline-block;
     float: left;
     margin-top: 160px;
@@ -67,19 +77,25 @@ footer {
     height: 80px;
     background-color: #df5277;
     display: inline-block;
-    /*margin-bottom: -4px;*/
     margin-top: 50px;
     color: white;
     font-size: 12px;
+    bottom: 0;
 }
 
 #follow-us {
     background-color: #df5277;
 }
 
+.table-responsive {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 .table {
     height: 140px;
-    width: 1000px;
+    width: 100%;
     margin: auto;
     text-align: left;
     clear: both;
@@ -87,21 +103,24 @@ footer {
     font-size: 12px;
     color: #6a6969;
     position:relative;
+    border: none;
 }
 
 .table tr {
-    width: 126px;
-    height: 100%;
+    width: 13%;
+    height: 92%;
     display: inline-block;
-    margin-left: 15px;
+    float: left;
+    margin: 0.6%;
+
 }
 
-.table td {
-    width: 126px;
-    height: 33px;
+.table>tbody>tr>td {
+    border: none;
+    width: 100%;
     text-align: left;
-    text-indent: 5px;
-    padding: 0;
+    text-indent: 1%;
+    padding-left: 1%;
     margin: 0;
     display: inline-block;
     background-color: #fffabe;
@@ -117,7 +136,6 @@ tr>td:first-child {
 td>img {
     float: right;
     display: inline-block;
-    padding: 5px;
 }
 
 #coco, #vani, #lemo, #almo {
@@ -180,10 +198,9 @@ td>img {
 }
 
 #second {
-    background-image: url('assets/images/our-macarons-background.png');
-    background-repeat: no-repeat;
-    /*background: url('assets/images/our-macarons-background.png') no-repeat;*/
+    background: url('assets/images/our-macarons-background.png') no-repeat;
     background-position-y: 70%;
+    width: 100%;
     padding: 30px 0 50px 50px;
 }
 
@@ -193,7 +210,10 @@ td>img {
 
 .eat_section {
     background: url('assets/images/gifts-parties-background.png') no-repeat;
-    padding: 50px;
+    background-position-y: 115%;
+    background-position-x: 60%;
+    width: 100%;
+    padding: 5% 2% 12%;
 }
 
 span {
@@ -205,19 +225,18 @@ span {
 }
 
 .party {
-    width: 50%;
+    width: 68%;
 }
 
 .contact-image, .welcome-image {
     margin: auto;
 }
 
-.form-section {
-    margin: 10px 10px 10px 30px;
+.contact-page {
+    padding: 8% 0;
 }
-
 .form-control {
-    width: 310px;
+    width: 100%;
     height: 35px;
     background-color: #f5f5f5;
     border: none;
@@ -236,12 +255,8 @@ span {
     padding: 0;
 }
 
-.row-container {
-    padding: 50px;
-}
-
 .visit-section {
-    width: 40%;
+    width: 30%;
 }
 
 h1 {
@@ -255,21 +270,39 @@ h1 {
     border: none;
 }
 
-.disappear {
-    margin-top: 120px;
+.macarons {
+    margin-top: 14%;
+    padding-left: 9%;
 }
 
 .copy {
     font-size: 0.9em;
 }
 
-.hr {
-    width: 374px;
-    height: 1px;
-    background: #cccccc;
-    overflow: hidden;
-    margin-left: -14%;
+header>a {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 25px;
 }
+
+.language-en {
+    width: 100%;
+    height: 100%;
+    background: url('assets/images/american-flag.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.language-sp {
+    width: 100%;
+    height: 100%;
+    background: url('assets/images/spanish-flag.GIF') no-repeat;
+    background-size: 100% 100%;
+
+}
+
 
 @media screen and (max-width: 375px) {
 
@@ -284,21 +317,8 @@ h1 {
     }
     .nav-tabs li {
         font-size: 0.7em;
-        margin: 50px 0 0 0;
+        margin: 14% 0 0 0;
         padding-left: 4vw;
-    }
-
-    .nav-tabs li:last-child a {
-        color: #df5277;
-    }
-
-    .disappear {
-        display: none;
-    }
-
-    .row-container {
-        padding: 0 30px;
-        margin-left: 15px;
     }
 
     .visit-section {
@@ -308,6 +328,7 @@ h1 {
 
     .form-section {
         margin: 0;
+        padding: 0;
     }
 
     .list-group {
@@ -333,6 +354,283 @@ h1 {
         text-align: center;
     }
 
+    .text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .table-responsive {
+        margin-left: 5%;
+    }
+    .table tr:last-of-type {
+        margin-left: 22%;
+    }
+    .table tr {
+        margin: 2px;
+        width: 45%;
+        height: 92%;
+    }
+    .m-h1 {
+        margin-bottom: 5%;
+        font-size: 1.4em;
+    }
+    .m-p {
+        padding: 1%;
+        text-align: justify;
+    }
+    #first {
+        padding: 0;
+        margin: 1% 2%;
+    }
+
+    #second {
+        background-image: none;
+        width: 100%;
+        padding: 0 0 0 10%;
+    }
+    .eat_section {
+        background: url('assets/images/gifts-parties-background.png') no-repeat;
+        background-position-y: 95%;
+        background-size: 100%;
+        width: 100%;
+        padding: 5% 2% 12%;
+    }
+
+    .hr {
+         width: 374px;
+         height: 1px;
+         background: #cccccc;
+         overflow: hidden;
+         margin-left: -14%;
+     }
+
 }
 
+@media screen and (min-width: 1015px) {
+    body {
+        width: 1000px;
+    }
+    .main-container {
+        width: 100%;
+    }
 
+    nav>ul>li {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+    .text {
+        width: 65%;
+    }
+
+    nav {
+        margin-left: 7%;
+    }
+    nav>ul>li {
+        margin-left: 3%;
+        padding: 0;
+    }
+
+    tr>td {
+        font-size: 0.9em;
+    }
+
+    #second {
+        background: url('assets/images/our-macarons-background.png') no-repeat;
+        background-position-y: 70%;
+        background-position-x: 70%;
+        background-size: 95%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .eat_section {
+        background: url('assets/images/gifts-parties-background.png') no-repeat;
+        background-position-y: 95%;
+        background-size: 100%;
+        width: 100%;
+        padding: 5% 2% 12%;
+    }
+
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+    .main-content {
+        margin: auto;
+    }
+    header {
+        background-position-x: 50%;
+        background-position-y: 20%;
+    }
+    .nav-tabs li {
+        padding-left: 4vw;
+        font-size: 0.9em;
+    }
+    .nav-tabs ul {
+        width: 105%;
+        margin-top: 4%;
+        margin-bottom: 0;
+    }
+
+    .main-page-section {
+        margin-left: 10%;
+    }
+
+    .text {
+        margin-left: 15%;
+        width: 100%;
+    }
+
+    .list-group {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .mail {
+        background-position: 0;
+    }
+
+    .phone {
+        background-position: 0;
+    }
+
+    .contact-li {
+        text-align: left;
+    }
+
+    .footer-item {
+        padding: 0.2em;
+        text-align: center;
+    }
+
+    .table tr {
+        width: 31%;
+        height: auto;
+        display: inline-block;
+        float: left;
+        margin: 1%;
+    }
+    .table tr:last-of-type {
+        margin-left: 34%;
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .eat_section {
+        background: url('assets/images/gifts-parties-background.png') no-repeat;
+        background-position-y: 95%;
+        background-size: 100%;
+        width: 100%;
+        padding: 5% 2% 12%;
+    }
+
+    .visit-section {
+        width: 40%;
+    }
+
+    .form-section {
+        width: 55%;
+        float: right;
+    }
+
+    .contact-page {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 569px) {
+    .main-content {
+        margin: auto;
+    }
+    header {
+        background-position-x: 50%;
+        background-position-y: 20%;
+    }
+    .nav-tabs li {
+        padding: 0;
+        font-size: 0.7em;
+    }
+    .nav-tabs ul {
+        width: 105%;
+        margin-top: 8%;
+        margin-bottom: 0;
+    }
+
+    .main-page-section {
+        margin-left: 10%;
+    }
+
+    .text {
+        margin-left: 15%;
+        width: 100%;
+    }
+
+    .list-group {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .mail {
+        background-position: 0;
+    }
+
+    .phone {
+        background-position: 0;
+    }
+
+    .contact-li {
+        text-align: left;
+    }
+
+    .footer-item {
+        padding: 0.2em;
+        text-align: center;
+    }
+
+    .table tr {
+        width: 31%;
+        height: auto;
+        display: inline-block;
+        float: left;
+        margin: 1%;
+    }
+    .table tr:last-of-type {
+        margin-left: 34%;
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .eat_section {
+        background: url('assets/images/gifts-parties-background.png') no-repeat;
+        background-position-y: 95%;
+        background-size: 100%;
+        width: 100%;
+        padding: 5% 2% 12%;
+    }
+
+    .visit-section {
+        width: 40%;
+    }
+
+    .form-section {
+        width: 55%;
+        float: right;
+    }
+
+    .contact-page {
+        width: 100%;
+    }
+    .btn {
+        margin-left: 40%;
+    }
+}

@@ -11,21 +11,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Welcome</a></li>
-            <li><a href="our_macarons.html">Our Macarons</a></li>
-            <li><a href="gifts_parties.html">Gifts & Parties</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 
-<div id="main_content container">
-    <img src="assets/images/gifts-parties-image.png">
-    <section class="eat_section">
+<body>
+
+<div class="container main-container col-xs-12 col-lg-10">
+
+    <header>
+        <a href="gifts_parties.spanish.html"><button class="language-sp" type="button"></button></a>
+
+        <nav class="nav nav-tabs">
+            <ul class="row col-xs-12 col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="our_macarons.html">Our Macarons</a></li>
+                <li><a href="gifts_parties.html">Gifts & Parties</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <img src="assets/images/gifts-parties-image.png" class="img-responsive">
+    <div class="container col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-12 main-content">
+
+    <section class="eat_section col-xs-12">
         <article class="eat">
             <h1 id="sec_h1">Let's eat macarons</h1>
 
@@ -65,15 +72,15 @@
     </section>
 </div>
 
-<footer>
-    <ul class="contact">
-        <li class="mail">order@mboutique.com</li>
-        <li class="phone">949.800-3111</li>
-        <li class="follow">Follow us<img src="assets/images/facebook.png"><img src="assets/images/twitter.png"></li>
-    </ul>
+    <footer class="foot-container col-xs-12">
+        <ul class="list-group row col-xs-12 contact-ul">
+            <li class="list-group-item mail footer-item col-xs-6 col-sm-4">order@mboutique.com</li>
+            <li class="list-group-item phone footer-item col-xs-6 col-sm-4">949.800-3111</li>
+            <li class="list-group-item follow footer-item col-xs-12 col-sm-4" id="follow-us">Follow us<img src="assets/images/facebook.png"><img src="assets/images/twitter.png"></li>
+        </ul>
 
-    <p class="copy">Copyright &#169; 2014 MBoutique. All rights reserved.</p>
-
-</footer>
+        <p class="copy col-xs-12">Copyright &#169; 2014 MBoutique. All rights reserved.</p>
+    </footer>
+</div>
 </body>
 </html>
