@@ -321,6 +321,12 @@ header>a {
         padding-left: 4vw;
     }
 
+    .spanish li {
+        font-size: 0.6em;
+        margin: 14% 0 0 0;
+        padding-left: 2.5vw;
+    }
+
     .visit-section {
         width: 90%;
         padding-bottom: 20px;
