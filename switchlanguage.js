@@ -8,7 +8,7 @@ var ourMacaronsPage;
 var giftsPartiesPage;
 var contactPage;
 
-
+//changes languages
 function changeLanguage(language) {
     if (language == 'american_english') {
         console.log('we need to switch to english');
@@ -25,7 +25,7 @@ function changeLanguage(language) {
 
 }
 
-//Function 3
+//disables and enables the language stylesheets
 function disableStylesheet() {
     console.log('step 3- a stylesheet was disabled');
     var i, link_tag;
@@ -41,6 +41,7 @@ function disableStylesheet() {
                 link_tag[i].disabled = true;
             }
         }
+        //enables the needed stylesheet if it is disabled
         if ((link_tag[i].disabled) && (link_tag[i].title == 'hebrew') && (hebrew)) {
             console.log('this was disabled and we now need hebrew');
             link_tag[i].disabled = false;
@@ -54,7 +55,7 @@ function disableStylesheet() {
     }
 }
 
-//Function 4
+//checks language, this helps with translation
 function checkPage() {
     if (ourMacaronsPage) {
         loadOurMacarons();
@@ -74,7 +75,7 @@ function checkPage() {
     }
 }
 
-
+//loads our macarons page
 function loadOurMacarons() {
     console.log('function to load our macarons page');
     ourMacaronsPage = true;
@@ -90,7 +91,7 @@ function loadOurMacarons() {
 
 
 }
-
+//loads gifts & parties page
 function loadGiftsParties() {
     console.log('function to load gifts & parties page');
     ourMacaronsPage = false;
@@ -105,6 +106,7 @@ function loadGiftsParties() {
     }
 }
 
+//loads contact form page
 function loadContact() {
     console.log('function to load contact page');
     ourMacaronsPage = false;
@@ -119,23 +121,13 @@ function loadContact() {
     }
 }
 
+//loads the home page content
 function loadHome() {
     ourMacaronsPage = false;
     indexPage = true;
     contactPage = false;
     giftsPartiesPage = false;
     if ((english) && (indexPage)) {
-        //console.log("moooo");
-        //$.ajax({
-        //    url: 'languages/english/index_english_content.html',
-        //    success: function(response) {
-        //        console.log('it worked',response);
-        //        $("#body_content").html(response);
-        //    },
-        //    error:function() {
-        //        console.log('it failed');
-        //    }
-        //});
         $('#body_content').load('languages/english/index_english_content.html');
         console.log('the english home page conditions are met');
     }
@@ -144,36 +136,32 @@ function loadHome() {
         console.log('the hebrew home page conditions are met');
     }
 }
-//Function 2
+//Loads the header and footer that goes with the language
 function loadIndex() {
     disableStylesheet();
     if (english) {
         $('body').load('languages/english/index_english.html', function () {
             checkPage();
         });
-        console.log('Step 4- English header and footer were loaded');
     }
     if (hebrew) {
         $('body').load('languages/hebrew/index_hebrew.html', function () {
             checkPage();
         });
-        console.log('Step 4- Hebrew header and footer were loaded');
     }
 }
 
-//Function 1
+//Sets default language to English
 function loadBody() {
     var url = document.URL;
     var isThereEnglish = url.indexOf('english');
     var isThereHebrew = url.indexOf('hebrew');
     //console.log(isThereEnglish, isThereHebrew);
     if ((isThereEnglish == -1) && (isThereHebrew == -1)) {
-        console.log('Step 1- load default language: english');
         english = true;
         hebrew = false;
     }
     if ($('body').length < 2) {
-        console.log('Step 2- here we have determined that we can load the header and footer');
         loadIndex();
     }
 }
