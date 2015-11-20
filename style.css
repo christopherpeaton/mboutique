@@ -1,1 +1,584 @@
 /* Add your CSS here */
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #d42551;
+}
+
+div.page-wrapper
+{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: arial, helvetica, sans-serif;
+}
+
+div.page-wrapper>div.header
+{
+    width: 100%;
+    height: 72px;
+    background-color: #fffabe;
+    position: relative;
+    z-index: 1000;
+}
+
+.lang-flags
+{
+    position: absolute;
+    width: 4vw;
+    /*bottom: 3vw;*/
+    /*left: 62vw;*/
+}
+
+.lang-flags>img
+{
+    width: 40%;
+    float: left;
+    margin: 0 5%;
+}
+
+.logo-image
+{
+    display: inline-block;
+    margin: 19.5px 5%;
+}
+
+div.header nav
+{
+    width: 744px;
+    margin: 11px auto;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #515151;
+    float: right;
+    text-align: center;
+}
+
+.header nav ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.header nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+div.footer
+{
+    z-index: 1000;
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(223, 82, 119);
+    /*display: inline-flex;*/
+    color: white;
+    font-size: 12px;
+}
+
+.footer>div
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.footer>div#f-top>div
+{
+    margin: 1.5% auto 0 auto;
+    display: inline-flex;
+    width: 30%;
+}
+
+.footer>div#f-top>div>a,
+.footer>div#f-top>div>div
+{
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.footer>div#f-top img,
+.footer>div#f-top p
+{
+    display: inline-flex;
+    margin: auto 7px;
+}
+
+.footer>div#f-bottom>p
+{
+    margin: auto;
+    padding-top: 1%;
+    font-size: 11px;
+}
+
+.top-image
+{
+    z-index: 900;
+    width: 100%;
+    height: 400px;
+}
+
+.top-image
+{
+    width: 100%;
+    height: 400px;
+}
+
+.midsection
+{
+    overflow: hidden;
+    width: 100%;
+    color: rgb(106, 105, 105);
+}
+
+div.midsection h2
+{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div.midsection p
+{
+    font-size: 14px;
+    margin: auto 0;
+    line-height: 150%;
+}
+
+div.midsection ul>li
+{
+    font-size: 14px;
+}
+
+/*styling for index.html*/
+#welcome-content
+{
+    display: inline-flex;
+}
+
+#welcome-content div img
+{
+    display: flex;
+    margin: 100px auto;
+}
+
+#welcome-content #welcome-info
+{
+    margin: 40px 20px;
+    padding: 0px 50px;
+}
+
+#flavor-schedule
+{
+    margin: 40px 10px;
+    height: 140px;
+    display: inline-flex;
+}
+
+.flavor-day
+{
+    width: 126px;
+    height: 100%;
+    background-color: rgb(255, 250, 190);
+    margin: 0px 7px;
+}
+
+.flavor-day .flavor-day-top
+{
+    /*margin: -7.5px 0px 0px;*/
+    width: 100%;
+    height: 74px;
+}
+
+.flavor-day .day-name
+{
+    font-size: 14px;
+}
+
+.flavor-day p
+{
+    font-size: 12px;
+    margin: 7.5px 0px 7.5px 10px;
+}
+
+.flavor-day .flavor-day-banner
+{
+    width: 100%;
+    height: 33px;
+    margin: 0px;
+}
+
+div.flavor-day-banner>p
+{
+    font-size: 0.9vw;
+    display: inline-flex;
+}
+
+.flavor-day-banner img
+{
+    display: inline-flex;
+    float: right;
+    margin: 6.5px 10px 0px 6.5px;
+}
+/*END styling for index.html*/
+
+/*styling for our_macarons.html*/
+div.midsection>img#macarons-bg
+{
+    position: absolute;
+    top: 480px;
+    z-index: 100;
+}
+div#our-macarons-section
+{
+    position: relative;
+    z-index: 500;
+    margin: 80px 40px 40px 40px;
+}
+
+div#classics-section
+{
+    position: relative;
+    z-index: 500;
+    margin: auto 40px;
+}
+
+div#classics-section>ul
+{
+    display: inline-block;
+}
+
+div#recommendation-section
+{
+    position: relative;
+    z-index: 500;
+    margin: 40px 40px 80px 40px;
+}
+/*END - styling for our_macarons.html*/
+
+/*styling for gift_parties.html*/
+div.midsection>img#gift-parties-bg
+{
+    position: absolute;
+    top: 480px;
+    z-index: 100;
+}
+
+div.midsection>div#gp-lets-eat-section
+{
+    position: relative;
+    z-index: 500;
+    margin: 80px 40px 40px 40px;
+}
+
+div.midsection>div#gp-lets-eat-section a
+{
+    color: #df5277;
+}
+
+div.midsection>div#gp-gift-section
+{
+    position: relative;
+    z-index: 500;
+    margin: auto 40px;
+}
+
+div.midsection>div#gp-party-section
+{
+    position: relative;
+    z-index: 500;
+    margin: 40px 40% 100px 40px;
+}
+
+/*END - styling for gift_parties.html*/
+
+/*styling for contact.html*/
+div.midsection h2
+{
+    margin-bottom: 40px;
+}
+
+div.midsection>div#cu-visit-us
+{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    margin: 80px 0 80px 5%
+}
+
+div.midsection>div#cu-visit-us a
+{
+    color: #df5277;
+}
+
+div.midsection>div#cu-contact-form
+{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    margin: 80px 0;
+}
+
+div.midsection>div#cu-contact-form textarea
+{
+    width: 310px;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+
+div.midsection>div#cu-contact-form input[type="submit"]
+{
+    float: right;
+    width: 155px;
+    height: 35px;
+    background-color: #f5f5f5;
+    margin-right: 4%;
+    font-size: 14px;
+}
+div.midsection>img#cu-macarons-img
+{
+    display: inline-block;
+    float: right;
+    padding: 16% 7% 0 0;
+}
+/*END styling for contact.html*/
+
+/*START styling for mobile adaptive */
+@media screen and (max-width: 800px)
+{
+    /*START universal*/
+    a
+    {
+        font-size: 2.0vw;
+    }
+
+    div.page-wrapper
+    {
+        width: 100%;
+    }
+
+    div.page-wrapper>div.header
+    {
+        height: 13vh;
+        text-align: center;
+    }
+
+    div.header>img.logo-image
+    {
+        margin: 1vh auto 0 auto;
+    }
+
+    .lang-flags
+    {
+        position: absolute;
+        width: 20vw;
+        height: 40%;
+        top: 13vh;
+        /*left: 75vw;*/
+    }
+
+    .lang-flags>img
+    {
+        width: 40%;
+        float: left;
+        margin: 0 5%;
+    }
+
+    div.header>nav
+    {
+        position: relative;
+        bottom: 2vw;
+        width: 100%;
+        font-size: .6em;
+        margin: -1vw auto;
+    }
+
+    div.header>nav>ul>li
+    {
+        margin: auto 2.5% auto 2.5%;
+    }
+
+    .top-image
+    {
+        height: auto;
+    }
+
+    div.midsection
+    {
+        width: 90%;
+        margin: 7.5% auto;
+    }
+
+    div.footer
+    {
+        width: 100%;
+        font-size: .7em;
+    }
+
+    .footer>div#f-top>div
+    {
+        margin: 1.5% 0% 0% 0%;
+        display: inline-flex;
+        width: 42%;
+    }
+
+    .footer>div#f-bottom>p
+    {
+        margin: auto;
+        padding-top: 4%;
+        font-size: 11px;
+    }
+
+    div.midsection ul>li
+    {
+        font-size: 3.7vw;
+    }
+    /*END universal*/
+
+    /*START contact.html*/
+    div.midsection h2
+    {
+        margin-bottom: 2vh;
+        font-size: 5.5vw;
+    }
+
+    div.midsection p
+    {
+        line-height: 120%;
+        font-size: 3.7vw;
+    }
+
+    div.midsection>div#cu-visit-us
+    {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    div.midsection>div#cu-visit-us a
+    {
+        color: #df5277;
+        font-size: 3.7vw;
+    }
+
+    div.midsection>div#cu-contact-form
+    {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    div.midsection>div#cu-contact-form textarea
+    {
+        width: 90%;
+        height: 70px;
+        background-color: #f5f5f5;
+    }
+
+    div.midsection>div#cu-contact-form input[type="submit"]
+    {
+        float: right;
+        width: 40%;
+        height: 35px;
+        background-color: #f5f5f5;
+        margin-right: 8%;
+        font-size: 14px;
+    }
+    div.midsection>img#cu-macarons-img
+    {
+        display: none;
+    }
+    /*END contact.html*/
+
+    /*START gift_parties.html*/
+    #gift-parties-bg
+    {
+        display: none;
+    }
+    div.midsection>div#gp-lets-eat-section,
+    div.midsection>div#gp-gift-section,
+    div.midsection>div#gp-party-section
+    {
+        margin: 20px 1vw 20px 0;
+        width: 90%;
+    }
+    /*END gift_parties.html*/
+
+    /*START out_macarons.html*/
+    #macarons-bg
+    {
+        display: none;
+    }
+    div.midsection>div#our-macarons-section,
+    div.midsection>div#classics-section,
+    div.midsection>div#recommendation-section
+    {
+        margin: 20px 5vw 20px 0;
+        width: 90%;
+    }
+    /*END our_macarons.html*/
+
+    /*START index.html*/
+    #macarons-img
+    {
+        display: none;
+    }
+    #welcome-content #welcome-info
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #welcome-content #welcome-info>h2
+    {
+        margin-bottom: 4vh;
+    }
+    #flavor-schedule
+    {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    .flavor-day
+    {
+        width: 100%;
+        height: 20vw;
+        margin: 2vh auto;
+    }
+    div.flavor-day>div.flavor-day-top
+    {
+        height: 100%;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    div.flavor-day>div.flavor-day-top>p
+    {
+        font-size: 4.0vw;
+    }
+    .flavor-day .flavor-day-banners
+    {
+        height: 100%;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .flavor-day div>p
+    {
+        /*display: inline-block;*/
+        margin-left: 1vw;
+    }
+    .flavor-day .flavor-day-banner
+    {
+        height: 50%;
+    }
+    div.flavor-day-banner>p
+    {
+        font-size: 4.0vw;
+    }
+    /*END index.html*/
+}
+/*END styling for mobile adaptive*/
