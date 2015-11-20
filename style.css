@@ -1,1 +1,663 @@
-/* Add your CSS here */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, li a:visited  {
+    color: #515151;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#navbar_wrapper, {
+    position: relative;
+}
+
+.navbar {
+    margin: auto;
+    align-content: center;
+    background-color: #fffabe;
+    width: 1000px;
+    height: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+    position: relative;
+}
+
+.navbar ul {
+    width: 70%;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    float: none;
+    position: absolute;
+    list-style: none;
+}
+
+li a:hover, li a:active {
+    text-decoration: none;
+    color: #d42551;
+}
+
+#logo_img {
+    float: left;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 5%;
+}
+
+header ul li {
+    display: inline-block;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    list-style: none;
+    float: left;
+}
+
+.headers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+
+#welcomebanner {
+    float: none;
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+}
+
+#main_mac_image {
+    float: left;
+    margin-top: 9%;
+    margin-right: 5%;
+    margin-bottom: auto;
+}
+
+.main_content {
+    margin: 5% auto;
+    width: 900px;
+    align-content: center;
+    position: relative;
+}
+
+#main_text {
+    overflow: auto;
+    margin-top: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    line-height: 22px;
+    padding: 5px;
+}
+
+.sampleschedule {
+    margin: auto;
+    align-content: center;
+    width: 1000px;
+    overflow: auto;
+}
+
+.sampleschedule div {
+    background-color: #fffabe;
+    width: 126px;
+    height: 140px;
+    margin-left: 1%;
+    margin-right: 5px;
+    line-height: 25px;
+    align-content: center;
+}
+
+.sampleschedule div ul {
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
+
+.sampleschedule div ul li {
+    padding-left: 8px;
+}
+
+ul li img {
+    float: right;
+    padding: 5% 5% 0 0;
+    margin: 0;
+}
+
+#monday {
+    float: left;
+    position: relative;
+}
+
+#chocolate {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#coconut {
+    background-color: #824603;
+    color: white;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#tuesday {
+    float: left;
+    position: relative;
+}
+
+#violetcassis {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#greentea {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#wednesday {
+    float: left;
+    position: relative;
+}
+
+#passionfruit {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#vanilla {
+    background-color: #df5277;
+    color: white;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#thursday {
+    float: left;
+    position: relative;
+}
+
+#coffee {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#pistachio {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#friday {
+    float: left;
+    position: relative;
+}
+
+#raspberry {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#lemon {
+    background-color: #a2304e;
+    color: white;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#saturday {
+    float: left;
+    position: relative;
+}
+
+#rose {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#tiffanyblue {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#sunday {
+    float: left;
+    position: relative;
+}
+
+#caramel {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+}
+
+#almond {
+    background-color: #c39005;
+    color: white;
+    width: 126px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.footerblock {
+    background-color: #df5277;
+    color: white;
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    align-content: center;
+    overflow: auto;
+    clear: both;
+    font-size: small;
+    position: relative;
+}
+
+.footerblock ul {
+    align-content: center;
+    width: 99%;
+    padding: 0;
+}
+
+.footerblock ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5% 0 8%;
+    float: left;
+    padding: 0 0 0 0;
+    align-content: center;
+    height: 5%;
+    width: 18%;
+}
+
+.foot_img_left {
+    float: left;
+    padding: 0% 3% 3% 1%;
+}
+
+.foot_img_right {
+    float: right;
+    padding: 0% 14% 1% 8%;
+}
+
+#copyright {
+    font-size: small;
+    color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/* our_macarons.html specific css starts here! */
+
+.maincontent_ourmacarons {
+    position: relative;
+    width: 1000px;
+    align-content: center;
+    margin: auto;
+    padding: 2% 0 8% 0;
+}
+
+#main_ourmacarons_text {
+    width: 950px;
+    align-content: center;
+    margin: auto;
+}
+
+#classics_list li {
+    list-style: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+#our_mac_bgimg {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 4%;
+    z-index: -1;
+}
+
+#postimage_text {
+    width: 900px;
+    align-content: center;
+    margin: auto;
+    padding-top: 4%;
+}
+
+/* gifts_parties.html specific css starts here! */
+
+#orders {
+    color: #df5277;
+}
+
+#gift_list li {
+    list-style: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+#tower_text {
+    width: 60%;
+}
+
+/* contact.html specific css starts here! */
+
+main {
+    width: 1000px;
+    align-content: center;
+    margin: auto;
+}
+
+.maincontent_contact {
+    height: 45vh;
+    width: 91%;
+    padding-top: 4%;
+    margin: auto;
+    text-align: center;
+}
+
+#left_col {
+    float: left;
+    width: 32%;
+    margin: 2% 3% 3% 0;
+    text-align: left;
+}
+
+#left_col p {
+    padding: 0;
+    margin: 0;
+}
+
+#middle_col {
+    float: left;
+    width: 310px;
+    margin: 2% 2% 3% 2%;
+    text-align: left;
+}
+
+#middle_col p {
+    padding: 0;
+    margin: 0;
+}
+
+.mac_form1 {
+    width: 100%;
+    height: 35px;
+    margin: 0 0 4% 0;
+    padding: 0 0 0 2%;
+    border: 0;
+    background-color: #f5f5f5;
+    align-content: center;
+}
+
+.mac_form2 {
+    width: 100%;
+    height: 70px;
+    margin: 0 0 4% 0;
+    padding: 0 0 0 2%;
+    border: 0;
+    background-color: #f5f5f5;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mac_form3 {
+    width: 50%;
+    height: 35px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f5f5f5;
+    align-content: center;
+}
+
+#right_col {
+    float: left;
+    width: 25%;
+    margin: 6% 0 4% 1%;
+}
+
+#right_col img {
+    max-height: 100%;
+    width: auto;
+}
+
+/* Mobile contact.html css goes here! */
+
+@media screen and (max-width: 627px) {
+    body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    #navbar_wrapper {
+        position: relative;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 72px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .navbar ul {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        float: none;
+        position: absolute;
+        left: 0;
+        bottom: 6%;
+    }
+
+    .navbar ul li {
+        margin: auto;
+        padding: 2%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    #logo_img {
+        width: 40vw;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        top: 15%;
+        left: 30%;
+    }
+
+    #welcomebanner {
+        width: 100vw;
+        height: auto;
+        margin: 0;
+    }
+
+    .main_content {
+        width: 100%;
+    }
+
+    .sampleschedule {
+        width: 100%;
+    }
+
+    .sampleschedule > div {
+        display: block;
+        margin: 5%;
+    }
+
+    #left_col {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        padding: 0 0 8% 2%;
+    }
+
+    #middle_col {
+        display: block;
+        padding: 5% 0;
+    }
+
+    form p.headers {
+        padding-top: 4%;
+    }
+
+    #right_col, #main_mac_image, #our_mac_bgimg {
+        display: none;
+    }
+
+    .maincontent_ourmacarons, #main_ourmacarons_text, #postimage_text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footerblock {
+        width: 100vw;
+        overflow: auto;
+    }
+
+    .footerblock ul {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    .footerblock ul li {
+        text-align: center;
+        display: inline-block;
+        width: 40%;
+        margin: 0;
+        padding: 1%;
+        white-space: nowrap;
+        float: none;
+    }
+
+    .foot_img_left {
+        float: none;
+        margin: 0;
+        padding: 5% 3% 0 2%;
+    }
+
+    .foot_img_right {
+        float: none;
+        margin: 0;
+        padding: 5% 4% 0 6%;
+    }
+
+    #copyright {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+}
