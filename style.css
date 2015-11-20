@@ -1,1 +1,515 @@
 /* Add your CSS here */
+
+.header {
+    background-color: #fffabe;
+    padding: 5px;
+    width: 78.2vw;
+    height: 5.63vw;
+        }
+
+ul#h1 li {
+    display: inline;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #fffabe;
+    padding: 1.15vw;
+        }
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #515151;
+    padding: 2%;
+}
+a:hover {
+    color: #d42551;
+        }
+#logo img {
+    width: 11vw;
+    height: 3vw;
+}
+#welcome img{
+    width: 78.2vw;
+    height: 31.25vw;
+        }
+#language {
+    width: 78.2vw;
+    float: left;
+}
+#macaron_img img{
+    width: 10vw;
+    float: left;
+    padding: 30px 10px 10px 10px;
+    margin: 20px 40px 20px 20px;
+}
+.body {
+    float: left;
+    width: 60vw;
+    color: #6a6969;
+    padding: 30px 10px 10px 10px;
+    margin: 3px;
+        }
+.gift_body, .our_body{
+    float: left;
+    width: 60vw;
+    height: 45vw;
+    color: #6a6969;
+    padding: 30px 10px 10px 10px;
+    margin: 3px;
+}
+
+.welcome_msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#macaron_days {
+    display: inline-block;
+    margin: 5px;
+    border: 1px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+}
+#monday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
+}
+#tuesday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
+}
+#wednesday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
+}
+#thursday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
+}
+#friday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
+}
+#saturday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
+}
+#sunday {
+    height: 11vw;
+    width: 9.85vw;
+    float: left;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
+}
+
+ul.days li {
+    list-style-type: none;
+    background-color: #fffabe;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+}
+.day {
+    font-size: 0.875em;
+}
+.time {
+    font-size: .75em;
+    line-height: 1.25em;
+}
+.flavor {
+    font-size: 0.75em;
+    line-height: 2.35em;
+}
+#coconut {
+    width: 9.85vw;
+    height: 2.57vw;
+    background-color: #824603;
+    color: white;
+    font-size: 0.75em;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#vanilla {
+    width: 9.85vw;
+    height: 2.57vw;
+    background-color: #df5277;
+    color: white;
+    font-size: 0.75em;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#lemon {
+    width: 9.85vw;
+    height: 2.57vw;
+    background-color: #a2304e;
+    color: white;
+    font-size: 0.75em;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#almond {
+    width: 9.85vw;
+    height: 2.57vw;
+    background-color: #c39005;
+    color: white;
+    font-size: 0.75em;
+    padding: 4px 3px 0 0;
+}
+.footer {
+    width: 78.2vw;
+    height: 5.63vw;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+}
+ul#footer1 li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+
+}
+.footer2 {
+    text-align: center;
+    color: white;
+}
+.pic_align1 {
+    margin-right: 10px;
+}
+.pic_align2 {
+    margin: 0 10px 0 25px;
+}
+
+#find_us img{
+    width: 78.2vw;
+    height: 31.25vw;
+}
+
+.contact_body {
+    width: 78.2vw;
+    padding-top: 10px;
+}
+#open_time {
+    width: 33%;
+    float: left;
+}
+ul.open li {
+    list-style-type: none;
+    background-color: #fffabe;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+}
+.open {
+    font-size: 14px;
+}
+#contact_form {
+    width: 33%;
+    float: left;
+}
+#submit {
+    margin-left: 50%;
+    background-color: #f5f5f5;
+    width: 155px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+#order {
+    color: #df5277;
+}
+#name {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#email {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#phone {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#subject {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#message {
+    width: 310px;
+    height: 70px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#footer_contact {
+    clear: both;
+}
+
+#flavors {
+    margin: 10px;
+    padding: 0;
+    float: left;
+}
+#flavors img {
+    width: 75vw;
+    height: 50vw;
+    float: left;
+}
+#our_macarons {
+    position: relative;
+    right: 0;
+    bottom: 40vw;
+    z-index: -1;
+}
+#after_purchase {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    position: relative;
+    bottom: 42vw;
+}
+#party img {
+    width: 78.2vw;
+    height: 31.25vw;
+}
+#party_tower{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#orders {
+    color: #df5277;
+}
+#gifts {
+    position: relative;
+    right: 0;
+    bottom: 550px;
+    z-index: -1;
+
+}
+.footer_menu {
+    width: 78.2vw;
+    height: 5.63vw;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    bottom: 0;
+}
+ul#footer1_menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+
+}
+.footer2_menu {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+
+    .header {
+        padding: 5px;
+        width: 80%;
+        height: 50%;
+    }
+    ul#h1 li {
+        display: inline;
+        font-size: 50%;
+        margin: 5%;
+        padding: 3%;
+        text-align: center;
+    }
+    #logo img {
+        width: 80%;
+        height: 10%;
+        text-align: center;
+    }
+    #find_us img{
+        max-width: 85%;
+        height: auto;
+    }
+    #contact_body {
+        width: 85%;
+        text-align: center;
+    }
+    #open_time {
+        width: 85%;
+        padding-left: 5%;
+    }
+    #contact_form {
+        width: 85%;
+    }
+
+    #name {
+        width: 85%;
+        height: 10%;
+    }
+    #email {
+        width: 85%;
+        height: 10%;
+    }
+    #phone {
+        width: 85%;
+        height: 10%;
+    }
+    #subject {
+        width: 85%;
+        height: 10%;
+    }
+    #message {
+        width: 85%;
+        height: 10%;
+    }
+    #submit {
+        width: 85%;
+        height: 10%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #contact_image {
+        margin: 30%;
+    }
+
+    #monday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #tuesday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #wednesday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #thursday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #friday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #saturday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #sunday {
+        height: 15%;
+        width: 30%;
+    }
+    #coconut {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #vanilla {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #lemon {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #almond {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #our_macarons {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+    }
+.footer {
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+}
+#footer1{
+    width: 70%;
+}
+    .footer_menu {
+        width: 100%;
+        height: 100%;
+
+    }
+    ul#footer1_menu li {
+        font-size: 50%;
+        text-align: center;
+        margin: 100%;
+        padding: 100%;
+    }
+#footer2 {
+    width: 70%;
+}
+    #gifts{
+        height: 50%;
+        width: 100%;
+
+    }
+    #party_tower{
+        width: 100%
+    }
+    #footer_contact{
+        position: absolute;
+        bottom: -87%;
+    }
+}
