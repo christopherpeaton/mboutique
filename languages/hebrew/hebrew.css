@@ -1,0 +1,218 @@
+/*MOBILE FIRST STYLING*/
+
+/*HEADER SECTION*/
+
+.language_selection {
+    display: inline;
+}
+
+.nav_tag_class {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav_container_styling {
+    overflow: hidden;
+}
+
+.nav_ul_hebrew {
+    font-family: 'Alef', sans-serif;
+}
+
+/*FOOTER STYLING*/
+
+.social_media {
+    font-family: 'Alef', sans-serif;
+    font-size: 1.2em;
+}
+
+/*General Body Styling */
+
+.body_content_hebrew {
+    margin: 5% 0;
+}
+
+.body_heading_hebrew {
+    font-family: 'Alef', sans-serif;
+    text-align: right;
+}
+
+.body_paragraph_hebrew {
+    text-align: right;
+}
+
+.body_text_hebrew {
+    font-family: 'Alef', sans-serif;
+    text-align: right;
+}
+
+.body_text_english {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+/*home page styling*/
+
+.day_container {
+    float: right!important;
+}
+
+
+.day_name_hebrew, .day_flavor_hebrew, .day_flavor_hebrew_special {
+    clear: left;
+    float: right;
+}
+
+.day_flavor_hebrew, .day_flavor_hebrew_special {
+    position: relative;
+    top: -20px;
+}
+
+.day_flavor_container_hebrew {
+    overflow: hidden;
+}
+
+.day_macaron_container_hebrew {
+    clear: right;
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+
+}
+
+/*Our Macarons page styling*/
+
+.body_ul_hebrew {
+    list-style-position: inside;
+    direction: rtl;
+
+}
+
+/*contact page specifc styling */
+
+
+.form_hebrew {
+    text-align: right;
+}
+
+
+/*TABLET SPECIFIC STYLING*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*FOOTER STYLING*/
+    footer {
+        width: 100%;
+    }
+
+    .social_media {
+        font-family: 'Alef', sans-serif;
+    }
+
+}
+
+/*SMALL DESKTOP STYLING*/
+@media (min-width: 992px) and (max-width: 999px) {
+    /*FOOTER STYLING */
+
+    .social_media {
+        font-family: 'Alef', sans-serif;
+    }
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background: url(../../assets/images/our-macarons-background.png) no-repeat 380% 85%;
+        overflow: hidden;
+    }
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(../../assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -400px 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+
+    /*FOOTER FORMATTING */
+
+    .social_media {
+        font-family: 'Alef', sans-serif;
+    }
+
+    /*main body styling*/
+
+    .body_content_hebrew {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background-position: 320% 85%;
+        overflow: hidden;
+    }
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-image: url(../../assets/images/gifts-parties-background.png);
+        background-repeat: no-repeat;
+        background-position: -400px 100%;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        margin: 0 5%;
+        width: 1000px;
+    }
+
+    /*footer*/
+
+    .social_media {
+        font-family: 'Alef', sans-serif;
+    }
+
+    /*main body styling*/
+
+    .body_content_hebrew {
+        margin: 10px 0;
+    }
+
+    .body_heading_hebrew {
+        font-family: 'Alef', sans-serif;
+    }
+
+    /*our macarons page styling*/
+    #our_macarons_body_hebrew_pt2 {
+        background-position: 420% 85%;
+        overflow: hidden;
+    }
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-position: -600px 100%;
+    }
+
+}
+
+/*LARGE SCREEN DESKTOPS*/
+@media (min-width: 1920px) {
+
+
+    /*footer*/
+
+    .social_media {
+        font-family: 'Alef', sans-serif;
+    }
+
+
+    /*gifts and parties page styling*/
+    .gifts_parties_body_hebrew {
+        background-position: -600px 100%;
+    }
+
+}

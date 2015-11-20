@@ -1,0 +1,215 @@
+/*MOBILE FIRST STYLING*/
+
+/*HEADER SECTION*/
+
+.nav_ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_item a:hover {
+    color: #d42551;
+}
+
+
+/*general body*/
+
+.body_heading, .body_paragraph, .body_text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*index page specific styling*/
+.index_body {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.macarons_image {
+    margin-top: 5%;
+}
+
+/*home page styling*/
+
+.day_container {
+    float: left;
+}
+
+.day_flavor_container_english {
+    overflow: hidden;
+}
+
+.day_name_english, .day_flavor_english, .day_flavor_english_special {
+    float: left;
+}
+
+.day_macaron_container_english {
+    clear: left;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+}
+
+
+/*our macarons page specific styling*/
+
+.our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+    width: 100%;
+}
+
+/*gifts and parties page specific styling*/
+.gifts_body_pt1 {
+    width: 100%;
+}
+
+/*contact page styling*/
+
+.contact_body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/*TABLET SPECIFIC STYLING*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /*Footer Styling*/
+    footer {
+        width: 100vw;
+    }
+
+}
+
+/*SMALL DESKTOP STYLING*/
+@media (min-width: 992px) and (max-width: 999px) {
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+
+    /*general body styling*/
+
+
+    #body_content {
+        width: 1000px;
+    }
+
+    /*our macarons page specific styling*/
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1000px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-position: -5% 85%;
+    }
+
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1000px;
+    }
+
+    .gifts_body_pt2 {
+        background-image: url(../../assets/images/gifts-parties-background.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+
+
+
+    /*general body styling*/
+
+
+    /*our macarons page specific styling*/
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1000px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-position: -5% 85%;
+    }
+
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1000px;
+    }
+
+    .gifts_body_pt2 {
+        display: inline-block;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
+    }
+
+}
+
+/*LARGE SCREEN DESKTOPS*/
+@media (min-width: 1920px) {
+
+    /*footer*/
+    footer {
+        max-width: 1500px;
+    }
+
+
+    /*general body styling*/
+
+    #body_content {
+        width: 1500px;
+    }
+
+    /*index page styling*/
+    .flavor_schedule_english {
+        margin-left: 20%;
+    }
+
+    .day_container {
+        display: inline-block;
+        float: left;
+        width: 126px;
+        margin: 0 3px;
+        padding-top: 6px;
+        background-color: #fffabe;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /*our macarons page specific styling*/
+    .our_macarons_body_pt1, .our_macarons_body_pt2, .our_macarons_body_pt3 {
+        width: 1500px;
+    }
+
+    .our_macarons_body_pt2 {
+        display: inline-block;
+        background-image: url(../../assets/images/our-macarons-background.png);
+        background-repeat: no-repeat;
+        background-position: -5% 85%;
+    }
+
+    /*gifts and parties page specific styling*/
+    .gifts_body_pt1 {
+        width: 1500px;
+    }
+
+    .gifts_body_pt2 {
+        display: inline-block;
+        background-position: -5% 90%;
+    }
+
+    .gifts_body_ul {
+        margin-bottom: 15%;
+    }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+          integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+          crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+          integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+            integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="responsivestyle.css" type="text/css"/>
+</head>
+<body>
+<!-- Standard Navbars -->
+<nav class="navbar navbar-default hidden-xs nav_tag_class">
+    <div class="container-fluid non_mobile_nav">
+        <div class="navbar-header hidden-sm row navbar_header_styling">
+            <a class="navbar-brand col-md-2" href="#"></a>
+            <ul class="nav navbar-nav nav_ul col-md-10">
+                <li class="col-md-offset-1"><a href="index.html">welcome</a></li>
+                <li class="col-md-offset-1"><a href="our_macarons.html">our macarons</a></li>
+                <li class="col-md-offset-1"><a href="gifts_parties.html">gifts & parties</a></li>
+                <li class="col-md-offset-1"><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-header hidden-md hidden-lg navbar_header_styling">
+            <div class="row">
+                <a class="navbar-brand" href="#">
+                    <img alt="MBoutique" src="assets/images/logo.png" class="mobile_nav_logo"/>
+                </a>
+            </div>
+            <div class="row">
+                <ul class="nav navbar-nav nav_ul col-sm-12">
+                    <li class="col-sm-3"><a href="index.html">welcome</a></li>
+                    <li class="col-sm-3"><a href="our_macarons.html">our macarons</a></li>
+                    <li class="col-sm-3"><a href="gifts_parties.html">gifts & parties</a></li>
+                    <li class="col-sm-3"><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--Phone Navbar -->
+<nav class="navbar navbar-default visible-xs-* hidden-sm hidden-md hidden-lg nav_tag_class">
+    <div class="mobile_nav">
+        <div class="navbar-header navbar_header_styling">
+            <div class="row">
+                <a class="col-xs-offset-3 navbar-brand" href="#">
+                    <img alt="MBoutique" src="assets/images/logo.png" class="mobile_nav_logo"/>
+                </a>
+            </div>
+            <div class="row">
+                <ul class="nav navbar-nav mobile_nav_ul">
+                    <li class="col-xs-3 element1"><a href="index.html">welcome</a></li>
+                    <li class="col-xs-3 element2"><a href="our_macarons.html">our macarons</a></li>
+                    <li class="col-xs-3 element3"><a href="gifts_parties.html">gifts & parties</a></li>
+                    <li class="col-xs-3 element4"><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--Contact page body -->
+<img src="assets/images/contact-image.png" class="body_main_image"/>
+
+<div class="container-fluid contact_body">
+    <div class="col xs-8 col-sm-3">
+        <h4 class="body_heading">Visit us!</h4>
+
+        <p class="body_text body_paragraph">
+            Monday - Friday | 10am - 9pm<br>
+            Saturday | 10am - 8pm<br>
+            Sunday | 11am - 7pm<br>
+            Closed Thanksgiving Day, Christmas Day, and Easter Day
+        </p>
+
+        <p class="body_text body_paragraph">
+            1625 Post St <br>
+            San Francisco, CA 94115
+        </p>
+
+        <p class="body_text body_paragraph">
+            949.800-3111
+        </p>
+
+        <p class="body_text body_paragraph body_link">
+            order@mboutique.com
+        </p>
+        <p class="body_text body_paragraph">
+            Send your questions, comments and flavor suggestions or place an order!
+        </p>
+    </div>
+    <div class="col xs-10 col-sm-4">
+        <h4 class="body_heading">Contact Form</h4>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="form_name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="form_email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="form_phonenumber" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="form_subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="form_message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-default col-xs-offset-10 col-sm-offset-5" id="form_button" type="button">SEND</button>
+
+        </form>
+    </div>
+    <div class="hidden-xs col-sm-4">
+        <img src="assets/images/macarons-image.png" class="contact_page_body_pic" />
+    </div>
+
+</div>
+
+
+<footer>
+    <!--Standard Footer -->
+    <div class="container footer_container hidden-xs">
+        <div class="row contact_info">
+            <div class="email col-sm-3 col-sm-offset-1">
+                <div class="email_address">order@mboutique.com</div>
+            </div>
+            <div class="phone col-sm-3 col-sm-offset-1">
+                <div class="phone_number">949.800-3111</div>
+            </div>
+            <div class="social_media col-sm-3">
+                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                <img src="assets/images/twitter.png" class="social_media_icon"/>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-sm-5 col-sm-offset-4">Copyright &copy; 2014 MBoutique. All rights reserved.</div>
+        </div>
+    </div>
+
+
+    <!--Phone Footer -->
+    <div class="container footer_container hidden-sm hidden-md hidden-lg">
+        <div class="row contact_info">
+            <div class="email col-xs-5 col-xs-offset-1">
+                <div class="email_address">order@mboutique.com</div>
+            </div>
+            <div class="phone col-xs-5 col-xs-offset-1">
+                <div class="phone_number">949.800-3111</div>
+            </div>
+            <div class="social_media col-xs-5 col-xs-offset-4">
+                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                <img src="assets/images/twitter.png" class="social_media_icon"/>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-xs-9 col-xs-offset-2">Copyright &copy; 2014 MBoutique. All rights reserved.</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

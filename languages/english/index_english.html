@@ -1,0 +1,73 @@
+<nav class="navbar navbar-default nav_tag_class">
+    <div class="container-fluid nav_container_styling">
+        <div class="navbar-header navbar_header_styling">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img alt="MBoutique" src="assets/images/logo.png" class="mobile_nav_logo"/>
+            </a>
+            <div role="presentation" class="dropdown navbar-right language_selection">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/images/flags/United-States_tablet.png" /> <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu language_selection_ul">
+                    <li class="language_selection_li" id="hebrew" onclick="changeLanguage(this.id)"><img src="assets/images/flags/Israel_tablet.png" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav nav_ul">
+                <li class="nav_item"><a href="#" onclick="loadHome()">WELCOME</a></li>
+                <li class="nav_item"><a href="#" onclick="loadOurMacarons()">OUR MACARONS</a></li>
+                <li class="nav_item"><a href="#" onclick="loadGiftsParties()">GIFTS & PARTIES</a></li>
+                <li class="nav_item"><a href="#" onclick="loadContact()">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="body_content"></div>
+
+<footer>
+    <!--Standard Footer -->
+    <div class="container-fluid footer_container hidden-xs">
+        <div class="row contact_info">
+            <div class="email col-sm-3 col-sm-offset-1">
+                <div class="email_address">order@mboutique.com</div>
+            </div>
+            <div class="phone col-sm-3 col-sm-offset-1">
+                <div class="phone_number">949.800-3111</div>
+            </div>
+            <div class="social_media col-sm-3">
+                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                <img src="assets/images/twitter.png" class="social_media_icon"/>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-sm-5 col-sm-offset-4">Copyright &copy; 2014 MBoutique. All rights reserved.</div>
+        </div>
+    </div>
+
+
+    <!--Phone Footer -->
+    <div class="container footer_container hidden-sm hidden-md hidden-lg">
+        <div class="row contact_info">
+            <div class="email col-xs-5 col-xs-offset-1">
+                <div class="email_address">order@mboutique.com</div>
+            </div>
+            <div class="phone col-xs-5 col-xs-offset-1">
+                <div class="phone_number">949.800-3111</div>
+            </div>
+            <div class="social_media col-xs-5 col-xs-offset-4">
+                Follow us <img src="assets/images/facebook.png" class="social_media_icon"/>
+                <img src="assets/images/twitter.png" class="social_media_icon"/>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-xs-9 col-xs-offset-2">Copyright &copy; 2014 MBoutique. All rights reserved.</div>
+        </div>
+    </div>
+</footer>
