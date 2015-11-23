@@ -1,8 +1,19 @@
 /* Add your CSS here */
+
+/** header **/
 .page-header {
     width: 1000px;
     height: 72px;
     background-color: #fffabe;
+    position: relative;
+}
+
+#header_logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    margin-left: 3%;
 }
 
 .nav, li {
@@ -11,9 +22,94 @@
     font-size: 16px;
     color: #515151;
 }
-li {
-    text-align: right;
+
+ul {
+    float: right;
+    margin-top: 3%;
+    width: 750px;
 }
+
+li {
+    margin-left: 8%;
+}
+
 li:hover {
     color: #d42551;
 }
+
+/** body **/
+body {
+    width: 1000px;
+    display: inline-block;
+}
+
+#welcome-img {
+    width: 1000px;
+    height: 400px;
+    padding-bottom:6%;
+}
+
+#macarons-img {
+    float: left;
+    position: relative;
+    padding-top: 10%;
+}
+
+.pg1-text {
+    margin-left: 22%;
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+
+.the_week {
+    width: 126px;
+    height: 140px;
+    color: #fffabe;
+}
+.the_week p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #6a6969;
+    display:inline-block;
+}
+#day {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #6a6969;
+}
+#coco {
+    width:126px;
+    height: 33px;
+    color:white;
+    background-color: #824603;
+}
+#van {
+    width:126px;
+    height: 33px;
+    color:white;
+    background-color: #df5277;
+}
+#lem {
+    width:126px;
+    height: 33px;
+    color:white;
+    background-color: #a2304e;
+}
+#alm {
+    width:126px;
+    height: 33px;
+    color:white;
+    background-color: #c39005;
+}
+
+
+/** footer **/
