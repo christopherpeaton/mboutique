@@ -70,10 +70,10 @@ body {
     color: #6a6969;
 }
 
-.the_week {
+.the_week div{
     width: 126px;
     height: 140px;
-    color: #fffabe;
+    background-color: #fffabe;
 }
 .the_week p {
     font-family: Arial, Helvetica, sans-serif;
@@ -81,7 +81,7 @@ body {
     color: #6a6969;
     display:inline-block;
 }
-#day {
+.day {
     font-family: Arial, Helvetica, sans-serif;
     font-size:14px;
     color: #6a6969;
