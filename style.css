@@ -46,7 +46,7 @@ body {
 #welcome-img {
     width: 1000px;
     height: 400px;
-    padding-bottom:6%;
+    padding-bottom: 6%;
 }
 
 #macarons-img {
@@ -58,6 +58,7 @@ body {
 .pg1-text {
     margin-left: 22%;
 }
+
 .header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -69,52 +70,70 @@ body {
     font-size: 14px;
     color: #6a6969;
 }
+
 .the_week {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
 }
-.the_week div{
+
+.the_week div {
     width: 126px;
     height: 140px;
     background-color: #fffabe;
 
 }
+
 .the_week p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size:12px;
+    font-size: 12px;
     color: #6a6969;
-    display:inline-block;
+    display: inline-block;
 }
+
 .day {
     font-family: Arial, Helvetica, sans-serif;
-    font-size:14px;
+    font-size: 14px;
     color: #6a6969;
-    float:left;
+    float: left;
 }
+
 #coco {
-    width:126px;
+    width: 126px;
     height: 33px;
-    color:white;
+    color: white;
     background-color: #824603;
 }
+
 #van {
-    width:126px;
+    width: 126px;
     height: 33px;
-    color:white;
+    color: white;
     background-color: #df5277;
 }
+
 #lem {
-    width:126px;
+    width: 126px;
     height: 33px;
-    color:white;
+    color: white;
     background-color: #a2304e;
 }
+
 #alm {
-    width:126px;
+    width: 126px;
     height: 33px;
-    color:white;
+    color: white;
     background-color: #c39005;
 }
 
-
 /** footer **/
+footer {
+    background-color: #df5277;
+    width: 1000px;
+    height: 80px;
+    margin-top: 5%;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+}
