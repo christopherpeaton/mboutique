@@ -132,8 +132,32 @@ footer {
     height: 80px;
     margin-top: 5%;
 }
-
-footer p {
+.contact {
     display: inline-block;
+    vertical-align:top;
+}
+.contact p {
+    display:inline-block;
     color: white;
+}
+#copyright {
+    display:inline-block;
+    text-align: center;
+    padding-top: 4%;
+    color:white;
+}
+#mail {
+    left: 33%;
+    position: relative
+}
+#phone {
+    left: 80%;
+    position: relative
+}
+#facetwitter {
+   left: 121%;
+    position: relative
+}
+footer img {
+    padding-right: 11px;
 }
