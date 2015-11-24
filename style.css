@@ -23,17 +23,17 @@
     color: #515151;
 }
 
-ul {
+.nav {
     float: right;
     margin-top: 3%;
     width: 750px;
 }
 
-li {
+.nav li {
     margin-left: 8%;
 }
 
-li:hover {
+.nav li:hover {
     color: #d42551;
 }
 
@@ -76,26 +76,32 @@ body {
     justify-content: space-between;
 }
 
-.the_week div {
+.days {
     width: 126px;
     height: 140px;
     background-color: #fffabe;
-
+    float:left;
+    padding: 0;
 }
 
-.the_week p {
+.days li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #6a6969;
     display: inline-block;
 }
 
-.day {
+.dow {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #6a6969;
-    float: left;
 }
+.mac_img {
+
+}
+
+
+
 
 #coco {
     width: 126px;
@@ -132,32 +138,39 @@ footer {
     height: 80px;
     margin-top: 5%;
 }
+
 .contact {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 }
+
 .contact p {
-    display:inline-block;
+    display: inline-block;
     color: white;
 }
+
 #copyright {
-    display:inline-block;
+    display: inline-block;
     text-align: center;
     padding-top: 4%;
-    color:white;
+    color: white;
 }
+
 #mail {
     left: 33%;
     position: relative
 }
+
 #phone {
     left: 80%;
     position: relative
 }
+
 #facetwitter {
-   left: 121%;
+    left: 121%;
     position: relative
 }
+
 footer img {
     padding-right: 11px;
 }
