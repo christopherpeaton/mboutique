@@ -1,1 +1,38 @@
 /* Add your CSS here */
+
+/** header **/
+.page-header {
+    width: 1000px;
+    height: 72px;
+    background-color: #fffabe;
+    position: relative;
+}
+
+#header_logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    margin-left: 3%;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+}
+
+.nav {
+    float: right;
+    margin-top: 3%;
+    width: 750px;
+}
+
+.nav li {
+    margin-left: 8%;
+}
+
+.nav li:hover {
+    color: #d42551;
+}
