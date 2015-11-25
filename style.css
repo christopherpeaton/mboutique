@@ -36,3 +36,48 @@
 .nav li:hover {
     color: #d42551;
 }
+
+
+/** footer **/
+footer {
+    background-color: #df5277;
+    width: 1000px;
+    height: 80px;
+    margin-top: 5%;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact p {
+    display: inline-block;
+    color: white;
+}
+
+#copyright {
+    display: inline-block;
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+}
+
+#mail {
+    left: 33%;
+    position: relative
+}
+
+#phone {
+    left: 80%;
+    position: relative
+}
+
+#facetwitter {
+    left: 121%;
+    position: relative
+}
+
+footer img {
+    padding-right: 11px;
+}
