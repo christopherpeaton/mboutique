@@ -1,1 +1,106 @@
 /* Add your CSS here */
+
+/** header **/
+.page-header {
+    width: 1000px;
+    height: 72px;
+    background-color: #fffabe;
+    position: relative;
+}
+
+#header_logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    margin-left: 3%;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+}
+
+.nav {
+    float: right;
+    margin-top: 3%;
+    width: 750px;
+}
+
+.nav li {
+    margin-left: 8%;
+}
+
+.nav li:hover {
+    color: #d42551;
+}
+
+/** body **/
+body {
+    width: 1000px;
+}
+body h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+/** footer **/
+footer {
+    background-color: #df5277;
+    width: 1000px;
+    height: 80px;
+    margin-top: 5%;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact p {
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#copyright {
+    display: inline-block;
+    text-align: center;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+#mail {
+    left: 33%;
+    position: relative
+}
+
+#phone {
+    left: 80%;
+    position: relative
+}
+
+#facetwitter {
+    left: 121%;
+    position: relative
+}
+
+footer img {
+    padding-right: 11px;
+}
