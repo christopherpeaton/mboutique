@@ -5,6 +5,7 @@
     width: 1000px;
     height: 72px;
     background-color: #fffabe;
+    position: relative;
 }
 
 #header_logo {
